@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name AAMB-rescue)(type Legacy)(uri ${KIPRJMOD}/AAMB-rescue.lib)(options "")(descr ""))
+  (lib (name Murata-POT)(type Legacy)(uri "C:/Users/shawn.adams/Documents/Local Files/amp/KiCAD/Rev04/lib/ul_PV36W202C01B00/KiCAD/2020-01-13_04-10-39/2020-01-13_04-10-39.lib")(options "")(descr ""))
+  (lib (name Connectors-amp)(type Legacy)(uri "C:/Users/shawn.adams/Documents/Local Files/amp/KiCAD/Rev04/parts/PJRAS4X2U01X/PJRAS4X2U01X.lib")(options "")(descr ""))
+  (lib (name Power-amp)(type Legacy)(uri "C:/Users/shawn.adams/Documents/Local Files/amp/KiCAD/Rev04/lib/power/+35v.lib")(options "")(descr ""))
+)

@@ -1,0 +1,431 @@
+EESchema Schematic File Version 4
+LIBS:AAMB-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5A7AA76B
+P 575 600
+F 0 "#FLG01" H 575 675 50  0001 C CNN
+F 1 "PWR_FLAG" H 575 774 50  0001 C CNN
+F 2 "" H 575 600 50  0001 C CNN
+F 3 "~" H 575 600 50  0001 C CNN
+	1    575  600 
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 7150 4100 675  250 
+U 5C7F608F
+F0 "audio_pwr_L" 50
+F1 "audio_pwr_L.sch" 50
+F2 "amp_in_L" I L 7150 4275 50 
+F3 "amp_out_L" O R 7825 4175 50 
+$EndSheet
+$Comp
+L power:GND #PWR0105
+U 1 1 5E2D317B
+P 925 1800
+F 0 "#PWR0105" H 925 1550 50  0001 C CNN
+F 1 "GND" H 930 1627 50  0000 C CNN
+F 2 "" H 925 1800 50  0001 C CNN
+F 3 "" H 925 1800 50  0001 C CNN
+	1    925  1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  1650 925  1650
+Wire Wire Line
+	925  1800 925  1650
+Text Label 1150 3275 0    50   ~ 0
+IN1_R
+Text Label 1150 3075 0    50   ~ 0
+IN1_L
+Text Label 6925 4275 2    50   ~ 0
+line_audio_L
+$Comp
+L Connectors-amp:PJRAS4X2U01X J2
+U 1 1 5E2F4D8A
+P 900 3325
+F 0 "J2" H 844 3664 50  0000 C CNN
+F 1 "PJRAS4X2U01X" H 625 3600 50  0001 L BNN
+F 2 "Connectors-amp:PJRAS4X2U01X" H 625 3675 50  0001 L BNN
+F 3 "Switchcraft" H 825 3425 50  0001 L BNN
+F 4 "http://datasheets.diptrace.com/con_rca_jack/pjras4x2u__x_series_cd.pdf" H 625 3125 50  0001 L BNN "Field4"
+	1    900  3325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connectors-amp:PJRAS4X2U01X J2
+U 2 1 5E2F72BC
+P 900 3825
+F 0 "J2" H 844 4164 50  0000 C CNN
+F 1 "PJRAS4X2U01X" H 625 4100 50  0001 L BNN
+F 2 "Connectors-amp:PJRAS4X2U01X" H 625 4175 50  0001 L BNN
+F 3 "Switchcraft" H 825 3925 50  0001 L BNN
+F 4 "http://datasheets.diptrace.com/con_rca_jack/pjras4x2u__x_series_cd.pdf" H 625 3625 50  0001 L BNN "Field4"
+	2    900  3825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connectors-amp:PJRAS4X2U01X J2
+U 3 1 5E2F87B8
+P 900 4325
+F 0 "J2" H 844 4664 50  0000 C CNN
+F 1 "PJRAS4X2U01X" H 625 4600 50  0001 L BNN
+F 2 "Connectors-amp:PJRAS4X2U01X" H 625 4675 50  0001 L BNN
+F 3 "Switchcraft" H 825 4425 50  0001 L BNN
+F 4 "http://datasheets.diptrace.com/con_rca_jack/pjras4x2u__x_series_cd.pdf" H 625 4125 50  0001 L BNN "Field4"
+	3    900  4325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connectors-amp:PJRAS4X2U01X J2
+U 4 1 5E2FA23A
+P 900 4825
+F 0 "J2" H 844 5164 50  0000 C CNN
+F 1 "PJRAS4X2U01X" H 625 5100 50  0001 L BNN
+F 2 "Connectors-amp:PJRAS4X2U01X" H 625 5175 50  0001 L BNN
+F 3 "Switchcraft" H 825 4925 50  0001 L BNN
+F 4 "http://datasheets.diptrace.com/con_rca_jack/pjras4x2u__x_series_cd.pdf" H 625 4625 50  0001 L BNN "Field4"
+	4    900  4825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 3775 1150 3775
+Text Label 1150 3775 0    50   ~ 0
+IN2_R
+Text Label 1150 3575 0    50   ~ 0
+IN2_L
+Wire Wire Line
+	1050 4075 1150 4075
+Wire Wire Line
+	1050 4275 1150 4275
+Text Label 1150 4275 0    50   ~ 0
+IN3_R
+Text Label 1150 4075 0    50   ~ 0
+IN3_L
+Wire Wire Line
+	1050 4575 1150 4575
+Wire Wire Line
+	1050 4775 1150 4775
+Text Label 1150 4775 0    50   ~ 0
+IN4_R
+Text Label 1150 4575 0    50   ~ 0
+IN4_L
+$Comp
+L power:GND #PWR01
+U 1 1 5A837871
+P 575 600
+F 0 "#PWR01" H 575 350 50  0001 C CNN
+F 1 "GND" H 580 427 50  0000 C CNN
+F 2 "" H 575 600 50  0001 C CNN
+F 3 "" H 575 600 50  0001 C CNN
+	1    575  600 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8675 4325 8450 4325
+$Comp
+L Power-amp:+35V #PWR0106
+U 1 1 5E1EC4AA
+P 1100 1550
+F 0 "#PWR0106" H 1275 1375 50  0001 C CNN
+F 1 "+35V" H 1100 1650 39  0000 C CNN
+F 2 "" H 1100 1550 50  0001 C CNN
+F 3 "" H 1100 1550 50  0001 C CNN
+	1    1100 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power-amp:-35V #PWR0107
+U 1 1 5E1EDDCB
+P 1100 1750
+F 0 "#PWR0107" H 1275 1575 50  0001 C CNN
+F 1 "-35V" H 1150 1650 39  0000 C CNN
+F 2 "" H 1100 1750 50  0001 C CNN
+F 3 "" H 1100 1750 50  0001 C CNN
+	1    1100 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  1750 1100 1750
+Wire Wire Line
+	900  1550 1100 1550
+Wire Wire Line
+	6925 4275 7150 4275
+NoConn ~ 1050 4925
+NoConn ~ 1050 4425
+NoConn ~ 1050 3925
+NoConn ~ 1050 3425
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5E238666
+P 850 625
+F 0 "#FLG0101" H 850 700 50  0001 C CNN
+F 1 "PWR_FLAG" H 850 799 50  0001 C CNN
+F 2 "" H 850 625 50  0001 C CNN
+F 3 "~" H 850 625 50  0001 C CNN
+	1    850  625 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5E238B4D
+P 975 600
+F 0 "#FLG0102" H 975 675 50  0001 C CNN
+F 1 "PWR_FLAG" H 975 774 50  0001 C CNN
+F 2 "" H 975 600 50  0001 C CNN
+F 3 "~" H 975 600 50  0001 C CNN
+	1    975  600 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power-amp:+35V #PWR0112
+U 1 1 5E239287
+P 725 625
+F 0 "#PWR0112" H 900 450 50  0001 C CNN
+F 1 "+35V" H 725 725 39  0000 C CNN
+F 2 "" H 725 625 50  0001 C CNN
+F 3 "" H 725 625 50  0001 C CNN
+	1    725  625 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power-amp:-35V #PWR0113
+U 1 1 5E2397FB
+P 975 600
+F 0 "#PWR0113" H 1150 425 50  0001 C CNN
+F 1 "-35V" H 1025 500 39  0000 C CNN
+F 2 "" H 975 600 50  0001 C CNN
+F 3 "" H 975 600 50  0001 C CNN
+	1    975  600 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  625  725  625 
+Wire Wire Line
+	1150 3575 1050 3575
+Wire Wire Line
+	1150 3275 1050 3275
+Wire Wire Line
+	1150 3075 1050 3075
+Wire Wire Line
+	900  1450 950  1450
+Text Label 950  1375 0    50   ~ 0
+25Vac
+Wire Wire Line
+	8675 3900 8450 3900
+Text Label 8450 3900 2    50   ~ 0
+25Vac
+Wire Wire Line
+	7825 4175 8675 4175
+Text Label 8050 4175 0    50   ~ 0
+pwr_audio_L
+$Comp
+L Connector:Screw_Terminal_01x02 J3
+U 1 1 5E3F968D
+P 10000 4500
+F 0 "J3" H 10080 4492 50  0000 L CNN
+F 1 "SPKR L" H 10080 4401 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 10000 4500 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/phoenix-contact/1715022/277-1258-ND/260626" H 10000 4500 50  0001 C CNN
+	1    10000 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J4
+U 1 1 5E3FA9B2
+P 10000 4750
+F 0 "J4" H 10080 4742 50  0000 L CNN
+F 1 "SPKR R" H 10080 4651 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 10000 4750 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/phoenix-contact/1715022/277-1258-ND/260626" H 10000 4750 50  0001 C CNN
+	1    10000 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5E3FE2D7
+P 9700 4925
+F 0 "#PWR07" H 9700 4675 50  0001 C CNN
+F 1 "GND" H 9705 4752 50  0000 C CNN
+F 2 "" H 9700 4925 50  0001 C CNN
+F 3 "" H 9700 4925 50  0001 C CNN
+	1    9700 4925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x04 J1
+U 1 1 5E402B60
+P 700 1550
+F 0 "J1" H 618 1775 50  0000 C CNN
+F 1 "Screw_Terminal_01x04" H 618 1776 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal" H 700 1550 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/phoenix-contact/1729034/277-1238-ND/260606" H 700 1550 50  0001 C CNN
+	1    700  1550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	950  1450 950  1375
+$Sheet
+S 8675 3800 775  1075
+U 5E1DFE71
+F0 "short_protection_muting" 50
+F1 "protect_mute.sch" 50
+F2 "25Vac" I L 8675 3900 50 
+F3 "audio_in_L" I L 8675 4175 50 
+F4 "audio_in_R" I L 8675 4325 50 
+F5 "audio_rly_out_R" O R 9450 4750 50 
+F6 "audio_rly_out_L" O R 9450 4500 50 
+$EndSheet
+Wire Wire Line
+	9450 4500 9800 4500
+Wire Wire Line
+	9800 4750 9450 4750
+Wire Wire Line
+	9800 4850 9700 4850
+Wire Wire Line
+	9700 4850 9700 4925
+Wire Wire Line
+	9800 4600 9700 4600
+Wire Wire Line
+	9700 4600 9700 4850
+Connection ~ 9700 4850
+$Comp
+L Connector:Screw_Terminal_01x03 J5
+U 1 1 5E426C78
+P 700 2425
+F 0 "J5" H 618 2650 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 618 2651 50  0001 C CNN
+F 2 "" H 700 2425 50  0001 C CNN
+F 3 "~" H 700 2425 50  0001 C CNN
+	1    700  2425
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR09
+U 1 1 5E4290D4
+P 1075 2250
+F 0 "#PWR09" H 1075 2100 50  0001 C CNN
+F 1 "+12V" H 1090 2423 50  0000 C CNN
+F 2 "" H 1075 2250 50  0001 C CNN
+F 3 "" H 1075 2250 50  0001 C CNN
+	1    1075 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-12V #PWR010
+U 1 1 5E429F52
+P 1200 2575
+F 0 "#PWR010" H 1200 2675 50  0001 C CNN
+F 1 "-12V" H 1215 2748 50  0000 C CNN
+F 2 "" H 1200 2575 50  0001 C CNN
+F 3 "" H 1200 2575 50  0001 C CNN
+	1    1200 2575
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5E42A7CB
+P 1000 2625
+F 0 "#PWR08" H 1000 2375 50  0001 C CNN
+F 1 "GND" H 1005 2452 50  0000 C CNN
+F 2 "" H 1000 2625 50  0001 C CNN
+F 3 "" H 1000 2625 50  0001 C CNN
+	1    1000 2625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 2625 1000 2425
+Wire Wire Line
+	1000 2425 900  2425
+Wire Wire Line
+	1075 2250 1075 2325
+Wire Wire Line
+	1075 2325 900  2325
+Wire Wire Line
+	1200 2525 900  2525
+Wire Wire Line
+	1200 2575 1200 2525
+Text Label 6925 4925 2    50   ~ 0
+line_audio_R
+Wire Wire Line
+	7150 4925 6925 4925
+Wire Wire Line
+	8450 4325 8450 4800
+Text Label 7950 4800 0    50   ~ 0
+pwr_audio_R
+$Sheet
+S 7150 4725 675  275 
+U 5C814038
+F0 "audio_pwr_R" 50
+F1 "audio_pwr_R.sch" 50
+F2 "amp_in_R" I L 7150 4925 50 
+F3 "amp_out_R" O R 7825 4800 50 
+$EndSheet
+Wire Wire Line
+	7825 4800 8450 4800
+$Comp
+L Connector:Screw_Terminal_01x03 J?
+U 1 1 5E22654E
+P 5050 5000
+F 0 "J?" H 4968 5225 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 4968 5226 50  0001 C CNN
+F 2 "" H 5050 5000 50  0001 C CNN
+F 3 "~" H 5050 5000 50  0001 C CNN
+	1    5050 5000
+	-1   0    0    -1  
+$EndComp
+$Sheet
+S 5350 4100 750  1100
+U 5E227FCE
+F0 "volume" 50
+F1 "volume_ctrl.sch" 50
+F2 "pot_1" U L 5350 4900 50 
+F3 "pot_2" U L 5350 5000 50 
+F4 "pot_3" U L 5350 5100 50 
+$EndSheet
+Wire Wire Line
+	5250 4900 5350 4900
+Wire Wire Line
+	5250 5000 5350 5000
+Wire Wire Line
+	5250 5100 5350 5100
+$Bitmap
+Pos 4825 5000
+Scale 1.000000
+Data
+89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 00 43 00 00 00 6B 08 02 00 00 00 A3 57 A8 
+7F 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 0E 74 00 00 0E 74 
+01 6B 24 B3 D6 00 00 02 02 49 44 41 54 78 9C ED 9C D9 6E C4 20 0C 45 43 D5 FF FF 65 FA 10 15 31 
+06 52 6C 1C 7C 8B EE 79 9A C9 2C E1 C4 6C C1 28 29 E7 7C 1D C1 57 74 01 DC A0 09 1E 34 B1 92 52 
+EA 1E 69 8F 6B 09 88 49 5D E8 F2 7A BD 0B 45 A9 5D 75 64 52 4A 86 10 05 98 E4 9C 4B 89 DB 50 DC 
+07 CB 77 E6 41 89 49 C1 5C CD E0 4C CC C4 98 DC 95 C7 77 A2 74 4E 4C 9C 2F 4C 20 E7 C4 84 26 78 
+9C 63 F2 BD F9 7C EB 33 C5 11 BB 4D 2E 8F C9 62 97 73 6A 17 4D F0 A0 09 1E 34 C1 83 26 78 D0 04 
+0F 9A E0 41 13 3C 68 82 07 4D F0 A0 09 1E C3 5C 8C E7 39 C6 2B 43 8E 27 9A 5A 25 6A DD EE 23 A2 
+88 F5 77 C4 4F BA 25 F6 5D FB 5A 5D EF EA 96 FE BD E5 B9 07 A6 DA 89 B8 FC CF D5 CF BD 72 4E B2 
+1A 93 DA F0 16 88 4A C8 CC F6 5D A3 84 ED 9D A7 BD E2 04 0A 3E BD B0 21 E9 EC 8E C2 E4 8D 34 A7 
+23 6E 23 63 78 58 74 2D 5E 04 E4 E1 AD 21 74 8B 7B 58 02 F2 27 2D 6D 07 68 40 6D 22 9A 8A B8 90 
+DA 86 34 DA 24 65 40 67 22 4E 53 97 DB D6 19 B4 73 82 1D FB 56 54 65 55 5D DA 32 28 69 7F 58 A3 
+88 89 4A C3 1C 1F 33 FE F7 27 51 63 8E BF 49 D4 C0 72 CE 3D E3 D2 78 52 5F 7E 31 2C EE AF 63 1F 
+31 E9 EE 1A 15 B4 E3 7A DD F3 B4 2F B6 21 6B 97 D7 EE DD FD 7C 98 2C 4E 9C 62 39 A7 C5 4B 13 90 
+1B 40 03 9B E6 C2 1B 1A DE EE BE F2 BD DE F9 DC 76 F2 7F A1 09 1E 34 C1 83 26 78 D0 04 0F 9A E0 
+41 13 3C 68 82 07 4D F0 38 C7 24 20 3B F7 D2 EA 04 6E 56 5A CB 39 B5 8B 26 78 D0 C4 8A 63 02 5E 
+80 F2 94 92 75 80 6A 57 FA A5 BC AD 3F FA F3 E7 28 4F 29 29 0F 27 29 9F 3E 3F CC A4 05 62 07 CE 
+35 C8 7D AB 32 AF 28 26 22 3E 86 7F 80 7B 4A 49 BB 09 76 52 0C A5 C5 DF 25 EE 6E 4E 9A 94 E1 0C 
+12 0F 9A E0 41 13 3C CE 31 F9 01 21 22 14 EC F5 3B A1 EF 00 00 00 00 49 45 4E 44 AE 42 60 82 
+EndData
+$EndBitmap
+$EndSCHEMATC
