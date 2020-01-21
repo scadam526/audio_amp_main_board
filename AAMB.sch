@@ -4,13 +4,13 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title "Audio Amp Main Board Top"
 Date "2020-01-21"
 Rev "A"
 Comp "Shawn Adams"
-Comment1 "Based on designs by Elliot Sound Products"
-Comment2 "https://sound-au.com/"
+Comment1 "https://sound-au.com/"
+Comment2 "Based on designs by Elliot Sound Products"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -48,10 +48,6 @@ Wire Wire Line
 	900  1650 925  1650
 Wire Wire Line
 	925  1800 925  1650
-Text Label 1150 3275 0    50   ~ 0
-IN1_R
-Text Label 1150 3075 0    50   ~ 0
-IN1_L
 Text Label 6925 4275 2    50   ~ 0
 line_audio_L
 $Comp
@@ -102,28 +98,6 @@ F 4 "http://datasheets.diptrace.com/con_rca_jack/pjras4x2u__x_series_cd.pdf" H 6
 	4    900  4825
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1050 3775 1150 3775
-Text Label 1150 3775 0    50   ~ 0
-IN2_R
-Text Label 1150 3575 0    50   ~ 0
-IN2_L
-Wire Wire Line
-	1050 4075 1150 4075
-Wire Wire Line
-	1050 4275 1150 4275
-Text Label 1150 4275 0    50   ~ 0
-IN3_R
-Text Label 1150 4075 0    50   ~ 0
-IN3_L
-Wire Wire Line
-	1050 4575 1150 4575
-Wire Wire Line
-	1050 4775 1150 4775
-Text Label 1150 4775 0    50   ~ 0
-IN4_R
-Text Label 1150 4575 0    50   ~ 0
-IN4_L
 $Comp
 L power:GND #PWR01
 U 1 1 5A837871
@@ -214,11 +188,9 @@ $EndComp
 Wire Wire Line
 	850  625  725  625 
 Wire Wire Line
-	1150 3575 1050 3575
+	1175 3575 1050 3575
 Wire Wire Line
-	1150 3275 1050 3275
-Wire Wire Line
-	1150 3075 1050 3075
+	1100 3275 1050 3275
 Wire Wire Line
 	900  1450 950  1450
 Text Label 950  1375 0    50   ~ 0
@@ -235,8 +207,8 @@ $Comp
 L Connector:Screw_Terminal_01x02 J3
 U 1 1 5E3F968D
 P 10000 4500
-F 0 "J3" H 10080 4492 50  0000 L CNN
-F 1 "SPKR L" H 10080 4401 50  0000 L CNN
+F 0 "J3" H 10075 4400 50  0000 L CNN
+F 1 "SPKR L" H 10075 4500 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 10000 4500 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/phoenix-contact/1715022/277-1258-ND/260626" H 10000 4500 50  0001 C CNN
 	1    10000 4500
@@ -246,8 +218,8 @@ $Comp
 L Connector:Screw_Terminal_01x02 J4
 U 1 1 5E3FA9B2
 P 10000 4750
-F 0 "J4" H 10080 4742 50  0000 L CNN
-F 1 "SPKR R" H 10080 4651 50  0000 L CNN
+F 0 "J4" H 10075 4650 50  0000 L CNN
+F 1 "SPKR R" H 10075 4750 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 10000 4750 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/phoenix-contact/1715022/277-1258-ND/260626" H 10000 4750 50  0001 C CNN
 	1    10000 4750
@@ -444,4 +416,88 @@ Text Label 5100 4175 2    50   ~ 0
 pre_vol_audio_L
 Text Label 5100 4525 2    50   ~ 0
 pre_vol_audio_R
+Text Notes 4175 5150 0    50   ~ 0
+volume knob\n10k linear pot
+$Sheet
+S 2100 2950 1175 1625
+U 5E487042
+F0 "input_select" 50
+F1 "input_select.sch" 50
+F2 "IN1_L" I L 2100 3075 50 
+F3 "IN1_R" I L 2100 3175 50 
+F4 "IN2_L" I L 2100 3325 50 
+F5 "IN2_R" I L 2100 3425 50 
+F6 "IN3_L" I L 2100 3550 50 
+F7 "IN3_R" I L 2100 3650 50 
+F8 "IN4_L" I L 2100 3775 50 
+F9 "IN4_R" I L 2100 3875 50 
+F10 "input_sw_0" I L 2100 4075 50 
+F11 "input_sw_1" I L 2100 4175 50 
+F12 "input_sw_2" I L 2100 4275 50 
+F13 "input_sw_3" I L 2100 4375 50 
+F14 "input_sw_com" O L 2100 4475 50 
+F15 "post_sw_audio_L" O R 3275 3250 50 
+F16 "post_sw_audio_R" O R 3275 3475 50 
+$EndSheet
+$Comp
+L Connector_Generic:Conn_01x05 J?
+U 1 1 5E5AF883
+P 1800 4275
+F 0 "J?" H 1725 4000 50  0000 C CNN
+F 1 "Conn_01x05" H 1718 4601 50  0001 C CNN
+F 2 "" H 1800 4275 50  0001 C CNN
+F 3 "~" H 1800 4275 50  0001 C CNN
+	1    1800 4275
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 4075 2100 4075
+Wire Wire Line
+	2000 4175 2100 4175
+Wire Wire Line
+	2000 4275 2100 4275
+Wire Wire Line
+	2000 4375 2100 4375
+Wire Wire Line
+	2000 4475 2100 4475
+Wire Wire Line
+	1050 3075 2100 3075
+Wire Wire Line
+	2100 3175 1100 3175
+Wire Wire Line
+	1100 3175 1100 3275
+Wire Wire Line
+	1175 3575 1175 3325
+Wire Wire Line
+	1175 3325 2100 3325
+Wire Wire Line
+	1250 3775 1250 3425
+Wire Wire Line
+	1250 3425 2100 3425
+Wire Wire Line
+	1050 3775 1250 3775
+Wire Wire Line
+	1350 4075 1350 3550
+Wire Wire Line
+	1350 3550 2100 3550
+Wire Wire Line
+	1050 4075 1350 4075
+Wire Wire Line
+	1425 4275 1425 3650
+Wire Wire Line
+	1425 3650 2100 3650
+Wire Wire Line
+	1050 4275 1425 4275
+Wire Wire Line
+	1525 4575 1525 3775
+Wire Wire Line
+	1525 3775 2100 3775
+Wire Wire Line
+	1050 4575 1525 4575
+Wire Wire Line
+	1600 4775 1600 3875
+Wire Wire Line
+	1600 3875 2100 3875
+Wire Wire Line
+	1050 4775 1600 4775
 $EndSCHEMATC

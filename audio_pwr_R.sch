@@ -4,13 +4,13 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
+Sheet 4 6
 Title "Right Amplifier Stage"
 Date "2020-01-21"
 Rev "A"
 Comp "Shawn Adams"
-Comment1 "Based on designs by Elliot Sound Products"
-Comment2 ""
+Comment1 "https://sound-au.com/"
+Comment2 "Based on designs by Elliot Sound Products"
 Comment3 ""
 Comment4 ""
 $EndDescr

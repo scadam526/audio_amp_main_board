@@ -4,13 +4,13 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 5 6
 Title "Volume Control"
 Date "2020-01-21"
 Rev "A"
 Comp "Shawn Adams"
-Comment1 "Based on designs by Elliot Sound Products"
-Comment2 ""
+Comment1 "https://sound-au.com/"
+Comment2 "Based on designs by Elliot Sound Products"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -196,12 +196,12 @@ $EndComp
 $Comp
 L Amplifier_Operational:NE5532 U2
 U 3 1 5E28223A
-P 1175 1075
-F 0 "U2" H 1125 1200 50  0000 L CNN
-F 1 "NE5532" H 1125 800 50  0001 L CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1175 1075 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ne5532.pdf" H 1175 1075 50  0001 C CNN
-	3    1175 1075
+P 1950 1125
+F 0 "U2" H 1900 1250 50  0000 L CNN
+F 1 "NE5532" H 1900 850 50  0001 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1950 1125 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ne5532.pdf" H 1950 1125 50  0001 C CNN
+	3    1950 1125
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -273,12 +273,12 @@ $EndComp
 $Comp
 L ne5532dr:TL072 U1
 U 3 1 5E2B20B5
-P 850 1075
-F 0 "U1" H 550 1200 50  0000 L CNN
-F 1 "TL072" H 662 1120 50  0001 R CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1000 775 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 850 1075 50  0001 C CNN
-	3    850  1075
+P 1475 1125
+F 0 "U1" H 1175 1250 50  0000 L CNN
+F 1 "TL072" H 1287 1170 50  0001 R CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1625 825 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 1475 1125 50  0001 C CNN
+	3    1475 1125
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -420,45 +420,45 @@ Wire Wire Line
 $Comp
 L power:-12V #PWR012
 U 1 1 5E2F515A
-P 750 1375
-F 0 "#PWR012" H 750 1475 50  0001 C CNN
-F 1 "-12V" H 765 1548 50  0000 C CNN
-F 2 "" H 750 1375 50  0001 C CNN
-F 3 "" H 750 1375 50  0001 C CNN
-	1    750  1375
+P 1375 1475
+F 0 "#PWR012" H 1375 1575 50  0001 C CNN
+F 1 "-12V" H 1390 1648 50  0000 C CNN
+F 2 "" H 1375 1475 50  0001 C CNN
+F 3 "" H 1375 1475 50  0001 C CNN
+	1    1375 1475
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:+12V #PWR011
 U 1 1 5E2F5E20
-P 750 775
-F 0 "#PWR011" H 750 625 50  0001 C CNN
-F 1 "+12V" H 765 948 50  0000 C CNN
-F 2 "" H 750 775 50  0001 C CNN
-F 3 "" H 750 775 50  0001 C CNN
-	1    750  775 
+P 1375 725
+F 0 "#PWR011" H 1375 575 50  0001 C CNN
+F 1 "+12V" H 1390 898 50  0000 C CNN
+F 2 "" H 1375 725 50  0001 C CNN
+F 3 "" H 1375 725 50  0001 C CNN
+	1    1375 725 
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+12V #PWR013
 U 1 1 5E31C0B7
-P 1075 775
-F 0 "#PWR013" H 1075 625 50  0001 C CNN
-F 1 "+12V" H 1090 948 50  0000 C CNN
-F 2 "" H 1075 775 50  0001 C CNN
-F 3 "" H 1075 775 50  0001 C CNN
-	1    1075 775 
+P 1850 725
+F 0 "#PWR013" H 1850 575 50  0001 C CNN
+F 1 "+12V" H 1865 898 50  0000 C CNN
+F 2 "" H 1850 725 50  0001 C CNN
+F 3 "" H 1850 725 50  0001 C CNN
+	1    1850 725 
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:-12V #PWR014
 U 1 1 5E31C461
-P 1075 1375
-F 0 "#PWR014" H 1075 1475 50  0001 C CNN
-F 1 "-12V" H 1090 1548 50  0000 C CNN
-F 2 "" H 1075 1375 50  0001 C CNN
-F 3 "" H 1075 1375 50  0001 C CNN
-	1    1075 1375
+P 1850 1475
+F 0 "#PWR014" H 1850 1575 50  0001 C CNN
+F 1 "-12V" H 1865 1648 50  0000 C CNN
+F 2 "" H 1850 1475 50  0001 C CNN
+F 3 "" H 1850 1475 50  0001 C CNN
+	1    1850 1475
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -678,17 +678,6 @@ F 2 "" V 7780 1975 50  0001 C CNN
 F 3 "~" H 7850 1975 50  0001 C CNN
 	1    7850 1975
 	0    -1   1    0   
-$EndComp
-$Comp
-L power:+12V #PWR020
-U 1 1 5E3A8E9E
-P 6675 1525
-F 0 "#PWR020" H 6675 1375 50  0001 C CNN
-F 1 "+12V" H 6690 1698 50  0000 C CNN
-F 2 "" H 6675 1525 50  0001 C CNN
-F 3 "" H 6675 1525 50  0001 C CNN
-	1    6675 1525
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:-12V #PWR021
@@ -924,4 +913,260 @@ Wire Wire Line
 Wire Wire Line
 	4200 2600 5975 2600
 Connection ~ 4200 3300
+$Comp
+L Device:C C15
+U 1 1 5E4AA306
+P 950 925
+F 0 "C15" H 1065 971 50  0000 L CNN
+F 1 "C" H 1065 880 50  0000 L CNN
+F 2 "" H 988 775 50  0001 C CNN
+F 3 "~" H 950 925 50  0001 C CNN
+	1    950  925 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C16
+U 1 1 5E4AA736
+P 950 1275
+F 0 "C16" H 1065 1321 50  0000 L CNN
+F 1 "C" H 1065 1230 50  0000 L CNN
+F 2 "" H 988 1125 50  0001 C CNN
+F 3 "~" H 950 1275 50  0001 C CNN
+	1    950  1275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1375 750  950  750 
+Wire Wire Line
+	950  750  950  775 
+Connection ~ 1375 750 
+Wire Wire Line
+	1375 750  1375 725 
+Wire Wire Line
+	950  1125 950  1100
+Wire Wire Line
+	950  1100 700  1100
+Wire Wire Line
+	700  1100 700  1200
+Connection ~ 950  1100
+Wire Wire Line
+	950  1100 950  1075
+$Comp
+L power:GND #PWR028
+U 1 1 5E4D10F5
+P 700 1200
+F 0 "#PWR028" H 700 950 50  0001 C CNN
+F 1 "GND" H 705 1027 50  0000 C CNN
+F 2 "" H 700 1200 50  0001 C CNN
+F 3 "" H 700 1200 50  0001 C CNN
+	1    700  1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1375 1425 1375 1450
+Wire Wire Line
+	1375 1450 950  1450
+Wire Wire Line
+	950  1450 950  1425
+Connection ~ 1375 1450
+Wire Wire Line
+	1375 1450 1375 1475
+Wire Wire Line
+	1375 750  1375 825 
+$Comp
+L Device:C C17
+U 1 1 5E4ED349
+P 2350 925
+F 0 "C17" H 2465 971 50  0000 L CNN
+F 1 "C" H 2465 880 50  0000 L CNN
+F 2 "" H 2388 775 50  0001 C CNN
+F 3 "~" H 2350 925 50  0001 C CNN
+	1    2350 925 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C18
+U 1 1 5E4ED34F
+P 2350 1275
+F 0 "C18" H 2465 1321 50  0000 L CNN
+F 1 "C" H 2465 1230 50  0000 L CNN
+F 2 "" H 2388 1125 50  0001 C CNN
+F 3 "~" H 2350 1275 50  0001 C CNN
+	1    2350 1275
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 750  2350 775 
+Wire Wire Line
+	2350 1125 2350 1100
+Wire Wire Line
+	2350 1100 2600 1100
+Wire Wire Line
+	2600 1100 2600 1200
+Connection ~ 2350 1100
+Wire Wire Line
+	2350 1100 2350 1075
+$Comp
+L power:GND #PWR029
+U 1 1 5E4ED35C
+P 2600 1200
+F 0 "#PWR029" H 2600 950 50  0001 C CNN
+F 1 "GND" H 2605 1027 50  0000 C CNN
+F 2 "" H 2600 1200 50  0001 C CNN
+F 3 "" H 2600 1200 50  0001 C CNN
+	1    2600 1200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 1450 2350 1425
+Wire Wire Line
+	1850 725  1850 750 
+Wire Wire Line
+	1850 1425 1850 1450
+Wire Wire Line
+	2350 750  1850 750 
+Connection ~ 1850 750 
+Wire Wire Line
+	1850 750  1850 825 
+Wire Wire Line
+	2350 1450 1850 1450
+Connection ~ 1850 1450
+Wire Wire Line
+	1850 1450 1850 1475
+$Comp
+L power:+12V #PWR020
+U 1 1 5E3A8E9E
+P 6675 1525
+F 0 "#PWR020" H 6675 1375 50  0001 C CNN
+F 1 "+12V" H 6690 1698 50  0000 C CNN
+F 2 "" H 6675 1525 50  0001 C CNN
+F 3 "" H 6675 1525 50  0001 C CNN
+	1    6675 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR030
+U 1 1 5E535287
+P 3025 750
+F 0 "#PWR030" H 3025 600 50  0001 C CNN
+F 1 "+12V" H 3040 923 50  0000 C CNN
+F 2 "" H 3025 750 50  0001 C CNN
+F 3 "" H 3025 750 50  0001 C CNN
+	1    3025 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-12V #PWR031
+U 1 1 5E53528D
+P 3025 1400
+F 0 "#PWR031" H 3025 1500 50  0001 C CNN
+F 1 "-12V" H 3040 1573 50  0000 C CNN
+F 2 "" H 3025 1400 50  0001 C CNN
+F 3 "" H 3025 1400 50  0001 C CNN
+	1    3025 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C19
+U 1 1 5E535293
+P 3025 900
+F 0 "C19" H 3140 946 50  0000 L CNN
+F 1 "C" H 3140 855 50  0000 L CNN
+F 2 "" H 3063 750 50  0001 C CNN
+F 3 "~" H 3025 900 50  0001 C CNN
+	1    3025 900 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C20
+U 1 1 5E535299
+P 3025 1250
+F 0 "C20" H 3140 1296 50  0000 L CNN
+F 1 "C" H 3140 1205 50  0000 L CNN
+F 2 "" H 3063 1100 50  0001 C CNN
+F 3 "~" H 3025 1250 50  0001 C CNN
+	1    3025 1250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3025 1100 3025 1075
+Wire Wire Line
+	3025 1075 3275 1075
+Wire Wire Line
+	3275 1075 3275 1175
+Connection ~ 3025 1075
+Wire Wire Line
+	3025 1075 3025 1050
+$Comp
+L power:GND #PWR032
+U 1 1 5E5352A5
+P 3275 1175
+F 0 "#PWR032" H 3275 925 50  0001 C CNN
+F 1 "GND" H 3280 1002 50  0000 C CNN
+F 2 "" H 3275 1175 50  0001 C CNN
+F 3 "" H 3275 1175 50  0001 C CNN
+	1    3275 1175
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR033
+U 1 1 5E55CE84
+P 3525 750
+F 0 "#PWR033" H 3525 600 50  0001 C CNN
+F 1 "+12V" H 3540 923 50  0000 C CNN
+F 2 "" H 3525 750 50  0001 C CNN
+F 3 "" H 3525 750 50  0001 C CNN
+	1    3525 750 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:-12V #PWR034
+U 1 1 5E55CE8A
+P 3525 1400
+F 0 "#PWR034" H 3525 1500 50  0001 C CNN
+F 1 "-12V" H 3540 1573 50  0000 C CNN
+F 2 "" H 3525 1400 50  0001 C CNN
+F 3 "" H 3525 1400 50  0001 C CNN
+	1    3525 1400
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C C21
+U 1 1 5E55CE90
+P 3525 900
+F 0 "C21" H 3640 946 50  0000 L CNN
+F 1 "C" H 3640 855 50  0000 L CNN
+F 2 "" H 3563 750 50  0001 C CNN
+F 3 "~" H 3525 900 50  0001 C CNN
+	1    3525 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C22
+U 1 1 5E55CE96
+P 3525 1250
+F 0 "C22" H 3640 1296 50  0000 L CNN
+F 1 "C" H 3640 1205 50  0000 L CNN
+F 2 "" H 3563 1100 50  0001 C CNN
+F 3 "~" H 3525 1250 50  0001 C CNN
+	1    3525 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3525 1100 3525 1075
+Wire Wire Line
+	3525 1075 3275 1075
+Connection ~ 3525 1075
+Wire Wire Line
+	3525 1075 3525 1050
+Wire Notes Line
+	2750 525  3800 525 
+Wire Notes Line
+	3800 525  3800 1700
+Wire Notes Line
+	3800 1700 2750 1700
+Wire Notes Line
+	2750 1700 2750 525 
+Text Notes 2775 1700 0    50   ~ 0
+Decoupling for THAT2180's
 $EndSCHEMATC

@@ -1,5 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP CD4071B
+D 4CH 2-input OR GATE
+K OR GATE
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fcd4071b
+$ENDCMP
+#
+$CMP DG509BEQ-T1-E3
+F http://www.vishay.com/docs/64821/dg508b.pdf
+$ENDCMP
+#
 $CMP THAT2180
 D Voltage controlled attenuator with 16-pin DIP socket footprint to fit two units for left and right channel.
 K voltage controlled attenuator amplifier
