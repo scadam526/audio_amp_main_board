@@ -5,12 +5,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 5
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Title "Audio Amp Main Board Top"
+Date "2020-01-21"
+Rev "A"
+Comp "Shawn Adams"
+Comment1 "Based on designs by Elliot Sound Products"
+Comment2 "https://sound-au.com/"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -163,8 +163,6 @@ Wire Wire Line
 	900  1750 1100 1750
 Wire Wire Line
 	900  1550 1100 1550
-Wire Wire Line
-	6925 4275 7150 4275
 NoConn ~ 1050 4925
 NoConn ~ 1050 4425
 NoConn ~ 1050 3925
@@ -362,8 +360,6 @@ Wire Wire Line
 Text Label 6925 4925 2    50   ~ 0
 line_audio_R
 Wire Wire Line
-	7150 4925 6925 4925
-Wire Wire Line
 	8450 4325 8450 4800
 Text Label 7950 4800 0    50   ~ 0
 pwr_audio_R
@@ -378,10 +374,10 @@ $EndSheet
 Wire Wire Line
 	7825 4800 8450 4800
 $Comp
-L Connector:Screw_Terminal_01x03 J?
+L Connector:Screw_Terminal_01x03 J6
 U 1 1 5E22654E
 P 5050 5000
-F 0 "J?" H 4968 5225 50  0000 C CNN
+F 0 "J6" H 4968 5225 50  0000 C CNN
 F 1 "Screw_Terminal_01x03" H 4968 5226 50  0001 C CNN
 F 2 "" H 5050 5000 50  0001 C CNN
 F 3 "~" H 5050 5000 50  0001 C CNN
@@ -393,9 +389,13 @@ S 5350 4100 750  1100
 U 5E227FCE
 F0 "volume" 50
 F1 "volume_ctrl.sch" 50
-F2 "pot_1" U L 5350 4900 50 
-F3 "pot_2" U L 5350 5000 50 
-F4 "pot_3" U L 5350 5100 50 
+F2 "vol_pot_1" U L 5350 4900 50 
+F3 "vol_pot_2" U L 5350 5000 50 
+F4 "vol_pot_3" U L 5350 5100 50 
+F5 "post_vol_out_L" O R 6100 4275 50 
+F6 "pre_vol_in_L" I L 5350 4175 50 
+F7 "pre_vol_in_R" I L 5350 4525 50 
+F8 "post_vol_out_R" O R 6100 4675 50 
 $EndSheet
 Wire Wire Line
 	5250 4900 5350 4900
@@ -428,4 +428,20 @@ DA 86 34 DA 24 65 40 67 22 4E 53 97 DB D6 19 B4 73 82 1D FB 56 54 65 55 5D DA 32
 12 0F 9A E0 41 13 3C CE 31 F9 01 21 22 14 EC F5 3B A1 EF 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+Wire Wire Line
+	6100 4675 6375 4675
+Wire Wire Line
+	6375 4675 6375 4925
+Wire Wire Line
+	6375 4925 7150 4925
+Wire Wire Line
+	6100 4275 7150 4275
+Wire Wire Line
+	5350 4175 5100 4175
+Wire Wire Line
+	5350 4525 5100 4525
+Text Label 5100 4175 2    50   ~ 0
+pre_vol_audio_L
+Text Label 5100 4525 2    50   ~ 0
+pre_vol_audio_R
 $EndSCHEMATC

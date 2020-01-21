@@ -5,11 +5,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 5
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "Left Amplifier Stage"
+Date "2020-01-21"
+Rev "A"
+Comp "Shawn Adams"
+Comment1 "Based on designs by Elliot Sound Products"
 Comment2 ""
 Comment3 ""
 Comment4 ""

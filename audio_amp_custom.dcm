@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP THAT2180
+D Voltage controlled attenuator with 16-pin DIP socket footprint to fit two units for left and right channel.
+K voltage controlled attenuator amplifier
+F https://www.digikey.com/product-detail/en/mill-max-manufacturing-corp/214-99-316-01-670800/ED2130-ND/9895
+$ENDCMP
+#
+#End Doc Library
