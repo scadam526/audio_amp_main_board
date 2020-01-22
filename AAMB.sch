@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:AAMB-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -13,17 +14,6 @@ Comment2 "Based on designs by Elliot Sound Products"
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L power:PWR_FLAG #FLG01
-U 1 1 5A7AA76B
-P 575 600
-F 0 "#FLG01" H 575 675 50  0001 C CNN
-F 1 "PWR_FLAG" H 575 774 50  0001 C CNN
-F 2 "" H 575 600 50  0001 C CNN
-F 3 "~" H 575 600 50  0001 C CNN
-	1    575  600 
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 7150 4100 675  250 
 U 5C7F608F
@@ -32,17 +22,6 @@ F1 "audio_pwr_L.sch" 50
 F2 "amp_in_L" I L 7150 4275 50 
 F3 "amp_out_L" O R 7825 4175 50 
 $EndSheet
-$Comp
-L power:GND #PWR0105
-U 1 1 5E2D317B
-P 925 1800
-F 0 "#PWR0105" H 925 1550 50  0001 C CNN
-F 1 "GND" H 930 1627 50  0000 C CNN
-F 2 "" H 925 1800 50  0001 C CNN
-F 3 "" H 925 1800 50  0001 C CNN
-	1    925  1800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	900  1650 925  1650
 Wire Wire Line
@@ -97,17 +76,6 @@ F 4 "http://datasheets.diptrace.com/con_rca_jack/pjras4x2u__x_series_cd.pdf" H 6
 	4    900  4825
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR01
-U 1 1 5A837871
-P 575 600
-F 0 "#PWR01" H 575 350 50  0001 C CNN
-F 1 "GND" H 580 427 50  0000 C CNN
-F 2 "" H 575 600 50  0001 C CNN
-F 3 "" H 575 600 50  0001 C CNN
-	1    575  600 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8675 4325 8450 4325
 $Comp
@@ -136,56 +104,41 @@ Wire Wire Line
 	900  1750 1100 1750
 Wire Wire Line
 	900  1550 1100 1550
-NoConn ~ 1050 4925
-NoConn ~ 1050 4425
-NoConn ~ 1050 3925
-NoConn ~ 1050 3425
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5E238666
-P 850 625
-F 0 "#FLG0101" H 850 700 50  0001 C CNN
-F 1 "PWR_FLAG" H 850 799 50  0001 C CNN
-F 2 "" H 850 625 50  0001 C CNN
-F 3 "~" H 850 625 50  0001 C CNN
-	1    850  625 
+P 700 625
+F 0 "#FLG0101" H 700 700 50  0001 C CNN
+F 1 "PWR_FLAG" H 700 799 50  0001 C CNN
+F 2 "" H 700 625 50  0001 C CNN
+F 3 "~" H 700 625 50  0001 C CNN
+	1    700  625 
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5E238B4D
-P 975 600
-F 0 "#FLG0102" H 975 675 50  0001 C CNN
-F 1 "PWR_FLAG" H 975 774 50  0001 C CNN
-F 2 "" H 975 600 50  0001 C CNN
-F 3 "~" H 975 600 50  0001 C CNN
-	1    975  600 
-	1    0    0    -1  
-$EndComp
-$Comp
-L AAMB-rescue:+35V-Power-amp #PWR0112
-U 1 1 5E239287
-P 725 625
-F 0 "#PWR0112" H 900 450 50  0001 C CNN
-F 1 "+35V" H 725 725 39  0000 C CNN
-F 2 "" H 725 625 50  0001 C CNN
-F 3 "" H 725 625 50  0001 C CNN
-	1    725  625 
+P 825 600
+F 0 "#FLG0102" H 825 675 50  0001 C CNN
+F 1 "PWR_FLAG" H 825 774 50  0001 C CNN
+F 2 "" H 825 600 50  0001 C CNN
+F 3 "~" H 825 600 50  0001 C CNN
+	1    825  600 
 	1    0    0    -1  
 $EndComp
 $Comp
 L AAMB-rescue:-35V-Power-amp #PWR0113
 U 1 1 5E2397FB
-P 975 600
-F 0 "#PWR0113" H 1150 425 50  0001 C CNN
-F 1 "-35V" H 1025 500 39  0000 C CNN
-F 2 "" H 975 600 50  0001 C CNN
-F 3 "" H 975 600 50  0001 C CNN
-	1    975  600 
+P 825 600
+F 0 "#PWR0113" H 1000 425 50  0001 C CNN
+F 1 "-35V" H 875 500 39  0000 C CNN
+F 2 "" H 825 600 50  0001 C CNN
+F 3 "" H 825 600 50  0001 C CNN
+	1    825  600 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	850  625  725  625 
+	700  625  575  625 
 Wire Wire Line
 	1175 3575 1050 3575
 Wire Wire Line
@@ -225,17 +178,6 @@ F 3 "https://www.digikey.com/product-detail/en/phoenix-contact/1715022/277-1258-
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR07
-U 1 1 5E3FE2D7
-P 9700 4925
-F 0 "#PWR07" H 9700 4675 50  0001 C CNN
-F 1 "GND" H 9705 4752 50  0000 C CNN
-F 2 "" H 9700 4925 50  0001 C CNN
-F 3 "" H 9700 4925 50  0001 C CNN
-	1    9700 4925
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Screw_Terminal_01x04 J1
 U 1 1 5E402B60
 P 700 1550
@@ -263,15 +205,6 @@ Wire Wire Line
 	9450 4500 9800 4500
 Wire Wire Line
 	9800 4750 9450 4750
-Wire Wire Line
-	9800 4850 9700 4850
-Wire Wire Line
-	9700 4850 9700 4925
-Wire Wire Line
-	9800 4600 9700 4600
-Wire Wire Line
-	9700 4600 9700 4850
-Connection ~ 9700 4850
 $Comp
 L Connector:Screw_Terminal_01x03 J5
 U 1 1 5E426C78
@@ -407,10 +340,6 @@ Wire Wire Line
 	6375 4925 7150 4925
 Wire Wire Line
 	6100 4275 7150 4275
-Wire Wire Line
-	5350 4175 5100 4175
-Wire Wire Line
-	5350 4525 5100 4525
 Text Label 5100 4175 2    50   ~ 0
 pre_vol_audio_L
 Text Label 5100 4525 2    50   ~ 0
@@ -430,27 +359,13 @@ F6 "IN3_L" I L 2100 3550 50
 F7 "IN3_R" I L 2100 3650 50 
 F8 "IN4_L" I L 2100 3775 50 
 F9 "IN4_R" I L 2100 3875 50 
-F10 "input_sw_0" I L 2100 4075 50 
-F11 "input_sw_1" I L 2100 4175 50 
-F12 "input_sw_2" I L 2100 4275 50 
-F13 "input_sw_3" I L 2100 4375 50 
-F14 "input_sw_com" O L 2100 4475 50 
-F15 "post_sw_audio_L" O R 3275 3250 50 
-F16 "post_sw_audio_R" O R 3275 3475 50 
+F10 "input_sw_1" I L 2100 4175 50 
+F11 "input_sw_2" I L 2100 4275 50 
+F12 "input_sw_3" I L 2100 4375 50 
+F13 "input_sw_com" O L 2100 4475 50 
+F14 "post_sw_audio_L" O R 3275 3250 50 
+F15 "post_sw_audio_R" O R 3275 3475 50 
 $EndSheet
-$Comp
-L Connector_Generic:Conn_01x05 J?
-U 1 1 5E5AF883
-P 1800 4275
-F 0 "J?" H 1725 4000 50  0000 C CNN
-F 1 "Conn_01x05" H 1718 4601 50  0001 C CNN
-F 2 "" H 1800 4275 50  0001 C CNN
-F 3 "~" H 1800 4275 50  0001 C CNN
-	1    1800 4275
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	2000 4075 2100 4075
 Wire Wire Line
 	2000 4175 2100 4175
 Wire Wire Line
@@ -499,4 +414,167 @@ Wire Wire Line
 	1600 3875 2100 3875
 Wire Wire Line
 	1050 4775 1600 4775
+$Comp
+L AAMB-rescue:+35V-Power-amp #PWR0112
+U 1 1 5E239287
+P 575 625
+F 0 "#PWR0112" H 750 450 50  0001 C CNN
+F 1 "+35V" H 575 725 39  0000 C CNN
+F 2 "" H 575 625 50  0001 C CNN
+F 3 "" H 575 625 50  0001 C CNN
+	1    575  625 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J7
+U 1 1 5E2AFFDD
+P 1800 4275
+F 0 "J7" H 1718 4500 50  0000 C CNN
+F 1 "Conn_01x04" H 1718 4501 50  0001 C CNN
+F 2 "" H 1800 4275 50  0001 C CNN
+F 3 "~" H 1800 4275 50  0001 C CNN
+	1    1800 4275
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5E2EA3BE
+P 1150 700
+F 0 "#FLG0103" H 1150 775 50  0001 C CNN
+F 1 "PWR_FLAG" H 1150 874 50  0001 C CNN
+F 2 "" H 1150 700 50  0001 C CNN
+F 3 "~" H 1150 700 50  0001 C CNN
+	1    1150 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 5E2EA3C4
+P 1275 600
+F 0 "#FLG0104" H 1275 675 50  0001 C CNN
+F 1 "PWR_FLAG" H 1275 774 50  0001 C CNN
+F 2 "" H 1275 600 50  0001 C CNN
+F 3 "~" H 1275 600 50  0001 C CNN
+	1    1275 600 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 700  1025 700 
+$Comp
+L power:-12V #PWR0115
+U 1 1 5E2EE74B
+P 1275 600
+F 0 "#PWR0115" H 1275 700 50  0001 C CNN
+F 1 "-12V" H 1290 773 50  0000 C CNN
+F 2 "" H 1275 600 50  0001 C CNN
+F 3 "" H 1275 600 50  0001 C CNN
+	1    1275 600 
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+12V #PWR0116
+U 1 1 5E2EF2D1
+P 1025 700
+F 0 "#PWR0116" H 1025 550 50  0001 C CNN
+F 1 "+12V" H 1040 873 50  0000 C CNN
+F 2 "" H 1025 700 50  0001 C CNN
+F 3 "" H 1025 700 50  0001 C CNN
+	1    1025 700 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3275 3250 4250 3250
+Wire Wire Line
+	4250 3250 4250 4175
+Wire Wire Line
+	4250 4175 5350 4175
+Wire Wire Line
+	3275 3475 4100 3475
+Wire Wire Line
+	4100 3475 4100 4525
+Wire Wire Line
+	4100 4525 5350 4525
+$Comp
+L power:GND #PWR0105
+U 1 1 5E32ADD9
+P 925 1800
+F 0 "#PWR0105" H 925 1550 50  0001 C CNN
+F 1 "GND" H 925 1650 50  0001 C CNN
+F 2 "" H 925 1800 50  0001 C CNN
+F 3 "" H 925 1800 50  0001 C CNN
+	1    925  1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 5E33EF10
+P 9675 4925
+F 0 "#PWR0118" H 9675 4675 50  0001 C CNN
+F 1 "GND" H 9675 4775 50  0001 C CNN
+F 2 "" H 9675 4925 50  0001 C CNN
+F 3 "" H 9675 4925 50  0001 C CNN
+	1    9675 4925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9675 4925 9675 4850
+Wire Wire Line
+	9675 4600 9800 4600
+Wire Wire Line
+	9800 4850 9675 4850
+Connection ~ 9675 4850
+Wire Wire Line
+	9675 4850 9675 4600
+$Comp
+L power:PWR_FLAG #FLG0105
+U 1 1 5E362BB1
+P 1475 600
+F 0 "#FLG0105" H 1475 675 50  0001 C CNN
+F 1 "PWR_FLAG" H 1475 774 50  0001 C CNN
+F 2 "" H 1475 600 50  0001 C CNN
+F 3 "~" H 1475 600 50  0001 C CNN
+	1    1475 600 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0121
+U 1 1 5E36386F
+P 1475 600
+F 0 "#PWR0121" H 1475 350 50  0001 C CNN
+F 1 "GND" H 1475 450 50  0001 C CNN
+F 2 "" H 1475 600 50  0001 C CNN
+F 3 "" H 1475 600 50  0001 C CNN
+	1    1475 600 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5E399DE3
+P 1100 5000
+F 0 "#PWR01" H 1100 4750 50  0001 C CNN
+F 1 "GND" H 1100 4850 50  0001 C CNN
+F 2 "" H 1100 5000 50  0001 C CNN
+F 3 "" H 1100 5000 50  0001 C CNN
+	1    1100 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 5000 1100 4925
+Wire Wire Line
+	1100 3425 1050 3425
+Wire Wire Line
+	1050 3925 1100 3925
+Connection ~ 1100 3925
+Wire Wire Line
+	1100 3925 1100 3425
+Wire Wire Line
+	1050 4425 1100 4425
+Connection ~ 1100 4425
+Wire Wire Line
+	1100 4425 1100 3925
+Wire Wire Line
+	1050 4925 1100 4925
+Connection ~ 1100 4925
+Wire Wire Line
+	1100 4925 1100 4425
 $EndSCHEMATC

@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:AAMB-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -142,34 +143,8 @@ F 3 "" H 6675 5900 50  0001 C CNN
 	1    6675 5900
 	-1   0    0    1   
 $EndComp
-$Comp
-L power:GND #PWR025
-U 1 1 5E27BE60
-P 6875 5125
-F 0 "#PWR025" H 6875 4875 50  0001 C CNN
-F 1 "GND" H 6880 4952 50  0000 C CNN
-F 2 "" H 6875 5125 50  0001 C CNN
-F 3 "" H 6875 5125 50  0001 C CNN
-	1    6875 5125
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR027
-U 1 1 5E27C409
-P 7225 4350
-F 0 "#PWR027" H 7225 4100 50  0001 C CNN
-F 1 "GND" H 7230 4177 50  0000 C CNN
-F 2 "" H 7225 4350 50  0001 C CNN
-F 3 "" H 7225 4350 50  0001 C CNN
-	1    7225 4350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6775 4375 6775 4300
-Wire Wire Line
-	6775 4300 7225 4300
-Wire Wire Line
-	7225 4300 7225 4350
 $Comp
 L Amplifier_Operational:NE5532 U3
 U 1 1 5E27D2D3
@@ -468,7 +443,7 @@ Adjust VR1 to set "v_ec-" before placing R25.\n(Original circuit is 4k7)
 Wire Wire Line
 	6675 5900 6675 5800
 Wire Wire Line
-	6675 5500 6675 5225
+	6675 5500 6675 5475
 $Comp
 L Device:R R29
 U 1 1 5E33FB01
@@ -611,9 +586,6 @@ Wire Wire Line
 	8625 4400 8725 4400
 Wire Wire Line
 	7375 4775 7525 4775
-Wire Wire Line
-	7225 4300 7600 4300
-Connection ~ 7225 4300
 Text HLabel 9250 4400 2    50   Output ~ 0
 post_vol_out_L
 Wire Wire Line
@@ -690,17 +662,6 @@ F 3 "" H 6675 3100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR024
-U 1 1 5E3A8EAA
-P 6875 2325
-F 0 "#PWR024" H 6875 2075 50  0001 C CNN
-F 1 "GND" H 6880 2152 50  0000 C CNN
-F 2 "" H 6875 2325 50  0001 C CNN
-F 3 "" H 6875 2325 50  0001 C CNN
-	1    6875 2325
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR026
 U 1 1 5E3A8EB0
 P 7250 1550
@@ -742,7 +703,7 @@ $EndComp
 Wire Wire Line
 	6675 3100 6675 3000
 Wire Wire Line
-	6675 2700 6675 2425
+	6675 2700 6675 2675
 $Comp
 L Device:R R28
 U 1 1 5E3A8EC7
@@ -995,41 +956,9 @@ F 3 "~" H 2350 1275 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2350 750  2350 775 
-Wire Wire Line
-	2350 1125 2350 1100
-Wire Wire Line
-	2350 1100 2600 1100
-Wire Wire Line
-	2600 1100 2600 1200
-Connection ~ 2350 1100
-Wire Wire Line
-	2350 1100 2350 1075
-$Comp
-L power:GND #PWR029
-U 1 1 5E4ED35C
-P 2600 1200
-F 0 "#PWR029" H 2600 950 50  0001 C CNN
-F 1 "GND" H 2605 1027 50  0000 C CNN
-F 2 "" H 2600 1200 50  0001 C CNN
-F 3 "" H 2600 1200 50  0001 C CNN
-	1    2600 1200
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
 	2350 1450 2350 1425
 Wire Wire Line
-	1850 725  1850 750 
-Wire Wire Line
-	1850 1425 1850 1450
-Wire Wire Line
-	2350 750  1850 750 
-Connection ~ 1850 750 
-Wire Wire Line
-	1850 750  1850 825 
-Wire Wire Line
 	2350 1450 1850 1450
-Connection ~ 1850 1450
 Wire Wire Line
 	1850 1450 1850 1475
 $Comp
@@ -1168,4 +1097,138 @@ Wire Notes Line
 	2750 1700 2750 525 
 Text Notes 2775 1700 0    50   ~ 0
 Decoupling for THAT2180's
+Wire Wire Line
+	1850 1425 1850 1450
+Connection ~ 1850 1450
+Wire Wire Line
+	1850 725  1850 750 
+Wire Wire Line
+	2350 775  2350 750 
+Wire Wire Line
+	2350 750  1850 750 
+Connection ~ 1850 750 
+Wire Wire Line
+	1850 750  1850 825 
+$Comp
+L power:GND #PWR0114
+U 1 1 5E322682
+P 6875 2400
+F 0 "#PWR0114" H 6875 2150 50  0001 C CNN
+F 1 "GND" H 6875 2250 50  0001 C CNN
+F 2 "" H 6875 2400 50  0001 C CNN
+F 3 "" H 6875 2400 50  0001 C CNN
+	1    6875 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6875 2325 6875 2400
+$Comp
+L power:GND #PWR0117
+U 1 1 5E32CB65
+P 2600 1200
+F 0 "#PWR0117" H 2600 950 50  0001 C CNN
+F 1 "GND" H 2600 1050 50  0001 C CNN
+F 2 "" H 2600 1200 50  0001 C CNN
+F 3 "" H 2600 1200 50  0001 C CNN
+	1    2600 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 1200 2600 1100
+Wire Wire Line
+	2600 1100 2350 1100
+Wire Wire Line
+	2350 1100 2350 1125
+Wire Wire Line
+	2350 1075 2350 1100
+Connection ~ 2350 1100
+Wire Wire Line
+	6775 4300 7225 4300
+$Comp
+L power:GND #PWR0119
+U 1 1 5E34434F
+P 7225 4350
+F 0 "#PWR0119" H 7225 4100 50  0001 C CNN
+F 1 "GND" H 7225 4200 50  0001 C CNN
+F 2 "" H 7225 4350 50  0001 C CNN
+F 3 "" H 7225 4350 50  0001 C CNN
+	1    7225 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7225 4350 7225 4300
+Connection ~ 7225 4300
+Wire Wire Line
+	7225 4300 7600 4300
+$Comp
+L power:GND #PWR0122
+U 1 1 5E366A48
+P 6875 5125
+F 0 "#PWR0122" H 6875 4875 50  0001 C CNN
+F 1 "GND" H 6875 4975 50  0001 C CNN
+F 2 "" H 6875 5125 50  0001 C CNN
+F 3 "" H 6875 5125 50  0001 C CNN
+	1    6875 5125
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5E36AD8D
+P 6900 2650
+AR Path="/5E36AD8D" Ref="#FLG?"  Part="1" 
+AR Path="/5E227FCE/5E36AD8D" Ref="#FLG0106"  Part="1" 
+F 0 "#FLG0106" H 6900 2725 50  0001 C CNN
+F 1 "PWR_FLAG" H 6900 2824 50  0001 C CNN
+F 2 "" H 6900 2650 50  0001 C CNN
+F 3 "~" H 6900 2650 50  0001 C CNN
+	1    6900 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 2650 6900 2675
+Wire Wire Line
+	6900 2675 6675 2675
+Connection ~ 6675 2675
+Wire Wire Line
+	6675 2675 6675 2425
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5E378F4C
+P 6875 5425
+AR Path="/5E378F4C" Ref="#FLG?"  Part="1" 
+AR Path="/5E227FCE/5E378F4C" Ref="#FLG0107"  Part="1" 
+F 0 "#FLG0107" H 6875 5500 50  0001 C CNN
+F 1 "PWR_FLAG" H 6875 5599 50  0001 C CNN
+F 2 "" H 6875 5425 50  0001 C CNN
+F 3 "~" H 6875 5425 50  0001 C CNN
+	1    6875 5425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6875 5425 6875 5475
+Wire Wire Line
+	6875 5475 6675 5475
+Connection ~ 6675 5475
+Wire Wire Line
+	6675 5475 6675 5225
+Wire Notes Line
+	1675 500  1675 1700
+Wire Notes Line
+	1675 1700 2675 1700
+Wire Notes Line
+	2675 1700 2675 500 
+Wire Notes Line
+	2675 500  1675 500 
+Wire Notes Line
+	1575 500  575  500 
+Wire Notes Line
+	575  500  575  1700
+Wire Notes Line
+	575  1700 1575 1700
+Wire Notes Line
+	1575 1700 1575 500 
+Text Notes 2075 1675 0    50   ~ 0
+Decoupling for \nU2 NE5532
+Text Notes 625  1675 0    50   ~ 0
+Decoupling for \nU1 TL072
 $EndSCHEMATC

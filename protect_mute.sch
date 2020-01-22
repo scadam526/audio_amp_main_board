@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:AAMB-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -740,12 +741,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR05
 U 1 1 5E3BFF33
-P 7400 3125
-F 0 "#PWR05" H 7400 2875 50  0001 C CNN
-F 1 "GND" H 7500 3000 50  0001 C CNN
-F 2 "" H 7400 3125 50  0001 C CNN
-F 3 "" H 7400 3125 50  0001 C CNN
-	1    7400 3125
+P 7400 3175
+F 0 "#PWR05" H 7400 2925 50  0001 C CNN
+F 1 "GND" H 7500 3050 50  0001 C CNN
+F 2 "" H 7400 3175 50  0001 C CNN
+F 3 "" H 7400 3175 50  0001 C CNN
+	1    7400 3175
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -760,20 +761,6 @@ audio_rly_out_L
 Wire Wire Line
 	6325 2300 6425 2300
 Connection ~ 6425 2300
-$Comp
-L power:GND #PWR06
-U 1 1 5E3E6C3E
-P 7400 4200
-F 0 "#PWR06" H 7400 3950 50  0001 C CNN
-F 1 "GND" H 7475 4050 50  0001 C CNN
-F 2 "" H 7400 4200 50  0001 C CNN
-F 3 "" H 7400 4200 50  0001 C CNN
-	1    7400 4200
-	1    0    0    -1  
-$EndComp
-Connection ~ 7400 4125
-Wire Wire Line
-	7400 4200 7400 4125
 Wire Wire Line
 	7600 3125 7600 3175
 Wire Wire Line
@@ -794,4 +781,6 @@ Connection ~ 5725 4125
 Connection ~ 6425 4125
 Text Label 6625 2300 0    50   ~ 0
 RLY+_L
+Wire Wire Line
+	7400 3175 7400 3125
 $EndSCHEMATC

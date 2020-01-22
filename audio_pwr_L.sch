@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:AAMB-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -608,17 +609,6 @@ pwr_fet_neg_L
 Text Label 6900 3300 2    50   ~ 0
 pwr_fet_pos_L
 $Comp
-L power:GND #PWR0103
-U 1 1 5E1CCB09
-P 8100 4550
-F 0 "#PWR0103" H 8100 4300 50  0001 C CNN
-F 1 "GND" H 8105 4377 50  0000 C CNN
-F 2 "" H 8100 4550 50  0001 C CNN
-F 3 "" H 8100 4550 50  0001 C CNN
-	1    8100 4550
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0104
 U 1 1 5E1CCB0A
 P 4900 4500
@@ -685,8 +675,6 @@ Connection ~ 5650 3050
 Wire Wire Line
 	5450 3050 5450 3100
 Connection ~ 5450 3050
-Wire Wire Line
-	8100 4550 8100 4450
 Wire Wire Line
 	8100 4450 7700 4450
 Connection ~ 7700 4450
@@ -811,4 +799,17 @@ Wire Wire Line
 Connection ~ 7300 1900
 Wire Wire Line
 	7300 1900 7450 1900
+$Comp
+L power:GND #PWR0103
+U 1 1 5E35028E
+P 8100 4550
+F 0 "#PWR0103" H 8100 4300 50  0001 C CNN
+F 1 "GND" H 8100 4400 50  0001 C CNN
+F 2 "" H 8100 4550 50  0001 C CNN
+F 3 "" H 8100 4550 50  0001 C CNN
+	1    8100 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 4550 8100 4450
 $EndSCHEMATC
