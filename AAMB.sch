@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:AAMB-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -51,7 +50,7 @@ Wire Wire Line
 Text Label 6925 4275 2    50   ~ 0
 line_audio_L
 $Comp
-L Connectors-amp:PJRAS4X2U01X J2
+L AAMB-rescue:PJRAS4X2U01X-Connectors-amp J2
 U 1 1 5E2F4D8A
 P 900 3325
 F 0 "J2" H 844 3664 50  0000 C CNN
@@ -63,7 +62,7 @@ F 4 "http://datasheets.diptrace.com/con_rca_jack/pjras4x2u__x_series_cd.pdf" H 6
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connectors-amp:PJRAS4X2U01X J2
+L AAMB-rescue:PJRAS4X2U01X-Connectors-amp J2
 U 2 1 5E2F72BC
 P 900 3825
 F 0 "J2" H 844 4164 50  0000 C CNN
@@ -75,7 +74,7 @@ F 4 "http://datasheets.diptrace.com/con_rca_jack/pjras4x2u__x_series_cd.pdf" H 6
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connectors-amp:PJRAS4X2U01X J2
+L AAMB-rescue:PJRAS4X2U01X-Connectors-amp J2
 U 3 1 5E2F87B8
 P 900 4325
 F 0 "J2" H 844 4664 50  0000 C CNN
@@ -87,7 +86,7 @@ F 4 "http://datasheets.diptrace.com/con_rca_jack/pjras4x2u__x_series_cd.pdf" H 6
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connectors-amp:PJRAS4X2U01X J2
+L AAMB-rescue:PJRAS4X2U01X-Connectors-amp J2
 U 4 1 5E2FA23A
 P 900 4825
 F 0 "J2" H 844 5164 50  0000 C CNN
@@ -112,7 +111,7 @@ $EndComp
 Wire Wire Line
 	8675 4325 8450 4325
 $Comp
-L Power-amp:+35V #PWR0106
+L AAMB-rescue:+35V-Power-amp #PWR0106
 U 1 1 5E1EC4AA
 P 1100 1550
 F 0 "#PWR0106" H 1275 1375 50  0001 C CNN
@@ -123,7 +122,7 @@ F 3 "" H 1100 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power-amp:-35V #PWR0107
+L AAMB-rescue:-35V-Power-amp #PWR0107
 U 1 1 5E1EDDCB
 P 1100 1750
 F 0 "#PWR0107" H 1275 1575 50  0001 C CNN
@@ -164,7 +163,7 @@ F 3 "~" H 975 600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power-amp:+35V #PWR0112
+L AAMB-rescue:+35V-Power-amp #PWR0112
 U 1 1 5E239287
 P 725 625
 F 0 "#PWR0112" H 900 450 50  0001 C CNN
@@ -175,7 +174,7 @@ F 3 "" H 725 625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power-amp:-35V #PWR0113
+L AAMB-rescue:-35V-Power-amp #PWR0113
 U 1 1 5E2397FB
 P 975 600
 F 0 "#PWR0113" H 1150 425 50  0001 C CNN

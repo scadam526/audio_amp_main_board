@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:AAMB-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -376,7 +375,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 2925 1550 2925
 $Comp
-L Power-amp:+35V #PWR04
+L AAMB-rescue:+35V-Power-amp #PWR04
 U 1 1 5E273D13
 P 1800 1525
 F 0 "#PWR04" H 1975 1350 50  0001 C CNN

@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:AAMB-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -249,7 +248,7 @@ F 3 "~" H 2075 3975 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L ne5532dr:TL072 U1
+L AAMB-rescue:TL072-ne5532dr U1
 U 1 1 5E2ABF79
 P 2625 3300
 F 0 "U1" H 2650 3475 50  0000 C CNN
@@ -260,7 +259,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2625 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ne5532dr:TL072 U1
+L AAMB-rescue:TL072-ne5532dr U1
 U 2 1 5E2B056B
 P 2625 3875
 F 0 "U1" H 2675 4025 50  0000 C CNN
@@ -271,7 +270,7 @@ F 3 "https://www.digikey.com/product-detail/en/stmicroelectronics/TL072CDT/497-2
 	1    0    0    -1  
 $EndComp
 $Comp
-L ne5532dr:TL072 U1
+L AAMB-rescue:TL072-ne5532dr U1
 U 3 1 5E2B20B5
 P 1475 1125
 F 0 "U1" H 1175 1250 50  0000 L CNN
