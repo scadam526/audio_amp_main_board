@@ -15,69 +15,69 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 7150 4100 675  250 
+S 6950 3525 675  250 
 U 5C7F608F
 F0 "audio_pwr_L" 50
 F1 "audio_pwr_L.sch" 50
-F2 "amp_in_L" I L 7150 4275 50 
-F3 "amp_out_L" O R 7825 4175 50 
+F2 "amp_in_L" I L 6950 3700 50 
+F3 "amp_out_L" O R 7625 3600 50 
 $EndSheet
 Wire Wire Line
 	900  1650 925  1650
 Wire Wire Line
 	925  1800 925  1650
-Text Label 6925 4275 2    50   ~ 0
+Text Label 6725 3700 2    50   ~ 0
 line_audio_L
 $Comp
 L AAMB-rescue:PJRAS4X2U01X-Connectors-amp J2
 U 1 1 5E2F4D8A
-P 900 3325
-F 0 "J2" H 844 3664 50  0000 C CNN
-F 1 "PJRAS4X2U01X" H 625 3600 50  0001 L BNN
-F 2 "Connectors-amp:PJRAS4X2U01X" H 625 3675 50  0001 L BNN
-F 3 "Switchcraft" H 825 3425 50  0001 L BNN
-F 4 "http://datasheets.diptrace.com/con_rca_jack/pjras4x2u__x_series_cd.pdf" H 625 3125 50  0001 L BNN "Field4"
-	1    900  3325
+P 1800 3500
+F 0 "J2" H 1744 3839 50  0000 C CNN
+F 1 "PJRAS4X2U01X" H 1525 3775 50  0001 L BNN
+F 2 "Connectors-amp:PJRAS4X2U01X" H 1525 3850 50  0001 L BNN
+F 3 "Switchcraft" H 1725 3600 50  0001 L BNN
+F 4 "http://datasheets.diptrace.com/con_rca_jack/pjras4x2u__x_series_cd.pdf" H 1525 3300 50  0001 L BNN "Field4"
+	1    1800 3500
 	1    0    0    -1  
 $EndComp
 $Comp
 L AAMB-rescue:PJRAS4X2U01X-Connectors-amp J2
 U 2 1 5E2F72BC
-P 900 3825
-F 0 "J2" H 844 4164 50  0000 C CNN
-F 1 "PJRAS4X2U01X" H 625 4100 50  0001 L BNN
-F 2 "Connectors-amp:PJRAS4X2U01X" H 625 4175 50  0001 L BNN
-F 3 "Switchcraft" H 825 3925 50  0001 L BNN
-F 4 "http://datasheets.diptrace.com/con_rca_jack/pjras4x2u__x_series_cd.pdf" H 625 3625 50  0001 L BNN "Field4"
-	2    900  3825
+P 1800 4000
+F 0 "J2" H 1744 4339 50  0000 C CNN
+F 1 "PJRAS4X2U01X" H 1525 4275 50  0001 L BNN
+F 2 "Connectors-amp:PJRAS4X2U01X" H 1525 4350 50  0001 L BNN
+F 3 "Switchcraft" H 1725 4100 50  0001 L BNN
+F 4 "http://datasheets.diptrace.com/con_rca_jack/pjras4x2u__x_series_cd.pdf" H 1525 3800 50  0001 L BNN "Field4"
+	2    1800 4000
 	1    0    0    -1  
 $EndComp
 $Comp
 L AAMB-rescue:PJRAS4X2U01X-Connectors-amp J2
 U 3 1 5E2F87B8
-P 900 4325
-F 0 "J2" H 844 4664 50  0000 C CNN
-F 1 "PJRAS4X2U01X" H 625 4600 50  0001 L BNN
-F 2 "Connectors-amp:PJRAS4X2U01X" H 625 4675 50  0001 L BNN
-F 3 "Switchcraft" H 825 4425 50  0001 L BNN
-F 4 "http://datasheets.diptrace.com/con_rca_jack/pjras4x2u__x_series_cd.pdf" H 625 4125 50  0001 L BNN "Field4"
-	3    900  4325
+P 1800 4500
+F 0 "J2" H 1744 4839 50  0000 C CNN
+F 1 "PJRAS4X2U01X" H 1525 4775 50  0001 L BNN
+F 2 "Connectors-amp:PJRAS4X2U01X" H 1525 4850 50  0001 L BNN
+F 3 "Switchcraft" H 1725 4600 50  0001 L BNN
+F 4 "http://datasheets.diptrace.com/con_rca_jack/pjras4x2u__x_series_cd.pdf" H 1525 4300 50  0001 L BNN "Field4"
+	3    1800 4500
 	1    0    0    -1  
 $EndComp
 $Comp
 L AAMB-rescue:PJRAS4X2U01X-Connectors-amp J2
 U 4 1 5E2FA23A
-P 900 4825
-F 0 "J2" H 844 5164 50  0000 C CNN
-F 1 "PJRAS4X2U01X" H 625 5100 50  0001 L BNN
-F 2 "Connectors-amp:PJRAS4X2U01X" H 625 5175 50  0001 L BNN
-F 3 "Switchcraft" H 825 4925 50  0001 L BNN
-F 4 "http://datasheets.diptrace.com/con_rca_jack/pjras4x2u__x_series_cd.pdf" H 625 4625 50  0001 L BNN "Field4"
-	4    900  4825
+P 1800 5000
+F 0 "J2" H 1744 5339 50  0000 C CNN
+F 1 "PJRAS4X2U01X" H 1525 5275 50  0001 L BNN
+F 2 "Connectors-amp:PJRAS4X2U01X" H 1525 5350 50  0001 L BNN
+F 3 "Switchcraft" H 1725 5100 50  0001 L BNN
+F 4 "http://datasheets.diptrace.com/con_rca_jack/pjras4x2u__x_series_cd.pdf" H 1525 4800 50  0001 L BNN "Field4"
+	4    1800 5000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8675 4325 8450 4325
+	8475 3750 8250 3750
 $Comp
 L AAMB-rescue:+35V-Power-amp #PWR0106
 U 1 1 5E1EC4AA
@@ -140,41 +140,33 @@ $EndComp
 Wire Wire Line
 	700  625  575  625 
 Wire Wire Line
-	1175 3575 1050 3575
+	2100 3750 1950 3750
 Wire Wire Line
-	1100 3275 1050 3275
+	2025 3450 1950 3450
 Wire Wire Line
-	900  1450 950  1450
-Text Label 950  1375 0    50   ~ 0
-25Vac
-Wire Wire Line
-	8675 3900 8450 3900
-Text Label 8450 3900 2    50   ~ 0
-25Vac
-Wire Wire Line
-	7825 4175 8675 4175
-Text Label 8050 4175 0    50   ~ 0
+	7625 3600 8475 3600
+Text Label 7750 3600 0    50   ~ 0
 pwr_audio_L
 $Comp
 L Connector:Screw_Terminal_01x02 J3
 U 1 1 5E3F968D
-P 10000 4500
-F 0 "J3" H 10075 4400 50  0000 L CNN
-F 1 "SPKR L" H 10075 4500 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 10000 4500 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/phoenix-contact/1715022/277-1258-ND/260626" H 10000 4500 50  0001 C CNN
-	1    10000 4500
+P 9800 3925
+F 0 "J3" H 9875 3825 50  0000 L CNN
+F 1 "SPKR L" H 9875 3925 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 9800 3925 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/phoenix-contact/1715022/277-1258-ND/260626" H 9800 3925 50  0001 C CNN
+	1    9800 3925
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Screw_Terminal_01x02 J4
 U 1 1 5E3FA9B2
-P 10000 4750
-F 0 "J4" H 10075 4650 50  0000 L CNN
-F 1 "SPKR R" H 10075 4750 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 10000 4750 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/phoenix-contact/1715022/277-1258-ND/260626" H 10000 4750 50  0001 C CNN
-	1    10000 4750
+P 9800 4175
+F 0 "J4" H 9875 4075 50  0000 L CNN
+F 1 "SPKR R" H 9875 4175 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 9800 4175 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/phoenix-contact/1715022/277-1258-ND/260626" H 9800 4175 50  0001 C CNN
+	1    9800 4175
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -188,128 +180,125 @@ F 3 "https://www.digikey.com/product-detail/en/phoenix-contact/1729034/277-1238-
 	1    700  1550
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	950  1450 950  1375
 $Sheet
-S 8675 3800 775  1075
+S 8475 3225 775  1075
 U 5E1DFE71
 F0 "short_protection_muting" 50
 F1 "protect_mute.sch" 50
-F2 "25Vac" I L 8675 3900 50 
-F3 "audio_in_L" I L 8675 4175 50 
-F4 "audio_in_R" I L 8675 4325 50 
-F5 "audio_rly_out_R" O R 9450 4750 50 
-F6 "audio_rly_out_L" O R 9450 4500 50 
+F2 "audio_in_L" I L 8475 3600 50 
+F3 "audio_in_R" I L 8475 3750 50 
+F4 "audio_rly_out_R" O R 9250 4175 50 
+F5 "audio_rly_out_L" O R 9250 3925 50 
 $EndSheet
 Wire Wire Line
-	9450 4500 9800 4500
+	9250 3925 9600 3925
 Wire Wire Line
-	9800 4750 9450 4750
+	9600 4175 9250 4175
 $Comp
 L Connector:Screw_Terminal_01x03 J5
 U 1 1 5E426C78
-P 700 2425
-F 0 "J5" H 618 2650 50  0000 C CNN
-F 1 "Screw_Terminal_01x03" H 618 2651 50  0001 C CNN
-F 2 "" H 700 2425 50  0001 C CNN
-F 3 "~" H 700 2425 50  0001 C CNN
-	1    700  2425
+P 1575 1600
+F 0 "J5" H 1493 1825 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 1493 1826 50  0001 C CNN
+F 2 "" H 1575 1600 50  0001 C CNN
+F 3 "~" H 1575 1600 50  0001 C CNN
+	1    1575 1600
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:+12V #PWR09
 U 1 1 5E4290D4
-P 1075 2250
-F 0 "#PWR09" H 1075 2100 50  0001 C CNN
-F 1 "+12V" H 1090 2423 50  0000 C CNN
-F 2 "" H 1075 2250 50  0001 C CNN
-F 3 "" H 1075 2250 50  0001 C CNN
-	1    1075 2250
+P 1950 1425
+F 0 "#PWR09" H 1950 1275 50  0001 C CNN
+F 1 "+12V" H 1965 1598 50  0000 C CNN
+F 2 "" H 1950 1425 50  0001 C CNN
+F 3 "" H 1950 1425 50  0001 C CNN
+	1    1950 1425
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:-12V #PWR010
 U 1 1 5E429F52
-P 1200 2575
-F 0 "#PWR010" H 1200 2675 50  0001 C CNN
-F 1 "-12V" H 1215 2748 50  0000 C CNN
-F 2 "" H 1200 2575 50  0001 C CNN
-F 3 "" H 1200 2575 50  0001 C CNN
-	1    1200 2575
+P 2075 1750
+F 0 "#PWR010" H 2075 1850 50  0001 C CNN
+F 1 "-12V" H 2090 1923 50  0000 C CNN
+F 2 "" H 2075 1750 50  0001 C CNN
+F 3 "" H 2075 1750 50  0001 C CNN
+	1    2075 1750
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR08
 U 1 1 5E42A7CB
-P 1000 2625
-F 0 "#PWR08" H 1000 2375 50  0001 C CNN
-F 1 "GND" H 1005 2452 50  0000 C CNN
-F 2 "" H 1000 2625 50  0001 C CNN
-F 3 "" H 1000 2625 50  0001 C CNN
-	1    1000 2625
+P 1875 1800
+F 0 "#PWR08" H 1875 1550 50  0001 C CNN
+F 1 "GND" H 1880 1627 50  0000 C CNN
+F 2 "" H 1875 1800 50  0001 C CNN
+F 3 "" H 1875 1800 50  0001 C CNN
+	1    1875 1800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1000 2625 1000 2425
+	1875 1800 1875 1600
 Wire Wire Line
-	1000 2425 900  2425
+	1875 1600 1775 1600
 Wire Wire Line
-	1075 2250 1075 2325
+	1950 1425 1950 1500
 Wire Wire Line
-	1075 2325 900  2325
+	1950 1500 1775 1500
 Wire Wire Line
-	1200 2525 900  2525
+	2075 1700 1775 1700
 Wire Wire Line
-	1200 2575 1200 2525
-Text Label 6925 4925 2    50   ~ 0
+	2075 1750 2075 1700
+Text Label 6725 4175 2    50   ~ 0
 line_audio_R
 Wire Wire Line
-	8450 4325 8450 4800
-Text Label 7950 4800 0    50   ~ 0
+	8250 3750 8250 4050
+Text Label 7750 4050 0    50   ~ 0
 pwr_audio_R
 $Sheet
-S 7150 4725 675  275 
+S 6950 3975 675  275 
 U 5C814038
 F0 "audio_pwr_R" 50
 F1 "audio_pwr_R.sch" 50
-F2 "amp_in_R" I L 7150 4925 50 
-F3 "amp_out_R" O R 7825 4800 50 
+F2 "amp_in_R" I L 6950 4175 50 
+F3 "amp_out_R" O R 7625 4050 50 
 $EndSheet
 Wire Wire Line
-	7825 4800 8450 4800
+	7625 4050 8250 4050
 $Comp
 L Connector:Screw_Terminal_01x03 J6
 U 1 1 5E22654E
-P 5050 5000
-F 0 "J6" H 4968 5225 50  0000 C CNN
-F 1 "Screw_Terminal_01x03" H 4968 5226 50  0001 C CNN
-F 2 "" H 5050 5000 50  0001 C CNN
-F 3 "~" H 5050 5000 50  0001 C CNN
-	1    5050 5000
+P 4850 4250
+F 0 "J6" H 4768 4475 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 4768 4476 50  0001 C CNN
+F 2 "" H 4850 4250 50  0001 C CNN
+F 3 "~" H 4850 4250 50  0001 C CNN
+	1    4850 4250
 	-1   0    0    -1  
 $EndComp
 $Sheet
-S 5350 4100 750  1100
+S 5150 3350 750  1100
 U 5E227FCE
 F0 "volume" 50
 F1 "volume_ctrl.sch" 50
-F2 "vol_pot_1" U L 5350 4900 50 
-F3 "vol_pot_2" U L 5350 5000 50 
-F4 "vol_pot_3" U L 5350 5100 50 
-F5 "post_vol_out_L" O R 6100 4275 50 
-F6 "pre_vol_in_L" I L 5350 4175 50 
-F7 "pre_vol_in_R" I L 5350 4525 50 
-F8 "post_vol_out_R" O R 6100 4675 50 
+F2 "vol_pot_1" U L 5150 4150 50 
+F3 "vol_pot_2" U L 5150 4250 50 
+F4 "vol_pot_3" U L 5150 4350 50 
+F5 "post_vol_out_L" O R 5900 3700 50 
+F6 "pre_vol_in_L" I L 5150 3425 50 
+F7 "pre_vol_in_R" I L 5150 3575 50 
+F8 "post_vol_out_R" O R 5900 3925 50 
 $EndSheet
 Wire Wire Line
-	5250 4900 5350 4900
+	5050 4150 5150 4150
 Wire Wire Line
-	5250 5000 5350 5000
+	5050 4250 5150 4250
 Wire Wire Line
-	5250 5100 5350 5100
+	5050 4350 5150 4350
 $Bitmap
-Pos 4825 5000
-Scale 1.000000
+Pos 4625 4250
+Scale 1.250000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 00 43 00 00 00 6B 08 02 00 00 00 A3 57 A8 
 7F 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 0E 74 00 00 0E 74 
@@ -333,87 +322,87 @@ DA 86 34 DA 24 65 40 67 22 4E 53 97 DB D6 19 B4 73 82 1D FB 56 54 65 55 5D DA 32
 EndData
 $EndBitmap
 Wire Wire Line
-	6100 4675 6375 4675
+	5900 3925 6175 3925
 Wire Wire Line
-	6375 4675 6375 4925
+	6175 3925 6175 4175
 Wire Wire Line
-	6375 4925 7150 4925
+	6175 4175 6950 4175
 Wire Wire Line
-	6100 4275 7150 4275
-Text Label 5100 4175 2    50   ~ 0
+	5900 3700 6950 3700
+Text Label 4925 3425 2    50   ~ 0
 pre_vol_audio_L
-Text Label 5100 4525 2    50   ~ 0
+Text Label 4925 3575 2    50   ~ 0
 pre_vol_audio_R
-Text Notes 4175 5150 0    50   ~ 0
+Text Notes 4475 4650 0    50   ~ 0
 volume knob\n10k linear pot
 $Sheet
-S 2100 2950 1175 1625
+S 3000 3125 1175 1625
 U 5E487042
 F0 "input_select" 50
 F1 "input_select.sch" 50
-F2 "IN1_L" I L 2100 3075 50 
-F3 "IN1_R" I L 2100 3175 50 
-F4 "IN2_L" I L 2100 3325 50 
-F5 "IN2_R" I L 2100 3425 50 
-F6 "IN3_L" I L 2100 3550 50 
-F7 "IN3_R" I L 2100 3650 50 
-F8 "IN4_L" I L 2100 3775 50 
-F9 "IN4_R" I L 2100 3875 50 
-F10 "input_sw_1" I L 2100 4175 50 
-F11 "input_sw_2" I L 2100 4275 50 
-F12 "input_sw_3" I L 2100 4375 50 
-F13 "input_sw_com" O L 2100 4475 50 
-F14 "post_sw_audio_L" O R 3275 3250 50 
-F15 "post_sw_audio_R" O R 3275 3475 50 
+F2 "IN1_L" I L 3000 3250 50 
+F3 "IN1_R" I L 3000 3350 50 
+F4 "IN2_L" I L 3000 3500 50 
+F5 "IN2_R" I L 3000 3600 50 
+F6 "IN3_L" I L 3000 3725 50 
+F7 "IN3_R" I L 3000 3825 50 
+F8 "IN4_L" I L 3000 3950 50 
+F9 "IN4_R" I L 3000 4050 50 
+F10 "input_sw_1" I L 3000 4350 50 
+F11 "input_sw_2" I L 3000 4450 50 
+F12 "input_sw_3" I L 3000 4550 50 
+F13 "input_sw_com" O L 3000 4650 50 
+F14 "post_sw_audio_L" O R 4175 3425 50 
+F15 "post_sw_audio_R" O R 4175 3575 50 
 $EndSheet
 Wire Wire Line
-	2000 4175 2100 4175
+	2900 4350 3000 4350
 Wire Wire Line
-	2000 4275 2100 4275
+	2900 4450 3000 4450
 Wire Wire Line
-	2000 4375 2100 4375
+	2900 4550 3000 4550
 Wire Wire Line
-	2000 4475 2100 4475
+	2900 4650 3000 4650
 Wire Wire Line
-	1050 3075 2100 3075
+	1950 3250 3000 3250
 Wire Wire Line
-	2100 3175 1100 3175
+	3000 3350 2025 3350
 Wire Wire Line
-	1100 3175 1100 3275
+	2025 3350 2025 3450
 Wire Wire Line
-	1175 3575 1175 3325
+	2100 3750 2100 3500
 Wire Wire Line
-	1175 3325 2100 3325
+	2100 3500 3000 3500
 Wire Wire Line
-	1250 3775 1250 3425
+	2150 3950 2150 3600
 Wire Wire Line
-	1250 3425 2100 3425
+	2150 3600 3000 3600
 Wire Wire Line
-	1050 3775 1250 3775
+	1950 3950 2150 3950
 Wire Wire Line
-	1350 4075 1350 3550
+	2275 4250 2275 3725
 Wire Wire Line
-	1350 3550 2100 3550
+	2275 3725 3000 3725
 Wire Wire Line
-	1050 4075 1350 4075
+	1950 4250 2275 4250
 Wire Wire Line
-	1425 4275 1425 3650
+	2325 4450 2325 3825
 Wire Wire Line
-	1425 3650 2100 3650
+	2325 3825 3000 3825
 Wire Wire Line
-	1050 4275 1425 4275
+	1950 4450 2325 4450
 Wire Wire Line
-	1525 4575 1525 3775
+	2450 4750 2450 3950
 Wire Wire Line
-	1525 3775 2100 3775
+	2450 3950 3000 3950
 Wire Wire Line
-	1050 4575 1525 4575
+	1950 4750 2450 4750
 Wire Wire Line
-	1600 4775 1600 3875
+	2500 4950 2500 4050
 Wire Wire Line
-	1600 3875 2100 3875
+	2500 4050 3000 4050
 Wire Wire Line
-	1050 4775 1600 4775
+	1950 4950 2500 4950
 $Comp
 L AAMB-rescue:+35V-Power-amp #PWR0112
 U 1 1 5E239287
@@ -428,12 +417,12 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x04 J7
 U 1 1 5E2AFFDD
-P 1800 4275
-F 0 "J7" H 1718 4500 50  0000 C CNN
-F 1 "Conn_01x04" H 1718 4501 50  0001 C CNN
-F 2 "" H 1800 4275 50  0001 C CNN
-F 3 "~" H 1800 4275 50  0001 C CNN
-	1    1800 4275
+P 2700 4450
+F 0 "J7" H 2618 4675 50  0000 C CNN
+F 1 "Conn_01x04" H 2618 4676 50  0001 C CNN
+F 2 "" H 2700 4450 50  0001 C CNN
+F 3 "~" H 2700 4450 50  0001 C CNN
+	1    2700 4450
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -483,17 +472,7 @@ F 3 "" H 1025 700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3275 3250 4250 3250
-Wire Wire Line
-	4250 3250 4250 4175
-Wire Wire Line
-	4250 4175 5350 4175
-Wire Wire Line
-	3275 3475 4100 3475
-Wire Wire Line
-	4100 3475 4100 4525
-Wire Wire Line
-	4100 4525 5350 4525
+	4175 3425 5150 3425
 $Comp
 L power:GND #PWR0105
 U 1 1 5E32ADD9
@@ -508,23 +487,23 @@ $EndComp
 $Comp
 L power:GND #PWR0118
 U 1 1 5E33EF10
-P 9675 4925
-F 0 "#PWR0118" H 9675 4675 50  0001 C CNN
-F 1 "GND" H 9675 4775 50  0001 C CNN
-F 2 "" H 9675 4925 50  0001 C CNN
-F 3 "" H 9675 4925 50  0001 C CNN
-	1    9675 4925
+P 9475 4500
+F 0 "#PWR0118" H 9475 4250 50  0001 C CNN
+F 1 "GND" H 9475 4350 50  0001 C CNN
+F 2 "" H 9475 4500 50  0001 C CNN
+F 3 "" H 9475 4500 50  0001 C CNN
+	1    9475 4500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9675 4925 9675 4850
+	9475 4500 9475 4275
 Wire Wire Line
-	9675 4600 9800 4600
+	9475 4025 9600 4025
 Wire Wire Line
-	9800 4850 9675 4850
-Connection ~ 9675 4850
+	9600 4275 9475 4275
+Connection ~ 9475 4275
 Wire Wire Line
-	9675 4850 9675 4600
+	9475 4275 9475 4025
 $Comp
 L power:PWR_FLAG #FLG0105
 U 1 1 5E362BB1
@@ -550,31 +529,70 @@ $EndComp
 $Comp
 L power:GND #PWR01
 U 1 1 5E399DE3
-P 1100 5000
-F 0 "#PWR01" H 1100 4750 50  0001 C CNN
-F 1 "GND" H 1100 4850 50  0001 C CNN
-F 2 "" H 1100 5000 50  0001 C CNN
-F 3 "" H 1100 5000 50  0001 C CNN
-	1    1100 5000
+P 2000 5175
+F 0 "#PWR01" H 2000 4925 50  0001 C CNN
+F 1 "GND" H 2000 5025 50  0001 C CNN
+F 2 "" H 2000 5175 50  0001 C CNN
+F 3 "" H 2000 5175 50  0001 C CNN
+	1    2000 5175
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1100 5000 1100 4925
+	2000 5175 2000 5100
 Wire Wire Line
-	1100 3425 1050 3425
+	2000 3600 1950 3600
 Wire Wire Line
-	1050 3925 1100 3925
-Connection ~ 1100 3925
+	1950 4100 2000 4100
+Connection ~ 2000 4100
 Wire Wire Line
-	1100 3925 1100 3425
+	2000 4100 2000 3600
 Wire Wire Line
-	1050 4425 1100 4425
-Connection ~ 1100 4425
+	1950 4600 2000 4600
+Connection ~ 2000 4600
 Wire Wire Line
-	1100 4425 1100 3925
+	2000 4600 2000 4100
 Wire Wire Line
-	1050 4925 1100 4925
-Connection ~ 1100 4925
+	1950 5100 2000 5100
+Connection ~ 2000 5100
 Wire Wire Line
-	1100 4925 1100 4425
+	2000 5100 2000 4600
+$Comp
+L power:25Vac #PWR0123
+U 1 1 5E3B1483
+P 1650 700
+F 0 "#PWR0123" H 1650 550 50  0001 C CNN
+F 1 "25Vac" H 1650 850 39  0000 C CNN
+F 2 "" H 1650 700 50  0001 C CNN
+F 3 "" H 1650 700 50  0001 C CNN
+	1    1650 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0108
+U 1 1 5E3B1952
+P 1750 700
+F 0 "#FLG0108" H 1750 775 50  0001 C CNN
+F 1 "PWR_FLAG" H 1750 874 50  0001 C CNN
+F 2 "" H 1750 700 50  0001 C CNN
+F 3 "~" H 1750 700 50  0001 C CNN
+	1    1750 700 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 700  1650 700 
+Wire Wire Line
+	900  1450 950  1450
+$Comp
+L power:25Vac #PWR0124
+U 1 1 5E3BCE97
+P 950 1450
+F 0 "#PWR0124" H 950 1300 50  0001 C CNN
+F 1 "25Vac" H 975 1600 39  0000 C CNN
+F 2 "" H 950 1450 50  0001 C CNN
+F 3 "" H 950 1450 50  0001 C CNN
+	1    950  1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4175 3575 5150 3575
 $EndSCHEMATC
