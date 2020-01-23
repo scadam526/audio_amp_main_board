@@ -630,7 +630,7 @@ U 1 1 5E470BA4
 P 4950 5025
 F 0 "TP1" H 4950 5220 50  0000 C CNN
 F 1 "post_sw_pre_vol_L" H 4950 5129 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 4950 5025 50  0001 C CNN
+F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 4950 5025 50  0001 C CNN
 F 3 "~" H 4950 5025 50  0001 C CNN
 	1    4950 5025
 	1    0    0    -1  
@@ -656,7 +656,7 @@ U 1 1 5E475BA6
 P 4950 5450
 F 0 "TP2" H 4950 5645 50  0000 C CNN
 F 1 "post_sw_pre_vol_R" H 4950 5554 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 4950 5450 50  0001 C CNN
+F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 4950 5450 50  0001 C CNN
 F 3 "~" H 4950 5450 50  0001 C CNN
 	1    4950 5450
 	1    0    0    -1  
@@ -684,7 +684,7 @@ U 1 1 5E4977C7
 P 6700 4625
 F 0 "TP3" H 6700 4820 50  0000 C CNN
 F 1 "post_vol_pre_amp_L" H 6700 4729 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 6700 4625 50  0001 C CNN
+F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 6700 4625 50  0001 C CNN
 F 3 "~" H 6700 4625 50  0001 C CNN
 	1    6700 4625
 	1    0    0    -1  
@@ -710,7 +710,7 @@ U 1 1 5E4977D5
 P 6700 5050
 F 0 "TP4" H 6700 5245 50  0000 C CNN
 F 1 "post_vol_pre_amp_R" H 6700 5154 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 6700 5050 50  0001 C CNN
+F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 6700 5050 50  0001 C CNN
 F 3 "~" H 6700 5050 50  0001 C CNN
 	1    6700 5050
 	1    0    0    -1  
@@ -736,7 +736,7 @@ U 1 1 5E49F891
 P 8350 4725
 F 0 "TP5" H 8350 4920 50  0000 C CNN
 F 1 "post_amp_pre_rly_L" H 8350 4829 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 8350 4725 50  0001 C CNN
+F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 8350 4725 50  0001 C CNN
 F 3 "~" H 8350 4725 50  0001 C CNN
 	1    8350 4725
 	1    0    0    -1  
@@ -762,7 +762,7 @@ U 1 1 5E49F89F
 P 8350 5150
 F 0 "TP6" H 8350 5345 50  0000 C CNN
 F 1 "post_amp_pre_rly_R" H 8350 5254 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 8350 5150 50  0001 C CNN
+F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 8350 5150 50  0001 C CNN
 F 3 "~" H 8350 5150 50  0001 C CNN
 	1    8350 5150
 	1    0    0    -1  
