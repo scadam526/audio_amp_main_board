@@ -1,4 +1,4 @@
-update=1/13/2020 12:03:17 AM
+update=1/23/2020 3:08:45 PM
 version=1
 last_client=kicad
 [general]
@@ -39,6 +39,9 @@ MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.2
+TrackWidth2=0.2
+TrackWidth3=2
+TrackWidth4=2.54
 ViaDiameter1=0.8
 ViaDrill1=0.4
 dPairWidth1=0.2
@@ -247,11 +250,11 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
-Name=audio_3A
-Clearance=0.15
-TrackWidth=1.4
-ViaDiameter=0.8
-ViaDrill=0.4
+Name=audio_5A
+Clearance=0.5
+TrackWidth=2
+ViaDiameter=2.6
+ViaDrill=1.3
 uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.2

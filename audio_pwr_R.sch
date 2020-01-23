@@ -320,10 +320,10 @@ AR Path="/5C814038/5C7F6735" Ref="R314"  Part="1"
 AR Path="/5E252703/5C7F6735" Ref="R?"  Part="1" 
 F 0 "R314" V 6980 3850 50  0000 C CNN
 F 1 "15m" V 6900 3850 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P30.48mm" V 6830 3850 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P10.16mm_Vertical" V 6830 3850 50  0001 C CNN
 F 3 "" H 6900 3850 50  0001 C CNN
 	1    6900 3850
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R214
@@ -334,7 +334,7 @@ AR Path="/5C814038/5C7F673C" Ref="R313"  Part="1"
 AR Path="/5E252703/5C7F673C" Ref="R?"  Part="1" 
 F 0 "R313" V 6980 3450 50  0000 C CNN
 F 1 "15m" V 6900 3450 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P30.48mm" V 6830 3450 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P10.16mm_Vertical" V 6830 3450 50  0001 C CNN
 F 3 "" H 6900 3450 50  0001 C CNN
 	1    6900 3450
 	1    0    0    -1  
@@ -948,4 +948,5 @@ Wire Wire Line
 Wire Wire Line
 	8025 4500 7650 4500
 Connection ~ 7650 4500
+Connection ~ 6900 4000
 $EndSCHEMATC

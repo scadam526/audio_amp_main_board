@@ -152,18 +152,6 @@ Wire Wire Line
 Text Label 7750 3600 0    50   ~ 0
 pwr_audio_L
 $Comp
-L Connector:Screw_Terminal_01x02 J3
-U 1 1 5E3F968D
-P 9800 3925
-F 0 "J3" H 9875 3825 50  0000 L CNN
-F 1 "SPKR L" H 9875 3925 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 9800 3925 50  0001 C CNN
-F 3 "" H 9800 3925 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/phoenix-contact/1715022/277-1258-ND/260626" H 9800 3925 50  0001 C CNN "DigiKey"
-	1    9800 3925
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Screw_Terminal_01x02 J4
 U 1 1 5E3FA9B2
 P 9800 4175
@@ -804,5 +792,17 @@ F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizon
 F 3 "~" H 2700 4450 50  0001 C CNN
 	1    2700 4450
 	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J3
+U 1 1 5E3F968D
+P 9800 3925
+F 0 "J3" H 9875 3825 50  0000 L CNN
+F 1 "SPKR L" H 9875 3925 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 9800 3925 50  0001 C CNN
+F 3 "" H 9800 3925 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/phoenix-contact/1715022/277-1258-ND/260626" H 9800 3925 50  0001 C CNN "DigiKey"
+	1    9800 3925
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
