@@ -35,8 +35,9 @@ P 1800 3500
 F 0 "J2" H 1744 3839 50  0000 C CNN
 F 1 "PJRAS4X2U01X" H 1525 3775 50  0001 L BNN
 F 2 "Connectors-amp:PJRAS4X2U01X" H 1525 3850 50  0001 L BNN
-F 3 "Switchcraft" H 1725 3600 50  0001 L BNN
-F 4 "http://datasheets.diptrace.com/con_rca_jack/pjras4x2u__x_series_cd.pdf" H 1525 3300 50  0001 L BNN "Field4"
+F 3 "" H 1725 3600 50  0001 L BNN
+F 4 "" H 1525 3300 50  0001 L BNN "Field4"
+F 5 "http://datasheets.diptrace.com/con_rca_jack/pjras4x2u__x_series_cd.pdf" H 1800 3500 50  0001 C CNN "DigiKey"
 	1    1800 3500
 	1    0    0    -1  
 $EndComp
@@ -47,8 +48,9 @@ P 1800 4000
 F 0 "J2" H 1744 4339 50  0000 C CNN
 F 1 "PJRAS4X2U01X" H 1525 4275 50  0001 L BNN
 F 2 "Connectors-amp:PJRAS4X2U01X" H 1525 4350 50  0001 L BNN
-F 3 "Switchcraft" H 1725 4100 50  0001 L BNN
-F 4 "http://datasheets.diptrace.com/con_rca_jack/pjras4x2u__x_series_cd.pdf" H 1525 3800 50  0001 L BNN "Field4"
+F 3 "" H 1725 4100 50  0001 L BNN
+F 4 "" H 1525 3800 50  0001 L BNN "Field4"
+F 5 "http://datasheets.diptrace.com/con_rca_jack/pjras4x2u__x_series_cd.pdf" H 1800 4000 50  0001 C CNN "DigiKey"
 	2    1800 4000
 	1    0    0    -1  
 $EndComp
@@ -59,8 +61,9 @@ P 1800 4500
 F 0 "J2" H 1744 4839 50  0000 C CNN
 F 1 "PJRAS4X2U01X" H 1525 4775 50  0001 L BNN
 F 2 "Connectors-amp:PJRAS4X2U01X" H 1525 4850 50  0001 L BNN
-F 3 "Switchcraft" H 1725 4600 50  0001 L BNN
-F 4 "http://datasheets.diptrace.com/con_rca_jack/pjras4x2u__x_series_cd.pdf" H 1525 4300 50  0001 L BNN "Field4"
+F 3 "" H 1725 4600 50  0001 L BNN
+F 4 "" H 1525 4300 50  0001 L BNN "Field4"
+F 5 "http://datasheets.diptrace.com/con_rca_jack/pjras4x2u__x_series_cd.pdf" H 1800 4500 50  0001 C CNN "DigiKey"
 	3    1800 4500
 	1    0    0    -1  
 $EndComp
@@ -71,8 +74,9 @@ P 1800 5000
 F 0 "J2" H 1744 5339 50  0000 C CNN
 F 1 "PJRAS4X2U01X" H 1525 5275 50  0001 L BNN
 F 2 "Connectors-amp:PJRAS4X2U01X" H 1525 5350 50  0001 L BNN
-F 3 "Switchcraft" H 1725 5100 50  0001 L BNN
-F 4 "http://datasheets.diptrace.com/con_rca_jack/pjras4x2u__x_series_cd.pdf" H 1525 4800 50  0001 L BNN "Field4"
+F 3 "" H 1725 5100 50  0001 L BNN
+F 4 "" H 1525 4800 50  0001 L BNN "Field4"
+F 5 "http://datasheets.diptrace.com/con_rca_jack/pjras4x2u__x_series_cd.pdf" H 1800 5000 50  0001 C CNN "DigiKey"
 	4    1800 5000
 	1    0    0    -1  
 $EndComp
@@ -154,7 +158,8 @@ P 9800 3925
 F 0 "J3" H 9875 3825 50  0000 L CNN
 F 1 "SPKR L" H 9875 3925 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 9800 3925 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/phoenix-contact/1715022/277-1258-ND/260626" H 9800 3925 50  0001 C CNN
+F 3 "" H 9800 3925 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/phoenix-contact/1715022/277-1258-ND/260626" H 9800 3925 50  0001 C CNN "DigiKey"
 	1    9800 3925
 	1    0    0    -1  
 $EndComp
@@ -165,7 +170,8 @@ P 9800 4175
 F 0 "J4" H 9875 4075 50  0000 L CNN
 F 1 "SPKR R" H 9875 4175 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 9800 4175 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/phoenix-contact/1715022/277-1258-ND/260626" H 9800 4175 50  0001 C CNN
+F 3 "" H 9800 4175 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/phoenix-contact/1715022/277-1258-ND/260626" H 9800 4175 50  0001 C CNN "DigiKey"
 	1    9800 4175
 	1    0    0    -1  
 $EndComp
@@ -190,7 +196,7 @@ U 1 1 5E426C78
 P 1575 1600
 F 0 "J5" H 1493 1825 50  0000 C CNN
 F 1 "Screw_Terminal_01x03" H 1493 1826 50  0001 C CNN
-F 2 "" H 1575 1600 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal" H 1575 1600 50  0001 C CNN
 F 3 "~" H 1575 1600 50  0001 C CNN
 	1    1575 1600
 	-1   0    0    -1  
@@ -262,7 +268,7 @@ U 1 1 5E22654E
 P 4850 4250
 F 0 "J6" H 4768 4475 50  0000 C CNN
 F 1 "Screw_Terminal_01x03" H 4768 4476 50  0001 C CNN
-F 2 "" H 4850 4250 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal" H 4850 4250 50  0001 C CNN
 F 3 "~" H 4850 4250 50  0001 C CNN
 	1    4850 4250
 	-1   0    0    -1  
@@ -403,17 +409,6 @@ F 3 "" H 575 625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J7
-U 1 1 5E2AFFDD
-P 2700 4450
-F 0 "J7" H 2618 4675 50  0000 C CNN
-F 1 "Conn_01x04" H 2618 4676 50  0001 C CNN
-F 2 "" H 2700 4450 50  0001 C CNN
-F 3 "~" H 2700 4450 50  0001 C CNN
-	1    2700 4450
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:PWR_FLAG #FLG0103
 U 1 1 5E2EA3BE
 P 1150 700
@@ -442,7 +437,7 @@ L power:-12V #PWR0115
 U 1 1 5E2EE74B
 P 1275 650
 F 0 "#PWR0115" H 1275 750 50  0001 C CNN
-F 1 "-12V" H 1290 823 50  0000 C CNN
+F 1 "-12V" H 1300 800 39  0000 C CNN
 F 2 "" H 1275 650 50  0001 C CNN
 F 3 "" H 1275 650 50  0001 C CNN
 	1    1275 650 
@@ -453,7 +448,7 @@ L power:+12V #PWR0116
 U 1 1 5E2EF2D1
 P 1025 700
 F 0 "#PWR0116" H 1025 550 50  0001 C CNN
-F 1 "+12V" H 1040 873 50  0000 C CNN
+F 1 "+12V" H 1000 850 39  0000 C CNN
 F 2 "" H 1025 700 50  0001 C CNN
 F 3 "" H 1025 700 50  0001 C CNN
 	1    1025 700 
@@ -508,7 +503,7 @@ L power:GND #PWR0121
 U 1 1 5E36386F
 P 1475 650
 F 0 "#PWR0121" H 1475 400 50  0001 C CNN
-F 1 "GND" H 1475 500 50  0001 C CNN
+F 1 "GND" H 1475 500 39  0000 C CNN
 F 2 "" H 1475 650 50  0001 C CNN
 F 3 "" H 1475 650 50  0001 C CNN
 	1    1475 650 
@@ -573,12 +568,12 @@ Wire Wire Line
 $Comp
 L power:25Vac #PWR0124
 U 1 1 5E3BCE97
-P 950 1450
-F 0 "#PWR0124" H 950 1300 50  0001 C CNN
-F 1 "25Vac" H 975 1600 39  0000 C CNN
-F 2 "" H 950 1450 50  0001 C CNN
-F 3 "" H 950 1450 50  0001 C CNN
-	1    950  1450
+P 950 1375
+F 0 "#PWR0124" H 950 1225 50  0001 C CNN
+F 1 "25Vac" H 975 1525 39  0000 C CNN
+F 2 "" H 950 1375 50  0001 C CNN
+F 3 "" H 950 1375 50  0001 C CNN
+	1    950  1375
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -641,10 +636,10 @@ F 3 "~" H 4950 5025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR06
 U 1 1 5E4720E6
 P 5200 5075
-F 0 "#PWR?" H 5200 4825 50  0001 C CNN
+F 0 "#PWR06" H 5200 4825 50  0001 C CNN
 F 1 "GND" H 5200 4925 50  0001 C CNN
 F 2 "" H 5200 5075 50  0001 C CNN
 F 3 "" H 5200 5075 50  0001 C CNN
@@ -656,10 +651,10 @@ Wire Wire Line
 Wire Wire Line
 	5200 5025 5150 5025
 $Comp
-L Connector:TestPoint_2Pole TP?
+L Connector:TestPoint_2Pole TP2
 U 1 1 5E475BA6
 P 4950 5450
-F 0 "TP?" H 4950 5645 50  0000 C CNN
+F 0 "TP2" H 4950 5645 50  0000 C CNN
 F 1 "post_sw_pre_vol_R" H 4950 5554 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 4950 5450 50  0001 C CNN
 F 3 "~" H 4950 5450 50  0001 C CNN
@@ -667,10 +662,10 @@ F 3 "~" H 4950 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR07
 U 1 1 5E475BAC
 P 5200 5500
-F 0 "#PWR?" H 5200 5250 50  0001 C CNN
+F 0 "#PWR07" H 5200 5250 50  0001 C CNN
 F 1 "GND" H 5200 5350 50  0001 C CNN
 F 2 "" H 5200 5500 50  0001 C CNN
 F 3 "" H 5200 5500 50  0001 C CNN
@@ -684,10 +679,10 @@ Wire Wire Line
 Wire Wire Line
 	4375 3575 4375 5450
 $Comp
-L Connector:TestPoint_2Pole TP?
+L Connector:TestPoint_2Pole TP3
 U 1 1 5E4977C7
 P 6700 4625
-F 0 "TP?" H 6700 4820 50  0000 C CNN
+F 0 "TP3" H 6700 4820 50  0000 C CNN
 F 1 "post_vol_pre_amp_L" H 6700 4729 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 6700 4625 50  0001 C CNN
 F 3 "~" H 6700 4625 50  0001 C CNN
@@ -695,10 +690,10 @@ F 3 "~" H 6700 4625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR024
 U 1 1 5E4977CD
 P 6950 4675
-F 0 "#PWR?" H 6950 4425 50  0001 C CNN
+F 0 "#PWR024" H 6950 4425 50  0001 C CNN
 F 1 "GND" H 6950 4525 50  0001 C CNN
 F 2 "" H 6950 4675 50  0001 C CNN
 F 3 "" H 6950 4675 50  0001 C CNN
@@ -710,10 +705,10 @@ Wire Wire Line
 Wire Wire Line
 	6950 4625 6900 4625
 $Comp
-L Connector:TestPoint_2Pole TP?
+L Connector:TestPoint_2Pole TP4
 U 1 1 5E4977D5
 P 6700 5050
-F 0 "TP?" H 6700 5245 50  0000 C CNN
+F 0 "TP4" H 6700 5245 50  0000 C CNN
 F 1 "post_vol_pre_amp_R" H 6700 5154 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 6700 5050 50  0001 C CNN
 F 3 "~" H 6700 5050 50  0001 C CNN
@@ -721,10 +716,10 @@ F 3 "~" H 6700 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR025
 U 1 1 5E4977DB
 P 6950 5100
-F 0 "#PWR?" H 6950 4850 50  0001 C CNN
+F 0 "#PWR025" H 6950 4850 50  0001 C CNN
 F 1 "GND" H 6950 4950 50  0001 C CNN
 F 2 "" H 6950 5100 50  0001 C CNN
 F 3 "" H 6950 5100 50  0001 C CNN
@@ -736,10 +731,10 @@ Wire Wire Line
 Wire Wire Line
 	6950 5050 6900 5050
 $Comp
-L Connector:TestPoint_2Pole TP?
+L Connector:TestPoint_2Pole TP5
 U 1 1 5E49F891
 P 8350 4725
-F 0 "TP?" H 8350 4920 50  0000 C CNN
+F 0 "TP5" H 8350 4920 50  0000 C CNN
 F 1 "post_amp_pre_rly_L" H 8350 4829 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 8350 4725 50  0001 C CNN
 F 3 "~" H 8350 4725 50  0001 C CNN
@@ -747,10 +742,10 @@ F 3 "~" H 8350 4725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR027
 U 1 1 5E49F897
 P 8600 4775
-F 0 "#PWR?" H 8600 4525 50  0001 C CNN
+F 0 "#PWR027" H 8600 4525 50  0001 C CNN
 F 1 "GND" H 8600 4625 50  0001 C CNN
 F 2 "" H 8600 4775 50  0001 C CNN
 F 3 "" H 8600 4775 50  0001 C CNN
@@ -762,10 +757,10 @@ Wire Wire Line
 Wire Wire Line
 	8600 4725 8550 4725
 $Comp
-L Connector:TestPoint_2Pole TP?
+L Connector:TestPoint_2Pole TP6
 U 1 1 5E49F89F
 P 8350 5150
-F 0 "TP?" H 8350 5345 50  0000 C CNN
+F 0 "TP6" H 8350 5345 50  0000 C CNN
 F 1 "post_amp_pre_rly_R" H 8350 5254 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 8350 5150 50  0001 C CNN
 F 3 "~" H 8350 5150 50  0001 C CNN
@@ -773,10 +768,10 @@ F 3 "~" H 8350 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR029
 U 1 1 5E49F8A5
 P 8600 5200
-F 0 "#PWR?" H 8600 4950 50  0001 C CNN
+F 0 "#PWR029" H 8600 4950 50  0001 C CNN
 F 1 "GND" H 8600 5050 50  0001 C CNN
 F 2 "" H 8600 5200 50  0001 C CNN
 F 3 "" H 8600 5200 50  0001 C CNN
@@ -797,4 +792,17 @@ Wire Wire Line
 	1275 650  1275 600 
 Wire Wire Line
 	1475 650  1475 600 
+Wire Wire Line
+	950  1375 950  1450
+$Comp
+L Connector:Screw_Terminal_01x04 J7
+U 1 1 5E6424F4
+P 2700 4450
+F 0 "J7" H 2618 4675 50  0000 C CNN
+F 1 "Screw_Terminal_01x04" H 2618 4676 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal" H 2700 4450 50  0001 C CNN
+F 3 "~" H 2700 4450 50  0001 C CNN
+	1    2700 4450
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

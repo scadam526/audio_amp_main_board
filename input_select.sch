@@ -98,17 +98,6 @@ Connection ~ 6450 3025
 Wire Wire Line
 	6275 2725 6450 2725
 Connection ~ 6450 2725
-$Comp
-L Device:C C23
-U 1 1 5E49B618
-P 6850 2750
-F 0 "C23" H 6965 2796 50  0000 L CNN
-F 1 "0.1u" H 6965 2705 50  0000 L CNN
-F 2 "" H 6888 2600 50  0001 C CNN
-F 3 "~" H 6850 2750 50  0001 C CNN
-	1    6850 2750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6850 2600 6850 2425
 Wire Wire Line
@@ -192,7 +181,7 @@ AR Path="/5E5C3E0E" Ref="R?"  Part="1"
 AR Path="/5E487042/5E5C3E0E" Ref="R37"  Part="1" 
 F 0 "R37" H 1595 1946 50  0000 L CNN
 F 1 "2k2" H 1595 1855 50  0000 L CNN
-F 2 "" V 1455 1900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1455 1900 50  0001 C CNN
 F 3 "~" H 1525 1900 50  0001 C CNN
 	1    1525 1900
 	1    0    0    -1  
@@ -207,17 +196,6 @@ F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3500 1025 50  0001 C CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fcd4071b" H 1300 2075 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/texas-instruments/CD4071BM96/296-25953-1-ND/2254806" H 4650 925 50  0001 C CNN "DigiKey"
 	1    2550 2325
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C24
-U 1 1 5E5FEDD7
-P 2250 1875
-F 0 "C24" H 2365 1921 50  0000 L CNN
-F 1 "0.1u" H 2365 1830 50  0000 L CNN
-F 2 "" H 2288 1725 50  0001 C CNN
-F 3 "~" H 2250 1875 50  0001 C CNN
-	1    2250 1875
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -259,7 +237,7 @@ U 1 1 5E60615B
 P 4125 2775
 F 0 "R38" H 4195 2821 50  0000 L CNN
 F 1 "22k" H 4195 2730 50  0000 L CNN
-F 2 "" V 4055 2775 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4055 2775 50  0001 C CNN
 F 3 "~" H 4125 2775 50  0001 C CNN
 	1    4125 2775
 	1    0    0    -1  
@@ -270,7 +248,7 @@ U 1 1 5E60655F
 P 4400 2775
 F 0 "R39" H 4470 2821 50  0000 L CNN
 F 1 "22k" H 4470 2730 50  0000 L CNN
-F 2 "" V 4330 2775 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4330 2775 50  0001 C CNN
 F 3 "~" H 4400 2775 50  0001 C CNN
 	1    4400 2775
 	1    0    0    -1  
@@ -365,4 +343,32 @@ NoConn ~ 3350 3225
 NoConn ~ 3350 2975
 Wire Wire Line
 	2250 2100 2250 2025
+$Comp
+L Device:C C?
+U 1 1 5E6A0445
+P 2250 1875
+AR Path="/5E227FCE/5E6A0445" Ref="C?"  Part="1" 
+AR Path="/5E487042/5E6A0445" Ref="C23"  Part="1" 
+F 0 "C23" H 2365 1921 50  0000 L CNN
+F 1 "0.1u" H 2365 1830 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2288 1725 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C104Z3VACTU.pdf" H 2250 1875 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104Z3VACTU/399-1100-1-ND/411375" H 2250 1875 50  0001 C CNN "DigiKey"
+	1    2250 1875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E6A15C2
+P 6850 2750
+AR Path="/5E227FCE/5E6A15C2" Ref="C?"  Part="1" 
+AR Path="/5E487042/5E6A15C2" Ref="C24"  Part="1" 
+F 0 "C24" H 6965 2796 50  0000 L CNN
+F 1 "0.1u" H 6965 2705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6888 2600 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C104Z3VACTU.pdf" H 6850 2750 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104Z3VACTU/399-1100-1-ND/411375" H 6850 2750 50  0001 C CNN "DigiKey"
+	1    6850 2750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
