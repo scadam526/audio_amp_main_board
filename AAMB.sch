@@ -129,12 +129,12 @@ $EndComp
 $Comp
 L AAMB-rescue:-35V-Power-amp #PWR0113
 U 1 1 5E2397FB
-P 825 600
-F 0 "#PWR0113" H 1000 425 50  0001 C CNN
-F 1 "-35V" H 875 500 39  0000 C CNN
-F 2 "" H 825 600 50  0001 C CNN
-F 3 "" H 825 600 50  0001 C CNN
-	1    825  600 
+P 825 675
+F 0 "#PWR0113" H 1000 500 50  0001 C CNN
+F 1 "-35V" H 875 575 39  0000 C CNN
+F 2 "" H 825 675 50  0001 C CNN
+F 3 "" H 825 675 50  0001 C CNN
+	1    825  675 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -142,9 +142,9 @@ Wire Wire Line
 Wire Wire Line
 	2100 3750 1950 3750
 Wire Wire Line
-	2025 3450 1950 3450
+	2000 3450 1950 3450
 Wire Wire Line
-	7625 3600 8475 3600
+	7625 3600 7975 3600
 Text Label 7750 3600 0    50   ~ 0
 pwr_audio_L
 $Comp
@@ -180,16 +180,6 @@ F 3 "https://www.digikey.com/product-detail/en/phoenix-contact/1729034/277-1238-
 	1    700  1550
 	-1   0    0    -1  
 $EndComp
-$Sheet
-S 8475 3225 775  1075
-U 5E1DFE71
-F0 "short_protection_muting" 50
-F1 "protect_mute.sch" 50
-F2 "audio_in_L" I L 8475 3600 50 
-F3 "audio_in_R" I L 8475 3750 50 
-F4 "audio_rly_out_R" O R 9250 4175 50 
-F5 "audio_rly_out_L" O R 9250 3925 50 
-$EndSheet
 Wire Wire Line
 	9250 3925 9600 3925
 Wire Wire Line
@@ -265,7 +255,7 @@ F2 "amp_in_R" I L 6950 4175 50
 F3 "amp_out_R" O R 7625 4050 50 
 $EndSheet
 Wire Wire Line
-	7625 4050 8250 4050
+	7625 4050 7800 4050
 $Comp
 L Connector:Screw_Terminal_01x03 J6
 U 1 1 5E22654E
@@ -327,8 +317,6 @@ Wire Wire Line
 	6175 3925 6175 4175
 Wire Wire Line
 	6175 4175 6950 4175
-Wire Wire Line
-	5900 3700 6950 3700
 Text Label 4925 3425 2    50   ~ 0
 pre_vol_audio_L
 Text Label 4925 3575 2    50   ~ 0
@@ -366,19 +354,19 @@ Wire Wire Line
 Wire Wire Line
 	1950 3250 3000 3250
 Wire Wire Line
-	3000 3350 2025 3350
+	3000 3350 2000 3350
 Wire Wire Line
-	2025 3350 2025 3450
+	2000 3350 2000 3450
 Wire Wire Line
 	2100 3750 2100 3500
 Wire Wire Line
 	2100 3500 3000 3500
 Wire Wire Line
-	2150 3950 2150 3600
+	2175 3950 2175 3600
 Wire Wire Line
-	2150 3600 3000 3600
+	2175 3600 3000 3600
 Wire Wire Line
-	1950 3950 2150 3950
+	1950 3950 2175 3950
 Wire Wire Line
 	2275 4250 2275 3725
 Wire Wire Line
@@ -386,23 +374,23 @@ Wire Wire Line
 Wire Wire Line
 	1950 4250 2275 4250
 Wire Wire Line
-	2325 4450 2325 3825
+	2350 4450 2350 3825
 Wire Wire Line
-	2325 3825 3000 3825
+	2350 3825 3000 3825
 Wire Wire Line
-	1950 4450 2325 4450
+	1950 4450 2350 4450
 Wire Wire Line
-	2450 4750 2450 3950
+	2475 4750 2475 3950
 Wire Wire Line
-	2450 3950 3000 3950
+	2475 3950 3000 3950
 Wire Wire Line
-	1950 4750 2450 4750
+	1950 4750 2475 4750
 Wire Wire Line
-	2500 4950 2500 4050
+	2550 4950 2550 4050
 Wire Wire Line
-	2500 4050 3000 4050
+	2550 4050 3000 4050
 Wire Wire Line
-	1950 4950 2500 4950
+	1950 4950 2550 4950
 $Comp
 L AAMB-rescue:+35V-Power-amp #PWR0112
 U 1 1 5E239287
@@ -452,12 +440,12 @@ Wire Wire Line
 $Comp
 L power:-12V #PWR0115
 U 1 1 5E2EE74B
-P 1275 600
-F 0 "#PWR0115" H 1275 700 50  0001 C CNN
-F 1 "-12V" H 1290 773 50  0000 C CNN
-F 2 "" H 1275 600 50  0001 C CNN
-F 3 "" H 1275 600 50  0001 C CNN
-	1    1275 600 
+P 1275 650
+F 0 "#PWR0115" H 1275 750 50  0001 C CNN
+F 1 "-12V" H 1290 823 50  0000 C CNN
+F 2 "" H 1275 650 50  0001 C CNN
+F 3 "" H 1275 650 50  0001 C CNN
+	1    1275 650 
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -472,7 +460,7 @@ F 3 "" H 1025 700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4175 3425 5150 3425
+	4175 3425 4300 3425
 $Comp
 L power:GND #PWR0105
 U 1 1 5E32ADD9
@@ -518,12 +506,12 @@ $EndComp
 $Comp
 L power:GND #PWR0121
 U 1 1 5E36386F
-P 1475 600
-F 0 "#PWR0121" H 1475 350 50  0001 C CNN
-F 1 "GND" H 1475 450 50  0001 C CNN
-F 2 "" H 1475 600 50  0001 C CNN
-F 3 "" H 1475 600 50  0001 C CNN
-	1    1475 600 
+P 1475 650
+F 0 "#PWR0121" H 1475 400 50  0001 C CNN
+F 1 "GND" H 1475 500 50  0001 C CNN
+F 2 "" H 1475 650 50  0001 C CNN
+F 3 "" H 1475 650 50  0001 C CNN
+	1    1475 650 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -594,5 +582,219 @@ F 3 "" H 950 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4175 3575 5150 3575
+	4175 3575 4375 3575
+$Sheet
+S 8475 3500 775  875 
+U 5E1DFE71
+F0 "short_protection_muting" 50
+F1 "protect_mute.sch" 50
+F2 "audio_in_L" I L 8475 3600 50 
+F3 "audio_in_R" I L 8475 3750 50 
+F4 "audio_rly_out_R" O R 9250 4175 50 
+F5 "audio_rly_out_L" O R 9250 3925 50 
+$EndSheet
+Wire Wire Line
+	7975 4725 7975 3600
+Connection ~ 7975 3600
+Wire Wire Line
+	7975 3600 8475 3600
+Wire Wire Line
+	7800 5150 7800 4050
+Connection ~ 7800 4050
+Wire Wire Line
+	7800 4050 8250 4050
+Wire Wire Line
+	6175 4175 6175 5050
+Connection ~ 6175 4175
+Wire Wire Line
+	5900 3700 6050 3700
+Wire Wire Line
+	6050 4625 6050 3700
+Connection ~ 6050 3700
+Wire Wire Line
+	6050 3700 6950 3700
+Wire Wire Line
+	6050 4625 6500 4625
+Wire Wire Line
+	6175 5050 6500 5050
+Wire Wire Line
+	4300 5025 4750 5025
+Wire Wire Line
+	4300 5025 4300 3425
+Connection ~ 4300 3425
+Wire Wire Line
+	4300 3425 5150 3425
+Wire Wire Line
+	4375 5450 4750 5450
+Connection ~ 4375 3575
+Wire Wire Line
+	4375 3575 5150 3575
+$Comp
+L Connector:TestPoint_2Pole TP1
+U 1 1 5E470BA4
+P 4950 5025
+F 0 "TP1" H 4950 5220 50  0000 C CNN
+F 1 "post_sw_pre_vol_L" H 4950 5129 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 4950 5025 50  0001 C CNN
+F 3 "~" H 4950 5025 50  0001 C CNN
+	1    4950 5025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E4720E6
+P 5200 5075
+F 0 "#PWR?" H 5200 4825 50  0001 C CNN
+F 1 "GND" H 5200 4925 50  0001 C CNN
+F 2 "" H 5200 5075 50  0001 C CNN
+F 3 "" H 5200 5075 50  0001 C CNN
+	1    5200 5075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 5075 5200 5025
+Wire Wire Line
+	5200 5025 5150 5025
+$Comp
+L Connector:TestPoint_2Pole TP?
+U 1 1 5E475BA6
+P 4950 5450
+F 0 "TP?" H 4950 5645 50  0000 C CNN
+F 1 "post_sw_pre_vol_R" H 4950 5554 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 4950 5450 50  0001 C CNN
+F 3 "~" H 4950 5450 50  0001 C CNN
+	1    4950 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E475BAC
+P 5200 5500
+F 0 "#PWR?" H 5200 5250 50  0001 C CNN
+F 1 "GND" H 5200 5350 50  0001 C CNN
+F 2 "" H 5200 5500 50  0001 C CNN
+F 3 "" H 5200 5500 50  0001 C CNN
+	1    5200 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 5500 5200 5450
+Wire Wire Line
+	5200 5450 5150 5450
+Wire Wire Line
+	4375 3575 4375 5450
+$Comp
+L Connector:TestPoint_2Pole TP?
+U 1 1 5E4977C7
+P 6700 4625
+F 0 "TP?" H 6700 4820 50  0000 C CNN
+F 1 "post_vol_pre_amp_L" H 6700 4729 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 6700 4625 50  0001 C CNN
+F 3 "~" H 6700 4625 50  0001 C CNN
+	1    6700 4625
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E4977CD
+P 6950 4675
+F 0 "#PWR?" H 6950 4425 50  0001 C CNN
+F 1 "GND" H 6950 4525 50  0001 C CNN
+F 2 "" H 6950 4675 50  0001 C CNN
+F 3 "" H 6950 4675 50  0001 C CNN
+	1    6950 4675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 4675 6950 4625
+Wire Wire Line
+	6950 4625 6900 4625
+$Comp
+L Connector:TestPoint_2Pole TP?
+U 1 1 5E4977D5
+P 6700 5050
+F 0 "TP?" H 6700 5245 50  0000 C CNN
+F 1 "post_vol_pre_amp_R" H 6700 5154 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 6700 5050 50  0001 C CNN
+F 3 "~" H 6700 5050 50  0001 C CNN
+	1    6700 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E4977DB
+P 6950 5100
+F 0 "#PWR?" H 6950 4850 50  0001 C CNN
+F 1 "GND" H 6950 4950 50  0001 C CNN
+F 2 "" H 6950 5100 50  0001 C CNN
+F 3 "" H 6950 5100 50  0001 C CNN
+	1    6950 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 5100 6950 5050
+Wire Wire Line
+	6950 5050 6900 5050
+$Comp
+L Connector:TestPoint_2Pole TP?
+U 1 1 5E49F891
+P 8350 4725
+F 0 "TP?" H 8350 4920 50  0000 C CNN
+F 1 "post_amp_pre_rly_L" H 8350 4829 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 8350 4725 50  0001 C CNN
+F 3 "~" H 8350 4725 50  0001 C CNN
+	1    8350 4725
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E49F897
+P 8600 4775
+F 0 "#PWR?" H 8600 4525 50  0001 C CNN
+F 1 "GND" H 8600 4625 50  0001 C CNN
+F 2 "" H 8600 4775 50  0001 C CNN
+F 3 "" H 8600 4775 50  0001 C CNN
+	1    8600 4775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 4775 8600 4725
+Wire Wire Line
+	8600 4725 8550 4725
+$Comp
+L Connector:TestPoint_2Pole TP?
+U 1 1 5E49F89F
+P 8350 5150
+F 0 "TP?" H 8350 5345 50  0000 C CNN
+F 1 "post_amp_pre_rly_R" H 8350 5254 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 8350 5150 50  0001 C CNN
+F 3 "~" H 8350 5150 50  0001 C CNN
+	1    8350 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E49F8A5
+P 8600 5200
+F 0 "#PWR?" H 8600 4950 50  0001 C CNN
+F 1 "GND" H 8600 5050 50  0001 C CNN
+F 2 "" H 8600 5200 50  0001 C CNN
+F 3 "" H 8600 5200 50  0001 C CNN
+	1    8600 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 5200 8600 5150
+Wire Wire Line
+	8600 5150 8550 5150
+Wire Wire Line
+	7975 4725 8150 4725
+Wire Wire Line
+	7800 5150 8150 5150
+Wire Wire Line
+	825  675  825  600 
+Wire Wire Line
+	1275 650  1275 600 
+Wire Wire Line
+	1475 650  1475 600 
 $EndSCHEMATC
