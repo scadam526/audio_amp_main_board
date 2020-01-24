@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:AAMB-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -219,10 +218,10 @@ U 1 1 5E1CCAF4
 P 6900 3850
 F 0 "R214" V 6980 3850 50  0000 C CNN
 F 1 "15m" V 6900 3850 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P30.48mm" V 6830 3850 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P10.16mm_Vertical" V 6830 3850 50  0001 C CNN
 F 3 "" H 6900 3850 50  0001 C CNN
 	1    6900 3850
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R213
@@ -230,7 +229,7 @@ U 1 1 5E1CCAF5
 P 6900 3450
 F 0 "R213" V 6980 3450 50  0000 C CNN
 F 1 "15m" V 6900 3450 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P30.48mm" V 6830 3450 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P10.16mm_Vertical" V 6830 3450 50  0001 C CNN
 F 3 "" H 6900 3450 50  0001 C CNN
 	1    6900 3450
 	1    0    0    -1  
@@ -812,4 +811,5 @@ F 3 "" H 8100 4550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8100 4550 8100 4450
+Connection ~ 6900 4000
 $EndSCHEMATC

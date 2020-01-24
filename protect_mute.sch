@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:AAMB-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -49,17 +48,6 @@ F 1 "BC556" H 4641 3070 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4650 2950 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H 4450 3025 50  0001 L CNN
 	1    4450 3025
-	1    0    0    1   
-$EndComp
-$Comp
-L Transistor_BJT:BD140 Q4
-U 1 1 5E259135
-P 5200 3300
-F 0 "Q4" H 5392 3254 50  0000 L CNN
-F 1 "BD140" H 5392 3345 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-126-3_Vertical" H 5400 3225 50  0001 L CIN
-F 3 "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf" H 5200 3300 50  0001 L CNN
-	1    5200 3300
 	1    0    0    1   
 $EndComp
 $Comp
@@ -741,9 +729,11 @@ Wire Wire Line
 Text Label 7150 4100 0    50   ~ 0
 RLY_-L_+R
 $Comp
-L power:25Vac #PWR0125
+L AAMB-rescue:25Vac-power #PWR0125
 U 1 1 5E3C38D9
 P 6250 3425
+AR Path="/5E3C38D9" Ref="#PWR0125"  Part="1" 
+AR Path="/5E1DFE71/5E3C38D9" Ref="#PWR0125"  Part="1" 
 F 0 "#PWR0125" H 6250 3275 50  0001 C CNN
 F 1 "25Vac" H 6275 3575 39  0000 C CNN
 F 2 "" H 6250 3425 50  0001 C CNN
@@ -802,5 +792,16 @@ F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT31CR61H106KE0
 F 4 "https://www.digikey.com/product-detail/en/murata-electronics/GRT31CR61H106KE01L/490-12456-1-ND/5417157" H 2225 4075 50  0001 C CNN "DigiKey"
 	1    2225 4075
 	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BD140 Q4
+U 1 1 5E259135
+P 5200 3300
+F 0 "Q4" H 5392 3254 50  0000 L CNN
+F 1 "BD140" H 5392 3345 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-126-3_Vertical" H 5400 3225 50  0001 L CIN
+F 3 "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf" H 5200 3300 50  0001 L CNN
+	1    5200 3300
+	1    0    0    1   
 $EndComp
 $EndSCHEMATC

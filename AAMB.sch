@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:AAMB-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -151,18 +150,6 @@ Wire Wire Line
 	7625 3600 7975 3600
 Text Label 7750 3600 0    50   ~ 0
 pwr_audio_L
-$Comp
-L Connector:Screw_Terminal_01x02 J3
-U 1 1 5E3F968D
-P 9800 3925
-F 0 "J3" H 9875 3825 50  0000 L CNN
-F 1 "SPKR L" H 9875 3925 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 9800 3925 50  0001 C CNN
-F 3 "" H 9800 3925 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/phoenix-contact/1715022/277-1258-ND/260626" H 9800 3925 50  0001 C CNN "DigiKey"
-	1    9800 3925
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector:Screw_Terminal_01x02 J4
 U 1 1 5E3FA9B2
@@ -540,7 +527,7 @@ Connection ~ 2000 5100
 Wire Wire Line
 	2000 5100 2000 4600
 $Comp
-L power:25Vac #PWR0123
+L AAMB-rescue:25Vac-power #PWR0123
 U 1 1 5E3B1483
 P 1650 700
 F 0 "#PWR0123" H 1650 550 50  0001 C CNN
@@ -566,7 +553,7 @@ Wire Wire Line
 Wire Wire Line
 	900  1450 950  1450
 $Comp
-L power:25Vac #PWR0124
+L AAMB-rescue:25Vac-power #PWR0124
 U 1 1 5E3BCE97
 P 950 1375
 F 0 "#PWR0124" H 950 1225 50  0001 C CNN
@@ -804,5 +791,17 @@ F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizon
 F 3 "~" H 2700 4450 50  0001 C CNN
 	1    2700 4450
 	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J3
+U 1 1 5E3F968D
+P 9800 3925
+F 0 "J3" H 9875 3825 50  0000 L CNN
+F 1 "SPKR L" H 9875 3925 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 9800 3925 50  0001 C CNN
+F 3 "" H 9800 3925 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/phoenix-contact/1715022/277-1258-ND/260626" H 9800 3925 50  0001 C CNN "DigiKey"
+	1    9800 3925
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
