@@ -30,6 +30,21 @@ X -35V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
+# 25Vac-power
+#
+DEF 25Vac-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "25Vac-power" 0 140 39 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X 25Vac 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # BC546-transistors
 #
 DEF BC546-transistors Q 0 0 Y N 1 F N

@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:AAMB-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -528,7 +527,7 @@ Connection ~ 2000 5100
 Wire Wire Line
 	2000 5100 2000 4600
 $Comp
-L power:25Vac #PWR0123
+L AAMB-rescue:25Vac-power #PWR0123
 U 1 1 5E3B1483
 P 1650 700
 F 0 "#PWR0123" H 1650 550 50  0001 C CNN
@@ -554,7 +553,7 @@ Wire Wire Line
 Wire Wire Line
 	900  1450 950  1450
 $Comp
-L power:25Vac #PWR0124
+L AAMB-rescue:25Vac-power #PWR0124
 U 1 1 5E3BCE97
 P 950 1375
 F 0 "#PWR0124" H 950 1225 50  0001 C CNN

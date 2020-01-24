@@ -1,4 +1,4 @@
-update=1/23/2020 3:08:45 PM
+update=1/23/2020 11:49:10 PM
 version=1
 last_client=kicad
 [general]
@@ -251,7 +251,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=audio_5A
-Clearance=0.5
+Clearance=0.1
 TrackWidth=2
 ViaDiameter=2.6
 ViaDrill=1.3
