@@ -597,10 +597,8 @@ Wire Wire Line
 	6450 5000 6450 4950
 Connection ~ 5450 5000
 Connection ~ 6450 4600
-Connection ~ 5800 3650
 Wire Wire Line
 	7350 4800 7350 4850
-Connection ~ 6450 5000
 Wire Wire Line
 	7350 4900 7650 4900
 Wire Wire Line
@@ -676,7 +674,6 @@ F 3 "" H 6800 4600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6900 4800 6900 5000
-Connection ~ 6900 5000
 Wire Wire Line
 	6900 3600 6900 3650
 Connection ~ 6900 3650
@@ -707,7 +704,6 @@ Wire Wire Line
 	6900 2550 6900 2850
 Wire Wire Line
 	6900 1900 6900 2150
-Connection ~ 6450 1900
 Connection ~ 6900 2850
 $Comp
 L Device:C C207
@@ -747,7 +743,6 @@ Wire Wire Line
 	7600 2100 7600 2050
 Wire Wire Line
 	7600 2050 7300 2050
-Connection ~ 6900 1900
 Connection ~ 7300 2050
 $Comp
 L Device:Fuse F201
@@ -820,8 +815,6 @@ Wire Wire Line
 Wire Wire Line
 	6450 2350 6450 2400
 Wire Wire Line
-	6450 1900 6900 1900
-Wire Wire Line
 	6900 2850 6900 3300
 Wire Wire Line
 	7300 2050 7300 2100
@@ -830,7 +823,7 @@ Wire Wire Line
 	7450 2450 7600 2450
 Text Label 6950 1900 0    50   ~ 0
 P35_fused_R
-Text Label 6650 5000 0    50   ~ 0
+Text Label 6950 5000 0    50   ~ 0
 N35_fused_R
 Text Label 6800 4000 2    50   ~ 0
 pwr_fet_neg_R
@@ -882,10 +875,6 @@ Wire Wire Line
 	6900 5000 7350 5000
 Wire Wire Line
 	6900 3650 7350 3650
-Wire Wire Line
-	5800 3650 6900 3650
-Wire Wire Line
-	6450 5000 6900 5000
 Connection ~ 7450 2450
 Wire Wire Line
 	6900 1900 7300 1900
@@ -948,4 +937,67 @@ Wire Wire Line
 	8025 4500 7650 4500
 Connection ~ 7650 4500
 Connection ~ 6900 4000
+$Comp
+L Device:R R?
+U 1 1 5E342B52
+P 6675 5000
+AR Path="/5C7F608F/5E342B52" Ref="R?"  Part="1" 
+AR Path="/5C814038/5E342B52" Ref="R45"  Part="1" 
+F 0 "R45" V 6468 5000 50  0000 C CNN
+F 1 "0R" V 6559 5000 50  0000 C CNN
+F 2 "Resistor_SMD:R_2010_5025Metric_Pad1.52x2.65mm_HandSolder" V 6605 5000 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 6675 5000 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF1210ZT0R00/RMCF1210ZT0R00CT-ND/4250697" V 6675 5000 50  0001 C CNN "DigiKey"
+	1    6675 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E3463E6
+P 6675 1900
+AR Path="/5C7F608F/5E3463E6" Ref="R?"  Part="1" 
+AR Path="/5C814038/5E3463E6" Ref="R44"  Part="1" 
+F 0 "R44" V 6468 1900 50  0000 C CNN
+F 1 "0R" V 6559 1900 50  0000 C CNN
+F 2 "Resistor_SMD:R_2010_5025Metric_Pad1.52x2.65mm_HandSolder" V 6605 1900 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 6675 1900 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF1210ZT0R00/RMCF1210ZT0R00CT-ND/4250697" V 6675 1900 50  0001 C CNN "DigiKey"
+	1    6675 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6525 5000 6450 5000
+Connection ~ 6450 5000
+Wire Wire Line
+	6825 5000 6900 5000
+Connection ~ 6900 5000
+Text Label 5800 5000 0    50   ~ 0
+N35_low_pow_R
+Wire Wire Line
+	6900 1900 6825 1900
+Connection ~ 6900 1900
+Wire Wire Line
+	6525 1900 6450 1900
+Connection ~ 6450 1900
+Text Label 5850 1900 0    50   ~ 0
+P35_low_pow_R
+$Comp
+L Device:R R?
+U 1 1 5E359427
+P 6625 3650
+AR Path="/5C7F608F/5E359427" Ref="R?"  Part="1" 
+AR Path="/5C814038/5E359427" Ref="R43"  Part="1" 
+F 0 "R43" V 6418 3650 50  0000 C CNN
+F 1 "0R" V 6509 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_2010_5025Metric_Pad1.52x2.65mm_HandSolder" V 6555 3650 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 6625 3650 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF1210ZT0R00/RMCF1210ZT0R00CT-ND/4250697" V 6625 3650 50  0001 C CNN "DigiKey"
+	1    6625 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6775 3650 6900 3650
+Wire Wire Line
+	6475 3650 5800 3650
+Connection ~ 5800 3650
 $EndSCHEMATC
