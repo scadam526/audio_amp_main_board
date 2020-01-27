@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:AAMB-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1254,4 +1255,6 @@ F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    5850 6100
 	1    0    0    -1  
 $EndComp
+Text Label 6200 2425 0    50   ~ 0
+vca_in_R
 $EndSCHEMATC
