@@ -1,0 +1,230 @@
+
+(rules PCB AAMB
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 5653)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.8)
+      (against_preferred_direction_trace_costs 3.7)
+    )
+    (layer_rule In1.Cu
+      (active off)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.5)
+    )
+    (layer_rule In2.Cu
+      (active off)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.9)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.8)
+      (against_preferred_direction_trace_costs 2.3)
+    )
+  )
+  (rule
+    (width 200.0)
+    (clear 100.2)
+    (clear 100.0 (type smd_to_turn_gap))
+    (clear 400.2 (type default_N35V))
+    (clear 400.2 (type default_P35V))
+    (clear 400.2 (type default_"audio_pwr_neg"))
+    (clear 400.2 (type default_"audio_pwr_pos"))
+    (clear 25.0 (type smd_smd))
+    (clear 400.2 (type smd_N35V))
+    (clear 400.2 (type smd_P35V))
+    (clear 400.2 (type smd_"audio_pwr_neg"))
+    (clear 400.2 (type smd_"audio_pwr_pos"))
+    (clear 400.2 (type "kicad_default"_N35V))
+    (clear 400.2 (type "kicad_default"_P35V))
+    (clear 400.2 (type "kicad_default"_"audio_pwr_neg"))
+    (clear 400.2 (type "kicad_default"_"audio_pwr_pos"))
+    (clear 400.2 (type N35V_N35V))
+    (clear 400.2 (type N35V_P35V))
+    (clear 400.2 (type N35V_"audio_pwr_neg"))
+    (clear 400.2 (type N35V_"audio_pwr_pos"))
+    (clear 400.2 (type P35V_P35V))
+    (clear 400.2 (type P35V_"audio_pwr_neg"))
+    (clear 400.2 (type P35V_"audio_pwr_pos"))
+    (clear 400.2 (type "audio_pwr_neg"_"audio_pwr_neg"))
+    (clear 400.2 (type "audio_pwr_neg"_"audio_pwr_pos"))
+    (clear 400.2 (type "audio_pwr_pos"_"audio_pwr_pos"))
+  )
+  (padstack "Via[0-3]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-3]_2000:1300_um"
+    (shape
+      (circle F.Cu 2000.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 2000.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 2000.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 2000.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-3]_800:400_um" "Via[0-3]_800:400_um" default
+  )
+  (via 
+    "Via[0-3]_2000:1300_um" "Via[0-3]_2000:1300_um" default
+  )
+  (via 
+    "Via[0-3]_800:400_um-kicad_default" "Via[0-3]_800:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_2000:1300_um-kicad_default" "Via[0-3]_2000:1300_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_800:400_um-N35V" "Via[0-3]_800:400_um" N35V
+  )
+  (via 
+    "Via[0-3]_2000:1300_um-N35V" "Via[0-3]_2000:1300_um" N35V
+  )
+  (via 
+    "Via[0-3]_800:400_um-P35V" "Via[0-3]_800:400_um" P35V
+  )
+  (via 
+    "Via[0-3]_2000:1300_um-P35V" "Via[0-3]_2000:1300_um" P35V
+  )
+  (via 
+    "Via[0-3]_800:400_um-audio_pwr_neg" "Via[0-3]_800:400_um" "audio_pwr_neg"
+  )
+  (via 
+    "Via[0-3]_2000:1300_um-audio_pwr_neg" "Via[0-3]_2000:1300_um" "audio_pwr_neg"
+  )
+  (via 
+    "Via[0-3]_800:400_um-audio_pwr_pos" "Via[0-3]_800:400_um" "audio_pwr_pos"
+  )
+  (via 
+    "Via[0-3]_2000:1300_um-audio_pwr_pos" "Via[0-3]_2000:1300_um" "audio_pwr_pos"
+  )
+  (via_rule
+    default "Via[0-3]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-3]_800:400_um-kicad_default"
+  )
+  (via_rule
+    N35V "Via[0-3]_2000:1300_um-N35V"
+  )
+  (via_rule
+    P35V "Via[0-3]_2000:1300_um-P35V"
+  )
+  (via_rule
+    "audio_pwr_neg" "Via[0-3]_2000:1300_um-audio_pwr_neg"
+  )
+  (via_rule
+    "audio_pwr_pos" "Via[0-3]_2000:1300_um-audio_pwr_pos"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    GND "Net-(C201-Pad2)" "Net-(C202-Pad1)" "Net-(C203-Pad2)" "Net-(C204-Pad1)" "Net-(C204-Pad2)" "Net-(C205-Pad2)" "Net-(C206-Pad2)"
+    "Net-(C206-Pad1)" "Net-(C306-Pad1)" "Net-(D201-Pad2)" "Net-(Q201-Pad2)" "Net-(Q201-Pad3)" "Net-(Q205-Pad2)" "Net-(C207-Pad1)" "Net-(Q202-Pad2)"
+    "Net-(Q203-Pad3)" "Net-(Q209-Pad2)" "Net-(C301-Pad2)" "Net-(C302-Pad1)" "Net-(C303-Pad2)" "Net-(C304-Pad2)" "Net-(C304-Pad1)" "Net-(C305-Pad2)"
+    "Net-(C306-Pad2)" "Net-(C307-Pad1)" "Net-(D301-Pad2)" "Net-(Q301-Pad3)" "Net-(Q301-Pad2)" "Net-(Q302-Pad2)" "Net-(Q303-Pad3)" "Net-(Q305-Pad2)"
+    "Net-(Q309-Pad2)" "Net-(C1-Pad1)" "Net-(C2-Pad1)" "Net-(C3-Pad2)" "Net-(C3-Pad1)" "Net-(C4-Pad1)" "Net-(C5-Pad1)" "Net-(C6-Pad1)"
+    "Net-(C7-Pad1)" "Net-(C7-Pad2)" "Net-(C8-Pad1)" "Net-(C8-Pad2)" "/volume/v_ec-" "Net-(C11-Pad2)" "Net-(C11-Pad1)" "Net-(C12-Pad1)"
+    "Net-(C12-Pad2)" "/line_audio_R" "Net-(C13-Pad1)" "/line_audio_L" "Net-(C14-Pad1)" +12V "-12V" "Net-(D1-Pad1)"
+    "Net-(D3-Pad2)" "Net-(D8-Pad2)" "Net-(D9-Pad1)" "Net-(D10-Pad2)" "/short_protection_muting/RLY_+L" "/short_protection_muting/RLY_-L_+R" "Net-(D12-Pad2)" 25Vac
+    "/input_select/IN3_L" "/input_select/IN3_R" "/input_select/IN2_L" "/input_select/IN2_R" "/input_select/IN1_L" "/input_select/IN1_R" "/input_select/IN4_L" "/input_select/IN4_R"
+    "/volume/vol_pot_3" "/volume/vol_pot_2" "/volume/vol_pot_1" "/input_select/input_sw_com" "/input_select/input_sw_3" "/input_select/input_sw_2" "/input_select/input_sw_1" "Net-(Q1-Pad1)"
+    "Net-(Q2-Pad2)" "Net-(Q2-Pad3)" "Net-(Q2-Pad1)" "Net-(Q3-Pad1)" "Net-(Q3-Pad2)" "Net-(R18-Pad1)" "Net-(R20-Pad1)" "Net-(R20-Pad2)"
+    "Net-(R21-Pad2)" "/pre_vol_audio_R" "/pre_vol_audio_L" "Net-(R24-Pad2)" "Net-(R27-Pad2)" "Net-(R30-Pad2)" "Net-(R31-Pad2)" "Net-(R38-Pad1)"
+    "Net-(R39-Pad1)" "Net-(U4-Pad4)" "Net-(U4-Pad13)" "Net-(U6-Pad10)" "Net-(U6-Pad11)" "Net-(C205-Pad1)" "Net-(C305-Pad1)" "/audio_pwr_L/N35_low_pow_L"
+    "/audio_pwr_L/P35_low_pow_L" "/audio_pwr_R/P35_low_pow_R" "/volume/vca_in_R"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class N35V
+    "/audio_pwr_L/N35_fused_L" "/audio_pwr_R/N35_fused_R" "/short_protection_muting/audio_rly_out_R" "/pwr_audio_R" "-35V" "/audio_pwr_R/N35_low_pow_R"
+    (clearance_class N35V)
+    (via_rule N35V)
+    (rule
+      (width 2000.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class P35V
+    "/audio_pwr_L/P35_fused_L" "/audio_pwr_R/P35_fused_R" "/short_protection_muting/audio_rly_out_L" "/pwr_audio_L" +35V
+    (clearance_class P35V)
+    (via_rule P35V)
+    (rule
+      (width 2000.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class "audio_pwr_neg"
+    "/audio_pwr_L/pwr_fet_neg_L" "/audio_pwr_R/pwr_fet_neg_R"
+    (clearance_class "audio_pwr_neg")
+    (via_rule audio_pwr_neg)
+    (rule
+      (width 2000.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class "audio_pwr_pos"
+    "/audio_pwr_L/pwr_fet_pos_L" "/audio_pwr_R/pwr_fet_pos_R"
+    (clearance_class "audio_pwr_pos")
+    (via_rule audio_pwr_pos)
+    (rule
+      (width 2000.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+)
