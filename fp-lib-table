@@ -1,5 +1,5 @@
 (fp_lib_table
-  (lib (name Murata-POT)(type KiCad)(uri "C:/Users/shawn.adams/Documents/Local Files/amp/KiCAD/Rev04/lib/ul_PV36W202C01B00/KiCAD/2020-01-13_04-10-39/footprints.pretty")(options "")(descr ""))
-  (lib (name Fuseholders)(type KiCad)(uri "C:/Users/shawn.adams/Documents/Local Files/amp/KiCAD/Rev04/lib/Fuse_Holders_and_Fuses.pretty-master")(options "")(descr ""))
-  (lib (name Connectors-amp)(type KiCad)(uri "C:/Users/shawn.adams/Documents/Local Files/amp/KiCAD/Rev04/parts/PJRAS4X2U01X")(options "")(descr ""))
+  (lib (name Murata-POT)(type KiCad)(uri "C:/Users/shawn.adams/Documents/Local Files/amp/KiCAD/Rev04/lib/ul_PV36W202C01B00/KiCAD/2020-01-13_04-10-39/footprints.pretty")(options "")(descr "")(disabled))
+  (lib (name Fuseholders)(type KiCad)(uri "C:/Users/shawn.adams/Documents/Local Files/amp/KiCAD/Rev04/lib/Fuse_Holders_and_Fuses.pretty-master")(options "")(descr "")(disabled))
+  (lib (name Connectors-amp)(type KiCad)(uri "C:/Users/shawn.adams/Documents/Local Files/amp/KiCAD/Rev04/parts/PJRAS4X2U01X")(options "")(descr "")(disabled))
 )
