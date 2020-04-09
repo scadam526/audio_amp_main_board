@@ -107,8 +107,10 @@ P 6700 5225
 F 0 "U4" H 6275 5500 50  0000 L CNN
 F 1 "THAT2180" H 6900 5100 50  0000 L CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_SMDSocket_SmallPads" H 7100 4475 50  0001 C CNN
-F 3 "" H 7250 5275 50  0001 C CNN
+F 3 "https://www.mill-max.com/assets/pdfs/metric/108M.pdf" H 7250 5275 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/mill-max-manufacturing-corp/214-99-316-01-670800/ED2130-ND/9895" H 6700 5225 50  0001 C CNN "DigiKey"
+F 5 "Mill-Max Manufacturing Corp." H 6700 5225 50  0001 C CNN "MFG"
+F 6 "214-99-316-01-670800" H 6700 5225 50  0001 C CNN "MPN"
 	2    6700 5225
 	1    0    0    -1  
 $EndComp
@@ -119,8 +121,10 @@ P 6700 2425
 F 0 "U4" H 6275 2700 50  0000 L CNN
 F 1 "THAT2180" H 6900 2300 50  0000 L CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_SMDSocket_SmallPads" H 7100 1675 50  0001 C CNN
-F 3 "" H 7250 2475 50  0001 C CNN
+F 3 "https://www.mill-max.com/assets/pdfs/metric/108M.pdf" H 7250 2475 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/mill-max-manufacturing-corp/214-99-316-01-670800/ED2130-ND/9895" H 6700 2425 50  0001 C CNN "DigiKey"
+F 5 "Mill-Max Manufacturing Corp." H 6700 2425 50  0001 C CNN "MFG"
+F 6 "214-99-316-01-670800" H 6700 2425 50  0001 C CNN "MPN"
 	1    6700 2425
 	1    0    0    -1  
 $EndComp
@@ -464,8 +468,11 @@ U 1 1 5E342F04
 P 5625 5225
 F 0 "C8" V 5370 5225 50  0000 C CNN
 F 1 "10u" V 5461 5225 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 5663 5075 50  0001 C CNN
-F 3 "~" H 5625 5225 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_5x3" H 5663 5075 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/865080642006.pdf" H 5625 5225 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/865080642006/732-8451-1-ND/5728408" H 5625 5225 50  0001 C CNN "DigiKey"
+F 5 "Würth Elektronik" H 5625 5225 50  0001 C CNN "MFG"
+F 6 "865080642006" H 5625 5225 50  0001 C CNN "MPN"
 	1    5625 5225
 	0    1    1    0   
 $EndComp
@@ -476,7 +483,10 @@ P 7725 5550
 F 0 "C12" V 7575 5550 50  0000 C CNN
 F 1 "22p" V 7500 5550 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7763 5400 50  0001 C CNN
-F 3 "~" H 7725 5550 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/885012006053.pdf" H 7725 5550 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/885012006053/732-7795-1-ND/5454422" H 7725 5550 50  0001 C CNN "DigiKey"
+F 5 "Würth Elektronik" H 7725 5550 50  0001 C CNN "MFG"
+F 6 "885012006053" H 7725 5550 50  0001 C CNN "MPN"
 	1    7725 5550
 	0    1    -1   0   
 $EndComp
@@ -486,8 +496,11 @@ U 1 1 5E349407
 P 8750 4850
 F 0 "C14" V 9005 4850 50  0000 C CNN
 F 1 "10u" V 8914 4850 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 8788 4700 50  0001 C CNN
-F 3 "~" H 8750 4850 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_5x3" H 8788 4700 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/865080642006.pdf" H 8750 4850 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/865080642006/732-8451-1-ND/5728408" H 8750 4850 50  0001 C CNN "DigiKey"
+F 5 "Würth Elektronik" H 8750 4850 50  0001 C CNN "MFG"
+F 6 "865080642006" H 8750 4850 50  0001 C CNN "MPN"
 	1    8750 4850
 	0    -1   -1   0   
 $EndComp
@@ -716,6 +729,8 @@ F 1 "1000u" H 5500 3275 50  0000 L CNN
 F 2 "Capacitor_SMD:C_Elec_10x10.2" H 5888 3150 50  0001 C CNN
 F 3 "https://na.industrial.panasonic.com/file-download/3122" H 5850 3300 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/EEV-FK1E102Q/PCE3462TR-ND/396274" H 5850 3300 50  0001 C CNN "DigiKey"
+F 5 "Panasonic Electronic Components" H 5850 3300 50  0001 C CNN "MFG"
+F 6 "EEV-FK1E102Q" H 5850 3300 50  0001 C CNN "MPN"
 	1    5850 3300
 	1    0    0    -1  
 $EndComp
@@ -725,8 +740,11 @@ U 1 1 5E3A8ED3
 P 5625 2425
 F 0 "C7" V 5370 2425 50  0000 C CNN
 F 1 "10u" V 5461 2425 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 5663 2275 50  0001 C CNN
-F 3 "~" H 5625 2425 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_5x3" H 5663 2275 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/865080642006.pdf" H 5625 2425 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/865080642006/732-8451-1-ND/5728408" H 5625 2425 50  0001 C CNN "DigiKey"
+F 5 "Würth Elektronik" H 5625 2425 50  0001 C CNN "MFG"
+F 6 "865080642006" H 5625 2425 50  0001 C CNN "MPN"
 	1    5625 2425
 	0    1    1    0   
 $EndComp
@@ -737,7 +755,10 @@ P 7725 2750
 F 0 "C11" V 7575 2750 50  0000 C CNN
 F 1 "22p" V 7500 2750 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7763 2600 50  0001 C CNN
-F 3 "~" H 7725 2750 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/885012006053.pdf" H 7725 2750 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/885012006053/732-7795-1-ND/5454422" H 7725 2750 50  0001 C CNN "DigiKey"
+F 5 "Würth Elektronik" H 7725 2750 50  0001 C CNN "MFG"
+F 6 "885012006053" H 7725 2750 50  0001 C CNN "MPN"
 	1    7725 2750
 	0    1    -1   0   
 $EndComp
@@ -864,6 +885,8 @@ F 1 "0.1u" H 1015 905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 938 800 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C104Z3VACTU.pdf" H 900 950 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104Z3VACTU/399-1100-1-ND/411375" H 900 950 50  0001 C CNN "DigiKey"
+F 5 "KEMET" H 900 950 50  0001 C CNN "MFG"
+F 6 "C0603C104Z3VACTU" H 900 950 50  0001 C CNN "MPN"
 	1    900  950 
 	1    0    0    -1  
 $EndComp
@@ -1157,6 +1180,8 @@ F 1 "0.1u" H 1015 1255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 938 1150 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C104Z3VACTU.pdf" H 900 1300 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104Z3VACTU/399-1100-1-ND/411375" H 900 1300 50  0001 C CNN "DigiKey"
+F 5 "KEMET" H 900 1300 50  0001 C CNN "MFG"
+F 6 "C0603C104Z3VACTU" H 900 1300 50  0001 C CNN "MPN"
 	1    900  1300
 	1    0    0    -1  
 $EndComp
@@ -1169,6 +1194,8 @@ F 1 "0.1u" H 2390 905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2313 800 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C104Z3VACTU.pdf" H 2275 950 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104Z3VACTU/399-1100-1-ND/411375" H 2275 950 50  0001 C CNN "DigiKey"
+F 5 "KEMET" H 2275 950 50  0001 C CNN "MFG"
+F 6 "C0603C104Z3VACTU" H 2275 950 50  0001 C CNN "MPN"
 	1    2275 950 
 	-1   0    0    -1  
 $EndComp
@@ -1181,6 +1208,8 @@ F 1 "0.1u" H 2390 1255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2313 1150 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C104Z3VACTU.pdf" H 2275 1300 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104Z3VACTU/399-1100-1-ND/411375" H 2275 1300 50  0001 C CNN "DigiKey"
+F 5 "KEMET" H 2275 1300 50  0001 C CNN "MFG"
+F 6 "C0603C104Z3VACTU" H 2275 1300 50  0001 C CNN "MPN"
 	1    2275 1300
 	-1   0    0    -1  
 $EndComp
@@ -1193,6 +1222,8 @@ F 1 "0.1u" H 3090 880 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3013 775 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C104Z3VACTU.pdf" H 2975 925 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104Z3VACTU/399-1100-1-ND/411375" H 2975 925 50  0001 C CNN "DigiKey"
+F 5 "KEMET" H 2975 925 50  0001 C CNN "MFG"
+F 6 "C0603C104Z3VACTU" H 2975 925 50  0001 C CNN "MPN"
 	1    2975 925 
 	-1   0    0    -1  
 $EndComp
@@ -1205,6 +1236,8 @@ F 1 "0.1u" H 3090 1230 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3013 1125 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C104Z3VACTU.pdf" H 2975 1275 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104Z3VACTU/399-1100-1-ND/411375" H 2975 1275 50  0001 C CNN "DigiKey"
+F 5 "KEMET" H 2975 1275 50  0001 C CNN "MFG"
+F 6 "C0603C104Z3VACTU" H 2975 1275 50  0001 C CNN "MPN"
 	1    2975 1275
 	-1   0    0    -1  
 $EndComp
@@ -1217,6 +1250,8 @@ F 1 "0.1u" H 3590 880 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3513 775 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C104Z3VACTU.pdf" H 3475 925 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104Z3VACTU/399-1100-1-ND/411375" H 3475 925 50  0001 C CNN "DigiKey"
+F 5 "KEMET" H 3475 925 50  0001 C CNN "MFG"
+F 6 "C0603C104Z3VACTU" H 3475 925 50  0001 C CNN "MPN"
 	1    3475 925 
 	1    0    0    -1  
 $EndComp
@@ -1229,6 +1264,8 @@ F 1 "0.1u" H 3590 1230 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3513 1125 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C104Z3VACTU.pdf" H 3475 1275 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104Z3VACTU/399-1100-1-ND/411375" H 3475 1275 50  0001 C CNN "DigiKey"
+F 5 "KEMET" H 3475 1275 50  0001 C CNN "MFG"
+F 6 "C0603C104Z3VACTU" H 3475 1275 50  0001 C CNN "MPN"
 	1    3475 1275
 	1    0    0    -1  
 $EndComp
@@ -1238,8 +1275,11 @@ U 1 1 5E3A8EDF
 P 8750 2050
 F 0 "C13" V 9005 2050 50  0000 C CNN
 F 1 "10u" V 8914 2050 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 8788 1900 50  0001 C CNN
-F 3 "~" H 8750 2050 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_5x3" H 8788 1900 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/865080642006.pdf" H 8750 2050 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/865080642006/732-8451-1-ND/5728408" H 8750 2050 50  0001 C CNN "DigiKey"
+F 5 "Würth Elektronik" H 8750 2050 50  0001 C CNN "MFG"
+F 6 "865080642006" H 8750 2050 50  0001 C CNN "MPN"
 	1    8750 2050
 	0    -1   -1   0   
 $EndComp
@@ -1252,6 +1292,8 @@ F 1 "1000u" H 5500 6075 50  0000 L CNN
 F 2 "Capacitor_SMD:C_Elec_10x10.2" H 5888 5950 50  0001 C CNN
 F 3 "https://na.industrial.panasonic.com/file-download/3122" H 5850 6100 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/EEV-FK1E102Q/PCE3462TR-ND/396274" H 5850 6100 50  0001 C CNN "DigiKey"
+F 5 "Panasonic Electronic Components" H 5850 6100 50  0001 C CNN "MFG"
+F 6 "EEV-FK1E102Q" H 5850 6100 50  0001 C CNN "MPN"
 	1    5850 6100
 	1    0    0    -1  
 $EndComp

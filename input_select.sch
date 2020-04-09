@@ -68,6 +68,8 @@ F 1 "DG509BEQ-T1-E3" H 5825 2125 50  0000 C CNN
 F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 5725 2025 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/64821/dg508b.pdf" H 5775 3025 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/vishay-siliconix/DG509BEQ-T1-E3/DG509BEQ-T1-E3CT-ND/2296900" H 7075 1925 50  0001 C CNN "DigiKey"
+F 5 "Vishay Siliconix" H 5775 3025 50  0001 C CNN "MFG"
+F 6 "DG509BEQ-T1-E3" H 5775 3025 50  0001 C CNN "MPN"
 	1    5775 3025
 	1    0    0    -1  
 $EndComp
@@ -195,6 +197,8 @@ F 1 "CD4071B" H 2950 2549 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3500 1025 50  0001 C CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fcd4071b" H 1300 2075 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/texas-instruments/CD4071BM96/296-25953-1-ND/2254806" H 4650 925 50  0001 C CNN "DigiKey"
+F 5 "Texas Instruments" H 2550 2325 50  0001 C CNN "MFG"
+F 6 "CD4071BM96" H 2550 2325 50  0001 C CNN "MPN"
 	1    2550 2325
 	1    0    0    -1  
 $EndComp
@@ -354,6 +358,8 @@ F 1 "0.1u" H 2365 1830 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2288 1725 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C104Z3VACTU.pdf" H 2250 1875 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104Z3VACTU/399-1100-1-ND/411375" H 2250 1875 50  0001 C CNN "DigiKey"
+F 5 "KEMET" H 2250 1875 50  0001 C CNN "MFG"
+F 6 "C0603C104Z3VACTU" H 2250 1875 50  0001 C CNN "MPN"
 	1    2250 1875
 	1    0    0    -1  
 $EndComp
@@ -368,6 +374,8 @@ F 1 "0.1u" H 6965 2705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6888 2600 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C104Z3VACTU.pdf" H 6850 2750 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104Z3VACTU/399-1100-1-ND/411375" H 6850 2750 50  0001 C CNN "DigiKey"
+F 5 "KEMET" H 6850 2750 50  0001 C CNN "MFG"
+F 6 "C0603C104Z3VACTU" H 6850 2750 50  0001 C CNN "MPN"
 	1    6850 2750
 	1    0    0    -1  
 $EndComp

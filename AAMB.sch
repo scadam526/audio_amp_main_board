@@ -35,9 +35,11 @@ P 1800 3500
 F 0 "J2" H 1744 3839 50  0000 C CNN
 F 1 "PJRAS4X2U01X" H 1525 3775 50  0001 L BNN
 F 2 "Connectors-amp:PJRAS4X2U01X" H 1525 3850 50  0001 L BNN
-F 3 "" H 1725 3600 50  0001 L BNN
+F 3 "http://www.switchcraft.com/Drawings/pjras4x2u__x_series_cd.pdf" H 1725 3600 50  0001 L BNN
 F 4 "" H 1525 3300 50  0001 L BNN "Field4"
-F 5 "http://datasheets.diptrace.com/con_rca_jack/pjras4x2u__x_series_cd.pdf" H 1800 3500 50  0001 C CNN "DigiKey"
+F 5 "https://www.digikey.com/product-detail/en/switchcraft-inc/PJRAS4X2U01X/SC1537-ND/1289095?utm_adgroup=Barrel%20-%20Audio%20Connectors&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Connectors%2C%20Interconnects_NEW&utm_term=&utm_content=Barrel%20-%20Audio%20Connectors&gclid=CjwKCAjw7LX0BRBiEiwA__gNw-m2KtOPxMMQirDxre9hdMI7n4u67jcnrS7_d8-2Y6lwXiGIujj8URoCMcYQAvD_BwE" H 1800 3500 50  0001 C CNN "DigiKey"
+F 6 "Switchcraft Inc." H 1800 3500 50  0001 C CNN "MFG"
+F 7 "PJRAS4X2U01X" H 1800 3500 50  0001 C CNN "MPN"
 	1    1800 3500
 	1    0    0    -1  
 $EndComp
@@ -48,9 +50,11 @@ P 1800 4000
 F 0 "J2" H 1744 4339 50  0000 C CNN
 F 1 "PJRAS4X2U01X" H 1525 4275 50  0001 L BNN
 F 2 "Connectors-amp:PJRAS4X2U01X" H 1525 4350 50  0001 L BNN
-F 3 "" H 1725 4100 50  0001 L BNN
+F 3 "http://www.switchcraft.com/Drawings/pjras4x2u__x_series_cd.pdf" H 1725 4100 50  0001 L BNN
 F 4 "" H 1525 3800 50  0001 L BNN "Field4"
-F 5 "http://datasheets.diptrace.com/con_rca_jack/pjras4x2u__x_series_cd.pdf" H 1800 4000 50  0001 C CNN "DigiKey"
+F 5 "https://www.digikey.com/product-detail/en/switchcraft-inc/PJRAS4X2U01X/SC1537-ND/1289095?utm_adgroup=Barrel%20-%20Audio%20Connectors&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Connectors%2C%20Interconnects_NEW&utm_term=&utm_content=Barrel%20-%20Audio%20Connectors&gclid=CjwKCAjw7LX0BRBiEiwA__gNw-m2KtOPxMMQirDxre9hdMI7n4u67jcnrS7_d8-2Y6lwXiGIujj8URoCMcYQAvD_BwE" H 1800 4000 50  0001 C CNN "DigiKey"
+F 6 "Switchcraft Inc." H 1800 4000 50  0001 C CNN "MFG"
+F 7 "PJRAS4X2U01X" H 1800 4000 50  0001 C CNN "MPN"
 	2    1800 4000
 	1    0    0    -1  
 $EndComp
@@ -61,9 +65,11 @@ P 1800 4500
 F 0 "J2" H 1744 4839 50  0000 C CNN
 F 1 "PJRAS4X2U01X" H 1525 4775 50  0001 L BNN
 F 2 "Connectors-amp:PJRAS4X2U01X" H 1525 4850 50  0001 L BNN
-F 3 "" H 1725 4600 50  0001 L BNN
+F 3 "http://www.switchcraft.com/Drawings/pjras4x2u__x_series_cd.pdf" H 1725 4600 50  0001 L BNN
 F 4 "" H 1525 4300 50  0001 L BNN "Field4"
-F 5 "http://datasheets.diptrace.com/con_rca_jack/pjras4x2u__x_series_cd.pdf" H 1800 4500 50  0001 C CNN "DigiKey"
+F 5 "https://www.digikey.com/product-detail/en/switchcraft-inc/PJRAS4X2U01X/SC1537-ND/1289095?utm_adgroup=Barrel%20-%20Audio%20Connectors&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Connectors%2C%20Interconnects_NEW&utm_term=&utm_content=Barrel%20-%20Audio%20Connectors&gclid=CjwKCAjw7LX0BRBiEiwA__gNw-m2KtOPxMMQirDxre9hdMI7n4u67jcnrS7_d8-2Y6lwXiGIujj8URoCMcYQAvD_BwE" H 1800 4500 50  0001 C CNN "DigiKey"
+F 6 "Switchcraft Inc." H 1800 4500 50  0001 C CNN "MFG"
+F 7 "PJRAS4X2U01X" H 1800 4500 50  0001 C CNN "MPN"
 	3    1800 4500
 	1    0    0    -1  
 $EndComp
@@ -74,9 +80,11 @@ P 1800 5000
 F 0 "J2" H 1744 5339 50  0000 C CNN
 F 1 "PJRAS4X2U01X" H 1525 5275 50  0001 L BNN
 F 2 "Connectors-amp:PJRAS4X2U01X" H 1525 5350 50  0001 L BNN
-F 3 "" H 1725 5100 50  0001 L BNN
+F 3 "http://www.switchcraft.com/Drawings/pjras4x2u__x_series_cd.pdf" H 1725 5100 50  0001 L BNN
 F 4 "" H 1525 4800 50  0001 L BNN "Field4"
-F 5 "http://datasheets.diptrace.com/con_rca_jack/pjras4x2u__x_series_cd.pdf" H 1800 5000 50  0001 C CNN "DigiKey"
+F 5 "https://www.digikey.com/product-detail/en/switchcraft-inc/PJRAS4X2U01X/SC1537-ND/1289095?utm_adgroup=Barrel%20-%20Audio%20Connectors&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Connectors%2C%20Interconnects_NEW&utm_term=&utm_content=Barrel%20-%20Audio%20Connectors&gclid=CjwKCAjw7LX0BRBiEiwA__gNw-m2KtOPxMMQirDxre9hdMI7n4u67jcnrS7_d8-2Y6lwXiGIujj8URoCMcYQAvD_BwE" H 1800 5000 50  0001 C CNN "DigiKey"
+F 6 "Switchcraft Inc." H 1800 5000 50  0001 C CNN "MFG"
+F 7 "PJRAS4X2U01X" H 1800 5000 50  0001 C CNN "MPN"
 	4    1800 5000
 	1    0    0    -1  
 $EndComp
@@ -156,10 +164,12 @@ L Connector:Screw_Terminal_01x02 J4
 U 1 1 5E3FA9B2
 P 9800 4175
 F 0 "J4" H 9875 4075 50  0000 L CNN
-F 1 "SPKR R" H 9875 4175 50  0000 L CNN
+F 1 "SPKR" H 9875 4175 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 9800 4175 50  0001 C CNN
-F 3 "" H 9800 4175 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/phoenix-contact/1715022/277-1258-ND/260626" H 9800 4175 50  0001 C CNN "DigiKey"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf" H 9800 4175 50  0001 C CNN
+F 4 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf" H 9800 4175 50  0001 C CNN "DigiKey"
+F 5 "Phoenix Contact" H 9800 4175 50  0001 C CNN "MFG"
+F 6 "1935161" H 9800 4175 50  0001 C CNN "MPN"
 	1    9800 4175
 	1    0    0    -1  
 $EndComp
@@ -170,7 +180,10 @@ P 700 1550
 F 0 "J1" H 618 1775 50  0000 C CNN
 F 1 "Screw_Terminal_01x04" H 618 1776 50  0001 C CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal" H 700 1550 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/phoenix-contact/1729034/277-1238-ND/260606" H 700 1550 50  0001 C CNN
+F 3 "https://www.cuidevices.com/product/resource/tb001-500.pdf" H 700 1550 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/cui-devices/TB001-500-04BE/102-6136-ND/10064060" H 700 1550 50  0001 C CNN "DigiKey"
+F 5 "CUI Devices" H 700 1550 50  0001 C CNN "MFG"
+F 6 "TB001-500-04BE" H 700 1550 50  0001 C CNN "MPN"
 	1    700  1550
 	-1   0    0    -1  
 $EndComp
@@ -185,7 +198,10 @@ P 1575 1600
 F 0 "J5" H 1493 1825 50  0000 C CNN
 F 1 "Screw_Terminal_01x03" H 1493 1826 50  0001 C CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal" H 1575 1600 50  0001 C CNN
-F 3 "~" H 1575 1600 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935174.pdf" H 1575 1600 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/phoenix-contact/1935174/277-1578-ND/568615" H 1575 1600 50  0001 C CNN "DigiKey"
+F 5 "Phoenix Contact" H 1575 1600 50  0001 C CNN "MFG"
+F 6 "1935174" H 1575 1600 50  0001 C CNN "MPN"
 	1    1575 1600
 	-1   0    0    -1  
 $EndComp
@@ -257,7 +273,10 @@ P 4850 4250
 F 0 "J6" H 4768 4475 50  0000 C CNN
 F 1 "Screw_Terminal_01x03" H 4768 4476 50  0001 C CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal" H 4850 4250 50  0001 C CNN
-F 3 "~" H 4850 4250 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935174.pdf" H 4850 4250 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/phoenix-contact/1935174/277-1578-ND/568615" H 4850 4250 50  0001 C CNN "DigiKey"
+F 5 "Phoenix Contact" H 4850 4250 50  0001 C CNN "MFG"
+F 6 "1935174" H 4850 4250 50  0001 C CNN "MPN"
 	1    4850 4250
 	-1   0    0    -1  
 $EndComp
@@ -617,7 +636,7 @@ L Connector:TestPoint_2Pole TP1
 U 1 1 5E470BA4
 P 4950 5025
 F 0 "TP1" H 4950 5220 50  0000 C CNN
-F 1 "post_sw_pre_vol_L" H 4950 5129 50  0000 C CNN
+F 1 "TP" H 4950 5129 50  0000 C CNN
 F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 4950 5025 50  0001 C CNN
 F 3 "~" H 4950 5025 50  0001 C CNN
 	1    4950 5025
@@ -643,9 +662,10 @@ L Connector:TestPoint_2Pole TP2
 U 1 1 5E475BA6
 P 4950 5450
 F 0 "TP2" H 4950 5645 50  0000 C CNN
-F 1 "post_sw_pre_vol_R" H 4950 5554 50  0000 C CNN
+F 1 "TP" H 4950 5554 50  0001 C CNN
 F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 4950 5450 50  0001 C CNN
 F 3 "~" H 4950 5450 50  0001 C CNN
+F 4 "pre_vol_audio_R" H 4945 5365 50  0000 C CNN "Note"
 	1    4950 5450
 	1    0    0    -1  
 $EndComp
@@ -671,7 +691,7 @@ L Connector:TestPoint_2Pole TP3
 U 1 1 5E4977C7
 P 6700 4625
 F 0 "TP3" H 6700 4820 50  0000 C CNN
-F 1 "post_vol_pre_amp_L" H 6700 4729 50  0000 C CNN
+F 1 "TP" H 6700 4729 50  0000 C CNN
 F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 6700 4625 50  0001 C CNN
 F 3 "~" H 6700 4625 50  0001 C CNN
 	1    6700 4625
@@ -697,7 +717,7 @@ L Connector:TestPoint_2Pole TP4
 U 1 1 5E4977D5
 P 6700 5050
 F 0 "TP4" H 6700 5245 50  0000 C CNN
-F 1 "post_vol_pre_amp_R" H 6700 5154 50  0000 C CNN
+F 1 "TP" H 6700 5154 50  0000 C CNN
 F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 6700 5050 50  0001 C CNN
 F 3 "~" H 6700 5050 50  0001 C CNN
 	1    6700 5050
@@ -723,7 +743,7 @@ L Connector:TestPoint_2Pole TP5
 U 1 1 5E49F891
 P 8350 4725
 F 0 "TP5" H 8350 4920 50  0000 C CNN
-F 1 "post_amp_pre_rly_L" H 8350 4829 50  0000 C CNN
+F 1 "TP" H 8350 4829 50  0000 C CNN
 F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 8350 4725 50  0001 C CNN
 F 3 "~" H 8350 4725 50  0001 C CNN
 	1    8350 4725
@@ -749,7 +769,7 @@ L Connector:TestPoint_2Pole TP6
 U 1 1 5E49F89F
 P 8350 5150
 F 0 "TP6" H 8350 5345 50  0000 C CNN
-F 1 "post_amp_pre_rly_R" H 8350 5254 50  0000 C CNN
+F 1 "TP" H 8350 5254 50  0000 C CNN
 F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 8350 5150 50  0001 C CNN
 F 3 "~" H 8350 5150 50  0001 C CNN
 	1    8350 5150
@@ -789,7 +809,10 @@ P 2700 4450
 F 0 "J7" H 2618 4675 50  0000 C CNN
 F 1 "Screw_Terminal_01x04" H 2618 4676 50  0001 C CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal" H 2700 4450 50  0001 C CNN
-F 3 "~" H 2700 4450 50  0001 C CNN
+F 3 "https://www.cuidevices.com/product/resource/tb001-500.pdf" H 2700 4450 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/cui-devices/TB001-500-04BE/102-6136-ND/10064060" H 2700 4450 50  0001 C CNN "DigiKey"
+F 5 "CUI Devices" H 2700 4450 50  0001 C CNN "MFG"
+F 6 "TB001-500-04BE" H 2700 4450 50  0001 C CNN "MPN"
 	1    2700 4450
 	-1   0    0    -1  
 $EndComp
@@ -798,10 +821,12 @@ L Connector:Screw_Terminal_01x02 J3
 U 1 1 5E3F968D
 P 9800 3925
 F 0 "J3" H 9875 3825 50  0000 L CNN
-F 1 "SPKR L" H 9875 3925 50  0000 L CNN
+F 1 "SPKR" H 9875 3925 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 9800 3925 50  0001 C CNN
-F 3 "" H 9800 3925 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/phoenix-contact/1715022/277-1258-ND/260626" H 9800 3925 50  0001 C CNN "DigiKey"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf" H 9800 3925 50  0001 C CNN
+F 4 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf" H 9800 3925 50  0001 C CNN "DigiKey"
+F 5 "Phoenix Contact" H 9800 3925 50  0001 C CNN "MFG"
+F 6 "1935161" H 9800 3925 50  0001 C CNN "MPN"
 	1    9800 3925
 	1    0    0    -1  
 $EndComp

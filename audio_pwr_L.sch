@@ -53,8 +53,11 @@ U 1 1 5C7F66C4
 P 3000 4050
 F 0 "C202" H 3025 4150 50  0000 L CNN
 F 1 "100p" H 3025 3950 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm" H 3038 3900 50  0001 C CNN
-F 3 "" H 3000 4050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3038 3900 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/885012006057.pdf" H 3000 4050 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/885012006057/732-7799-1-ND/5454426" H 3000 4050 50  0001 C CNN "DigiKey"
+F 5 "Würth Elektronik" H 3000 4050 50  0001 C CNN "MFG"
+F 6 "885012006057" H 3000 4050 50  0001 C CNN "MPN"
 	1    3000 4050
 	1    0    0    -1  
 $EndComp
@@ -64,9 +67,12 @@ U 1 1 5E1CCAE6
 P 3850 4600
 F 0 "D201" H 3850 4700 50  0000 C CNN
 F 1 "LED" H 3850 4500 50  0000 C CNN
-F 2 "LED_THT:LED_D3.0mm" H 3850 4600 50  0001 C CNN
-F 3 "" H 3850 4600 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3850 4600 50  0001 C CNN
+F 3 "https://d1d2qsbl8m0m72.cloudfront.net/en/products/databook/datasheet/opto/led/chip_mono/sml-d12x1-e.pdf" H 3850 4600 50  0001 C CNN
 F 4 "2.2V" H 3850 4600 60  0001 C CNN "Vf"
+F 5 "https://www.digikey.com/product-detail/en/rohm-semiconductor/SML-D12U1WT86/SML-D12U1WT86CT-ND/5843858" H 3850 4600 50  0001 C CNN "DigiKey"
+F 6 "Rohm Semiconductor" H 3850 4600 50  0001 C CNN "MFG"
+F 7 "SML-D12U1WT86" H 3850 4600 50  0001 C CNN "MPN"
 	1    3850 4600
 	0    -1   -1   0   
 $EndComp
@@ -82,35 +88,16 @@ F 3 "" H 4250 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AAMB-rescue:BC546-transistors Q201
-U 1 1 5C7F66E1
-P 3900 3650
-F 0 "Q201" H 4100 3750 50  0000 L CNN
-F 1 "BC546" H 4150 3650 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4100 3575 50  0001 L CIN
-F 3 "" H 3900 3650 50  0001 L CNN
-	1    3900 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L AAMB-rescue:BC546-transistors Q202
-U 1 1 5C7F66E8
-P 4600 3650
-F 0 "Q202" H 4700 3800 50  0000 L CNN
-F 1 "BC546" H 4800 3650 50  0001 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4800 3575 50  0001 L CIN
-F 3 "" H 4600 3650 50  0001 L CNN
-	1    4600 3650
-	-1   0    0    -1  
-$EndComp
-$Comp
 L AAMB-rescue:BC546-transistors Q203
 U 1 1 5E1CCAEA
 P 4150 4350
 F 0 "Q203" H 4350 4425 50  0000 L CNN
-F 1 "BC546" H 4350 4350 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4350 4275 50  0001 L CIN
-F 3 "" H 4150 4350 50  0001 L CNN
+F 1 "BC846" H 4350 4350 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4350 4275 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF" H 4150 4350 50  0001 L CNN
+F 4 "https://www.digikey.com/product-detail/en/on-semiconductor/BC846BLT1G/BC846BLT1GOSTR-ND/918342" H 4150 4350 50  0001 C CNN "DigiKey"
+F 5 "ON Semiconductor" H 4150 4350 50  0001 C CNN "MFG"
+F 6 "BC846BLT1G" H 4150 4350 50  0001 C CNN "MPN"
 	1    4150 4350
 	1    0    0    -1  
 $EndComp
@@ -131,8 +118,11 @@ U 1 1 5E1CCAEC
 P 4900 4250
 F 0 "C203" H 4600 4200 50  0000 L CNN
 F 1 "100u" H 4600 4300 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 4938 4100 50  0001 C CNN
-F 3 "" H 4900 4250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_Elec_5x5.4" H 4938 4100 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/865080142007.pdf" H 4900 4250 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/865080142007/732-8472-1-ND/5728429" H 4900 4250 50  0001 C CNN "DigiKey"
+F 5 "Würth Elektronik" H 4900 4250 50  0001 C CNN "MFG"
+F 6 "865080142007" H 4900 4250 50  0001 C CNN "MPN"
 	1    4900 4250
 	-1   0    0    1   
 $EndComp
@@ -175,8 +165,11 @@ U 1 1 5E1CCAF0
 P 5800 3900
 F 0 "C205" H 5825 4000 50  0000 L CNN
 F 1 "100u" H 5825 3800 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 5838 3750 50  0001 C CNN
-F 3 "" H 5800 3900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_Elec_6.3x7.7" H 5838 3750 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/865080545012.pdf" H 5800 3900 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/865080545012/732-8511-1-ND/5728468" H 5800 3900 50  0001 C CNN "DigiKey"
+F 5 "Würth Elektronik" H 5800 3900 50  0001 C CNN "MFG"
+F 6 "865080545012" H 5800 3900 50  0001 C CNN "MPN"
 	1    5800 3900
 	1    0    0    -1  
 $EndComp
@@ -185,9 +178,12 @@ L AAMB-rescue:BD140-transistors Q206
 U 1 1 5C7F6720
 P 6350 4200
 F 0 "Q206" H 6550 4100 50  0000 L CNN
-F 1 "BD140" H 6550 4200 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-126-3_Vertical" H 6550 4125 50  0001 L CIN
-F 3 "" H 6350 4200 50  0001 L CNN
+F 1 "BCP53" H 6550 4200 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 6550 4125 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub/Collateral/BCP53T1-D.PDF" H 6350 4200 50  0001 L CNN
+F 4 "https://www.digikey.com/product-detail/en/on-semiconductor/SBCP53-10T1G/SBCP53-10T1GOSCT-ND/9087709" H 6350 4200 50  0001 C CNN "DigiKey"
+F 5 "ON Semiconductor" H 6350 4200 50  0001 C CNN "MFG"
+F 6 "SBCP53-10T1G" H 6350 4200 50  0001 C CNN "MPN"
 	1    6350 4200
 	1    0    0    1   
 $EndComp
@@ -197,8 +193,11 @@ U 1 1 5E1CCAF2
 P 6050 4450
 F 0 "C206" H 6075 4550 50  0000 L CNN
 F 1 "100p" H 6075 4350 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm" H 6088 4300 50  0001 C CNN
-F 3 "" H 6050 4450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6088 4300 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/885012006057.pdf" H 6050 4450 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/885012006057/732-7799-1-ND/5454426" H 6050 4450 50  0001 C CNN "DigiKey"
+F 5 "Würth Elektronik" H 6050 4450 50  0001 C CNN "MFG"
+F 6 "885012006057" H 6050 4450 50  0001 C CNN "MPN"
 	1    6050 4450
 	1    0    0    -1  
 $EndComp
@@ -218,9 +217,12 @@ L Device:R R214
 U 1 1 5E1CCAF4
 P 6900 3850
 F 0 "R214" V 6980 3850 50  0000 C CNN
-F 1 "15m" V 6900 3850 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P10.16mm_Vertical" V 6830 3850 50  0001 C CNN
-F 3 "" H 6900 3850 50  0001 C CNN
+F 1 "330m" V 6900 3850 50  0000 C CNN
+F 2 "Resistor_THT:R_Radial_Power_L13.0mm_W9.0mm_P5.00mm" V 6830 3850 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773285&DocType=DS&DocLang=English" H 6900 3850 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/SQMW5R33J/A102472-ND/2365672" H 6900 3850 50  0001 C CNN "DigiKey"
+F 5 "TE Connectivity Passive Product" H 6900 3850 50  0001 C CNN "MFG"
+F 6 "SQMW5R33J" H 6900 3850 50  0001 C CNN "MPN"
 	1    6900 3850
 	-1   0    0    1   
 $EndComp
@@ -229,9 +231,12 @@ L Device:R R213
 U 1 1 5E1CCAF5
 P 6900 3450
 F 0 "R213" V 6980 3450 50  0000 C CNN
-F 1 "15m" V 6900 3450 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P10.16mm_Vertical" V 6830 3450 50  0001 C CNN
-F 3 "" H 6900 3450 50  0001 C CNN
+F 1 "330m" V 6900 3450 50  0000 C CNN
+F 2 "Resistor_THT:R_Radial_Power_L13.0mm_W9.0mm_P5.00mm" V 6830 3450 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773285&DocType=DS&DocLang=English" H 6900 3450 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/SQMW5R33J/A102472-ND/2365672" H 6900 3450 50  0001 C CNN "DigiKey"
+F 5 "TE Connectivity Passive Product" H 6900 3450 50  0001 C CNN "MFG"
+F 6 "SQMW5R33J" H 6900 3450 50  0001 C CNN "MPN"
 	1    6900 3450
 	1    0    0    -1  
 $EndComp
@@ -253,7 +258,10 @@ P 7400 4200
 F 0 "C207" H 7425 4300 50  0000 L CNN
 F 1 "100n" H 7425 4100 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 7438 4050 50  0001 C CNN
-F 3 "" H 7400 4200 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/R82EC3100AA70K.pdf" H 7400 4200 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/R82EC3100AA70K/399-19335-ND/9685239" H 7400 4200 50  0001 C CNN "DigiKey"
+F 5 "KEMET" H 7400 4200 50  0001 C CNN "MFG"
+F 6 "R82EC3100AA70K" H 7400 4200 50  0001 C CNN "MPN"
 	1    7400 4200
 	1    0    0    -1  
 $EndComp
@@ -264,7 +272,10 @@ P 7400 4650
 F 0 "C209" H 7200 4750 50  0000 L CNN
 F 1 "100n" H 7200 4550 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 7438 4500 50  0001 C CNN
-F 3 "" H 7400 4650 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/R82EC3100AA70K.pdf" H 7400 4650 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/R82EC3100AA70K/399-19335-ND/9685239" H 7400 4650 50  0001 C CNN "DigiKey"
+F 5 "KEMET" H 7400 4650 50  0001 C CNN "MFG"
+F 6 "R82EC3100AA70K" H 7400 4650 50  0001 C CNN "MPN"
 	1    7400 4650
 	1    0    0    -1  
 $EndComp
@@ -274,30 +285,25 @@ U 1 1 5E1CCAF9
 P 7700 4650
 F 0 "C211" H 7725 4750 50  0000 L CNN
 F 1 "100u" H 7725 4550 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 7738 4500 50  0001 C CNN
-F 3 "" H 7700 4650 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_10x10.5" H 7738 4500 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-uux.pdf" H 7700 4650 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/nichicon/UUX1J101MNL1GS/493-7453-1-ND/3768847" H 7700 4650 50  0001 C CNN "DigiKey"
+F 5 "Nichicon" H 7700 4650 50  0001 C CNN "MFG"
+F 6 "UUX1J101MNL1GS" H 7700 4650 50  0001 C CNN "MPN"
 	1    7700 4650
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Fuse F202
-U 1 1 5E1CCAFA
-P 7850 5000
-F 0 "F202" V 7930 5000 50  0000 C CNN
-F 1 "3A" V 7775 5000 50  0000 C CNN
-F 2 "Fuseholders:Fuseholder5x20_horiz_open_inline_Type-I" V 7780 5000 50  0001 C CNN
-F 3 "" H 7850 5000 50  0001 C CNN
-	1    7850 5000
-	0    1    -1   0   
 $EndComp
 $Comp
 L AAMB-rescue:BC546-transistors Q209
 U 1 1 5E1CCAFB
 P 5850 3050
 F 0 "Q209" H 6050 3150 50  0000 L CNN
-F 1 "BC546" H 6050 3050 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6050 2975 50  0001 L CIN
-F 3 "" H 5850 3050 50  0001 L CNN
+F 1 "BC846" H 6050 3050 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6050 2975 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF" H 5850 3050 50  0001 L CNN
+F 4 "https://www.digikey.com/product-detail/en/on-semiconductor/BC846BLT1G/BC846BLT1GOSTR-ND/918342" H 5850 3050 50  0001 C CNN "DigiKey"
+F 5 "ON Semiconductor" H 5850 3050 50  0001 C CNN "MFG"
+F 6 "BC846BLT1G" H 5850 3050 50  0001 C CNN "MPN"
 	1    5850 3050
 	1    0    0    -1  
 $EndComp
@@ -318,8 +324,11 @@ U 1 1 5C7F677B
 P 5050 2400
 F 0 "C204" H 5075 2500 50  0000 L CNN
 F 1 "100p" H 5075 2300 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm" H 5088 2250 50  0001 C CNN
-F 3 "" H 5050 2400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5088 2250 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/885012006057.pdf" H 5050 2400 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/885012006057/732-7799-1-ND/5454426" H 5050 2400 50  0001 C CNN "DigiKey"
+F 5 "Würth Elektronik" H 5050 2400 50  0001 C CNN "MFG"
+F 6 "885012006057" H 5050 2400 50  0001 C CNN "MPN"
 	1    5050 2400
 	-1   0    0    -1  
 $EndComp
@@ -328,9 +337,12 @@ L AAMB-rescue:BD140-transistors Q204
 U 1 1 5E1CCAFF
 P 5350 2200
 F 0 "Q204" H 5550 2275 50  0000 L CNN
-F 1 "BD140" H 5550 2200 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-126-3_Vertical" H 5550 2125 50  0001 L CIN
-F 3 "" H 5350 2200 50  0001 L CNN
+F 1 "BCP53" H 5550 2200 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 5550 2125 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub/Collateral/BCP53T1-D.PDF" H 5350 2200 50  0001 L CNN
+F 4 "https://www.digikey.com/product-detail/en/on-semiconductor/SBCP53-10T1G/SBCP53-10T1GOSCT-ND/9087709" H 5350 2200 50  0001 C CNN "DigiKey"
+F 5 "ON Semiconductor" H 5350 2200 50  0001 C CNN "MFG"
+F 6 "SBCP53-10T1G" H 5350 2200 50  0001 C CNN "MPN"
 	1    5350 2200
 	1    0    0    1   
 $EndComp
@@ -350,9 +362,12 @@ L AAMB-rescue:BD139-transistors Q205
 U 1 1 5E1CCB01
 P 6350 2600
 F 0 "Q205" H 6550 2675 50  0000 L CNN
-F 1 "BD139" H 6550 2600 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-126-3_Vertical" H 6550 2525 50  0001 L CIN
-F 3 "" H 6350 2600 50  0001 L CNN
+F 1 "BCP56" H 6550 2600 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 6550 2525 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub/Collateral/BCP56T1-D.PDF" H 6350 2600 50  0001 L CNN
+F 4 "https://www.digikey.com/product-detail/en/on-semiconductor/SBCP56-16T3G/SBCP56-16T3GOSCT-ND/5969075" H 6350 2600 50  0001 C CNN "DigiKey"
+F 5 "ON Semiconductor" H 6350 2600 50  0001 C CNN "MFG"
+F 6 "SBCP56-16T3G" H 6350 2600 50  0001 C CNN "MPN"
 	1    6350 2600
 	1    0    0    -1  
 $EndComp
@@ -395,8 +410,6 @@ Connection ~ 3300 4350
 Wire Wire Line
 	2900 3650 2950 3650
 Wire Wire Line
-	3650 3650 3700 3650
-Wire Wire Line
 	3850 4450 3850 4350
 Connection ~ 3850 4350
 Wire Wire Line
@@ -411,8 +424,6 @@ Wire Wire Line
 	4900 4100 4900 4050
 Wire Wire Line
 	4900 3750 4900 3650
-Wire Wire Line
-	4800 3650 4900 3650
 Connection ~ 4900 3650
 Wire Wire Line
 	5450 5000 5450 4950
@@ -510,7 +521,7 @@ Wire Wire Line
 	6900 3600 6900 3650
 Connection ~ 6900 3650
 Wire Wire Line
-	6900 4000 6900 4400
+	6900 4000 6900 4055
 $Comp
 L Device:Q_PNP_BCE Q207
 U 1 1 5E1CCB04
@@ -589,7 +600,7 @@ Wire Wire Line
 Wire Wire Line
 	6450 2350 6450 2400
 Wire Wire Line
-	6900 2850 6900 3300
+	6900 2850 6900 3045
 Connection ~ 3300 3800
 Text Label 6950 1900 0    50   ~ 0
 P35_fused_L
@@ -615,7 +626,7 @@ Wire Wire Line
 Text HLabel 2450 3650 0    50   Input ~ 0
 amp_in_L
 Wire Wire Line
-	8000 5000 8050 5000
+	8100 5000 8150 5000
 Text HLabel 8050 3650 2    50   Output ~ 0
 amp_out_L
 Wire Wire Line
@@ -626,8 +637,11 @@ U 1 1 5C7F66CB
 P 2750 3650
 F 0 "C201" H 2775 3750 50  0000 L CNN
 F 1 "4.7u" H 2775 3550 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 2788 3500 50  0001 C CNN
-F 3 "" H 2750 3650 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_4x5.4" H 2788 3500 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/865080640004/732-8449-1-ND/5728406" H 2750 3650 50  0001 C CNN
+F 4 "https://www.we-online.de/katalog/datasheet/865080640004.pdf" H 2750 3650 50  0001 C CNN "DigiKey"
+F 5 "Würth Elektronik" H 2750 3650 50  0001 C CNN "MFG"
+F 6 "865080640004" H 2750 3650 50  0001 C CNN "MPN"
 	1    2750 3650
 	0    -1   -1   0   
 $EndComp
@@ -686,7 +700,7 @@ Wire Wire Line
 Wire Wire Line
 	2450 3650 2600 3650
 Wire Wire Line
-	7750 1900 7925 1900
+	7850 1900 8025 1900
 Wire Wire Line
 	7600 2450 7600 2550
 $Comp
@@ -703,17 +717,6 @@ $EndComp
 Connection ~ 7600 2450
 Wire Wire Line
 	7300 2050 7300 2100
-$Comp
-L Device:Fuse F201
-U 1 1 5E1CCB07
-P 7600 1900
-F 0 "F201" V 7680 1900 50  0000 C CNN
-F 1 "3A" V 7525 1900 50  0000 C CNN
-F 2 "Fuseholders:Fuseholder5x20_horiz_open_inline_Type-I" V 7530 1900 50  0001 C CNN
-F 3 "" H 7600 1900 50  0001 C CNN
-	1    7600 1900
-	0    1    -1   0   
-$EndComp
 Connection ~ 7300 2050
 Wire Wire Line
 	7600 2050 7300 2050
@@ -731,8 +734,11 @@ U 1 1 5C7F6814
 P 7600 2250
 F 0 "C210" H 7625 2350 50  0000 L CNN
 F 1 "100u" H 7625 2150 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 7638 2100 50  0001 C CNN
-F 3 "" H 7600 2250 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_10x10.5" H 7638 2100 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-uux.pdf" H 7600 2250 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/nichicon/UUX1J101MNL1GS/493-7453-1-ND/3768847" H 7600 2250 50  0001 C CNN "DigiKey"
+F 5 "Nichicon" H 7600 2250 50  0001 C CNN "MFG"
+F 6 "UUX1J101MNL1GS" H 7600 2250 50  0001 C CNN "MPN"
 	1    7600 2250
 	1    0    0    -1  
 $EndComp
@@ -743,7 +749,10 @@ P 7300 2250
 F 0 "C208" H 7100 2350 50  0000 L CNN
 F 1 "100n" H 7100 2150 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 7338 2100 50  0001 C CNN
-F 3 "" H 7300 2250 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/R82EC3100AA70K.pdf" H 7300 2250 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/R82EC3100AA70K/399-19335-ND/9685239" H 7300 2250 50  0001 C CNN "DigiKey"
+F 5 "KEMET" H 7300 2250 50  0001 C CNN "MFG"
+F 6 "R82EC3100AA70K" H 7300 2250 50  0001 C CNN "MPN"
 	1    7300 2250
 	1    0    0    -1  
 $EndComp
@@ -751,36 +760,36 @@ Wire Wire Line
 	7400 5000 6900 5000
 Connection ~ 7400 5000
 Wire Wire Line
-	7400 3650 6900 3650
+	7400 3650 7140 3650
 Connection ~ 7400 3650
 $Comp
 L AAMB-rescue:+35V-Power-amp #PWR?
 U 1 1 5E1F9FBF
-P 7925 1850
+P 8025 1850
 AR Path="/5E1F9FBF" Ref="#PWR?"  Part="1" 
 AR Path="/5C7F608F/5E1F9FBF" Ref="#PWR0108"  Part="1" 
-F 0 "#PWR0108" H 8100 1675 50  0001 C CNN
-F 1 "+35V" H 7975 1975 50  0000 C CNN
-F 2 "" H 7925 1850 50  0001 C CNN
-F 3 "" H 7925 1850 50  0001 C CNN
-	1    7925 1850
+F 0 "#PWR0108" H 8200 1675 50  0001 C CNN
+F 1 "+35V" H 8075 1975 50  0000 C CNN
+F 2 "" H 8025 1850 50  0001 C CNN
+F 3 "" H 8025 1850 50  0001 C CNN
+	1    8025 1850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7925 1850 7925 1900
+	8025 1850 8025 1900
 $Comp
 L AAMB-rescue:-35V-Power-amp #PWR0109
 U 1 1 5E2010CE
-P 8050 5075
-F 0 "#PWR0109" H 8225 4900 50  0001 C CNN
-F 1 "-35V" H 8100 4975 50  0000 C CNN
-F 2 "" H 8050 5075 50  0001 C CNN
-F 3 "" H 8050 5075 50  0001 C CNN
-	1    8050 5075
+P 8150 5075
+F 0 "#PWR0109" H 8325 4900 50  0001 C CNN
+F 1 "-35V" H 8200 4975 50  0000 C CNN
+F 2 "" H 8150 5075 50  0001 C CNN
+F 3 "" H 8150 5075 50  0001 C CNN
+	1    8150 5075
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8050 5075 8050 5000
+	8150 5075 8150 5000
 Wire Wire Line
 	6900 1900 7300 1900
 Wire Wire Line
@@ -859,4 +868,153 @@ Wire Wire Line
 Wire Wire Line
 	6500 3650 5800 3650
 Connection ~ 5800 3650
+$Comp
+L Fuse:0154003.DR F202
+U 1 1 5E9BDC4D
+P 7700 5000
+F 0 "F202" H 7710 4920 60  0000 C CNN
+F 1 "0154003.DR" H 7805 4800 60  0000 C CNN
+F 2 "Fuse:0154003.DR" H 7900 4690 60  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf" H 7700 5000 60  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/littelfuse-inc/0154003-DR/F1226CT-ND/183375" H 7700 5000 50  0001 C CNN "DigiKey"
+F 5 "Littelfuse Inc." H 7700 5000 50  0001 C CNN "MFG"
+F 6 "0154003.DR" H 7700 5000 50  0001 C CNN "MPN"
+	1    7700 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fuse:0154003.DR F201
+U 1 1 5E9C2A8C
+P 7450 1900
+F 0 "F201" H 7650 2139 60  0000 C CNN
+F 1 "0154003.DR" H 7650 2033 60  0000 C CNN
+F 2 "Fuse:0154003.DR" H 7650 1590 60  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf" H 7450 1900 60  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/littelfuse-inc/0154003-DR/F1226CT-ND/183375" H 7450 1900 50  0001 C CNN "DigiKey"
+F 5 "Littelfuse Inc." H 7450 1900 50  0001 C CNN "MFG"
+F 6 "0154003.DR" H 7450 1900 50  0001 C CNN "MPN"
+	1    7450 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L OnSemi_BC846:BC846BDW1T1G U201
+U 1 1 5E9FB38B
+P 3900 3650
+F 0 "U201" H 4040 3750 50  0000 L CNN
+F 1 "BC846BDW1T1G" H 4077 3605 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 3900 3650 50  0001 L BNN
+F 3 "https://www.onsemi.com/pub/Collateral/BC846BDW1T1-D.PDF" H 3900 3650 50  0001 L BNN
+F 4 "Bipolar _BJT_ Transistor Array 2 NPN _Dual_ 45V 100mA 100MHz 380mW Surface Mount SC-88/SC70-6/SOT-363" H 3900 3650 50  0001 L BNN "Field4"
+F 5 "" H 3900 3650 50  0001 L BNN "Field5"
+F 6 "" H 3900 3650 50  0001 L BNN "Field6"
+F 7 "" H 3900 3650 50  0001 L BNN "Field7"
+F 8 "" H 3900 3650 50  0001 L BNN "Field8"
+F 9 "https://www.digikey.com/product-detail/en/on-semiconductor/BC846BDW1T1G/BC846BDW1T1GOSTR-ND/1475965" H 3900 3650 50  0001 C CNN "DigiKey"
+F 10 "ON Semiconductor" H 3900 3650 50  0001 C CNN "MFG"
+F 11 "BC846BDW1T1G" H 3900 3650 50  0001 C CNN "MPN"
+	1    3900 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L OnSemi_BC846:BC846BDW1T1G U201
+U 2 1 5E9FC0B8
+P 4600 3650
+F 0 "U201" H 4700 3675 50  0000 L CNN
+F 1 "BC846BDW1T1G" H 5240 3865 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 4600 3650 50  0001 L BNN
+F 3 "https://www.onsemi.com/pub/Collateral/BC846BDW1T1-D.PDF" H 4600 3650 50  0001 L BNN
+F 4 "Bipolar _BJT_ Transistor Array 2 NPN _Dual_ 45V 100mA 100MHz 380mW Surface Mount SC-88/SC70-6/SOT-363" H 4600 3650 50  0001 L BNN "Field4"
+F 5 "" H 4600 3650 50  0001 L BNN "Field5"
+F 6 "" H 4600 3650 50  0001 L BNN "Field6"
+F 7 "" H 4600 3650 50  0001 L BNN "Field7"
+F 8 "" H 4600 3650 50  0001 L BNN "Field8"
+F 9 "https://www.digikey.com/product-detail/en/on-semiconductor/BC846BDW1T1G/BC846BDW1T1GOSTR-ND/1475965" H 4600 3650 50  0001 C CNN "DigiKey"
+F 10 "ON Semiconductor" H 4600 3650 50  0001 C CNN "MFG"
+F 11 "BC846BDW1T1G" H 4600 3650 50  0001 C CNN "MPN"
+	2    4600 3650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 3650 3800 3650
+Wire Wire Line
+	4700 3650 4900 3650
+$Comp
+L dk_Test-Points:5000 TP8
+U 1 1 5EA50D7D
+P 7110 3045
+F 0 "TP8" V 7163 2995 50  0000 R CNN
+F 1 "5000" H 7110 2945 50  0001 C CNN
+F 2 "digikey-footprints:Test_Point_D1.02mm" H 7310 3245 60  0001 L CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1309" H 7310 3345 60  0001 L CNN
+F 4 "36-5000-ND" H 7310 3445 60  0001 L CNN "Digi-Key_PN"
+F 5 "5000" H 7310 3545 60  0001 L CNN "MPN"
+F 6 "Test and Measurement" H 7310 3645 60  0001 L CNN "Category"
+F 7 "Test Points" H 7310 3745 60  0001 L CNN "Family"
+F 8 "http://www.keyelco.com/product-pdf.cfm?p=1309" H 7310 3845 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/keystone-electronics/5000/36-5000-ND/255326" H 7310 3945 60  0001 L CNN "DK_Detail_Page"
+F 10 "RED" V 7064 2995 60  0000 R CNN "Description"
+F 11 "Keystone Electronics" H 7310 4145 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7310 4245 60  0001 L CNN "Status"
+F 13 "/product-detail/en/keystone-electronics/5000/36-5000-ND/255326" H 7110 3045 50  0001 C CNN "DigiKey"
+F 14 "Keystone Electronics" H 7110 3045 50  0001 C CNN "MFG"
+	1    7110 3045
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dk_Test-Points:5001 TP9
+U 1 1 5EA52462
+P 7140 3550
+F 0 "TP9" H 7155 3490 50  0000 R CNN
+F 1 "5001" H 7140 3450 50  0001 C CNN
+F 2 "digikey-footprints:Test_Point_D1.02mm" H 7340 3750 60  0001 L CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 7340 3850 60  0001 L CNN
+F 4 "36-5001-ND" H 7340 3950 60  0001 L CNN "Digi-Key_PN"
+F 5 "5001" H 7340 4050 60  0001 L CNN "MPN"
+F 6 "Test and Measurement" H 7340 4150 60  0001 L CNN "Category"
+F 7 "Test Points" H 7340 4250 60  0001 L CNN "Family"
+F 8 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 7340 4350 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/keystone-electronics/5001/36-5001-ND/255327" H 7340 4450 60  0001 L CNN "DK_Detail_Page"
+F 10 "BLACK" H 7080 3590 60  0000 R CNN "Description"
+F 11 "Keystone Electronics" H 7340 4650 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7340 4750 60  0001 L CNN "Status"
+F 13 "/product-detail/en/keystone-electronics/5001/36-5001-ND/255327" H 7140 3550 50  0001 C CNN "DigiKey"
+F 14 "Keystone Electronics" H 7140 3550 50  0001 C CNN "MFG"
+	1    7140 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L dk_Test-Points:5002 TP7
+U 1 1 5EA53283
+P 7040 4055
+F 0 "TP7" V 7093 4005 50  0000 R CNN
+F 1 "5002" H 7040 3955 50  0001 C CNN
+F 2 "digikey-footprints:Test_Point_D1.02mm" H 7240 4255 60  0001 L CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1311" H 7240 4355 60  0001 L CNN
+F 4 "36-5002-ND" H 7240 4455 60  0001 L CNN "Digi-Key_PN"
+F 5 "5002" H 7240 4555 60  0001 L CNN "MPN"
+F 6 "Test and Measurement" H 7240 4655 60  0001 L CNN "Category"
+F 7 "Test Points" H 7240 4755 60  0001 L CNN "Family"
+F 8 "http://www.keyelco.com/product-pdf.cfm?p=1311" H 7240 4855 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/keystone-electronics/5002/36-5002-ND/255328" H 7240 4955 60  0001 L CNN "DK_Detail_Page"
+F 10 "WHITE" V 6994 4005 60  0000 R CNN "Description"
+F 11 "Keystone Electronics" H 7240 5155 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7240 5255 60  0001 L CNN "Status"
+F 13 "/product-detail/en/keystone-electronics/5002/36-5002-ND/255328" H 7040 4055 50  0001 C CNN "DigiKey"
+F 14 "Keystone Electronics" H 7040 4055 50  0001 C CNN "MFG"
+	1    7040 4055
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7140 3650
+Wire Wire Line
+	7140 3650 6900 3650
+Connection ~ 6900 3045
+Wire Wire Line
+	6900 3045 6900 3300
+Wire Wire Line
+	6900 3045 7010 3045
+Wire Wire Line
+	6940 4055 6900 4055
+Connection ~ 6900 4055
+Wire Wire Line
+	6900 4055 6900 4400
 $EndSCHEMATC
