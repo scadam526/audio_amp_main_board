@@ -93,29 +93,25 @@ Wire Wire Line
 $Comp
 L AAMB-rescue:+35V-Power-amp #PWR0106
 U 1 1 5E1EC4AA
-P 1100 1550
-F 0 "#PWR0106" H 1275 1375 50  0001 C CNN
-F 1 "+35V" H 1100 1650 39  0000 C CNN
-F 2 "" H 1100 1550 50  0001 C CNN
-F 3 "" H 1100 1550 50  0001 C CNN
-	1    1100 1550
+P 1410 1530
+F 0 "#PWR0106" H 1585 1355 50  0001 C CNN
+F 1 "+35V" H 1410 1630 39  0000 C CNN
+F 2 "" H 1410 1530 50  0001 C CNN
+F 3 "" H 1410 1530 50  0001 C CNN
+	1    1410 1530
 	1    0    0    -1  
 $EndComp
 $Comp
 L AAMB-rescue:-35V-Power-amp #PWR0107
 U 1 1 5E1EDDCB
-P 1100 1750
-F 0 "#PWR0107" H 1275 1575 50  0001 C CNN
-F 1 "-35V" H 1150 1650 39  0000 C CNN
-F 2 "" H 1100 1750 50  0001 C CNN
-F 3 "" H 1100 1750 50  0001 C CNN
-	1    1100 1750
+P 1410 1780
+F 0 "#PWR0107" H 1585 1605 50  0001 C CNN
+F 1 "-35V" H 1460 1680 39  0000 C CNN
+F 2 "" H 1410 1780 50  0001 C CNN
+F 3 "" H 1410 1780 50  0001 C CNN
+	1    1410 1780
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	900  1750 1100 1750
-Wire Wire Line
-	900  1550 1100 1550
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5E238666
@@ -194,62 +190,62 @@ Wire Wire Line
 $Comp
 L Connector:Screw_Terminal_01x03 J5
 U 1 1 5E426C78
-P 1575 1600
-F 0 "J5" H 1493 1825 50  0000 C CNN
-F 1 "Screw_Terminal_01x03" H 1493 1826 50  0001 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal" H 1575 1600 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935174.pdf" H 1575 1600 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/phoenix-contact/1935174/277-1578-ND/568615" H 1575 1600 50  0001 C CNN "DigiKey"
-F 5 "Phoenix Contact" H 1575 1600 50  0001 C CNN "MFG"
-F 6 "1935174" H 1575 1600 50  0001 C CNN "MPN"
-	1    1575 1600
+P 2475 1570
+F 0 "J5" H 2393 1795 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 2393 1796 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal" H 2475 1570 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935174.pdf" H 2475 1570 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/phoenix-contact/1935174/277-1578-ND/568615" H 2475 1570 50  0001 C CNN "DigiKey"
+F 5 "Phoenix Contact" H 2475 1570 50  0001 C CNN "MFG"
+F 6 "1935174" H 2475 1570 50  0001 C CNN "MPN"
+	1    2475 1570
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:+12V #PWR09
 U 1 1 5E4290D4
-P 1950 1425
-F 0 "#PWR09" H 1950 1275 50  0001 C CNN
-F 1 "+12V" H 1965 1598 50  0000 C CNN
-F 2 "" H 1950 1425 50  0001 C CNN
-F 3 "" H 1950 1425 50  0001 C CNN
-	1    1950 1425
+P 2850 1395
+F 0 "#PWR09" H 2850 1245 50  0001 C CNN
+F 1 "+12V" H 2865 1568 50  0000 C CNN
+F 2 "" H 2850 1395 50  0001 C CNN
+F 3 "" H 2850 1395 50  0001 C CNN
+	1    2850 1395
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:-12V #PWR010
 U 1 1 5E429F52
-P 2075 1750
-F 0 "#PWR010" H 2075 1850 50  0001 C CNN
-F 1 "-12V" H 2090 1923 50  0000 C CNN
-F 2 "" H 2075 1750 50  0001 C CNN
-F 3 "" H 2075 1750 50  0001 C CNN
-	1    2075 1750
+P 2975 1720
+F 0 "#PWR010" H 2975 1820 50  0001 C CNN
+F 1 "-12V" H 2990 1893 50  0000 C CNN
+F 2 "" H 2975 1720 50  0001 C CNN
+F 3 "" H 2975 1720 50  0001 C CNN
+	1    2975 1720
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR08
 U 1 1 5E42A7CB
-P 1875 1800
-F 0 "#PWR08" H 1875 1550 50  0001 C CNN
-F 1 "GND" H 1880 1627 50  0000 C CNN
-F 2 "" H 1875 1800 50  0001 C CNN
-F 3 "" H 1875 1800 50  0001 C CNN
-	1    1875 1800
+P 2775 1770
+F 0 "#PWR08" H 2775 1520 50  0001 C CNN
+F 1 "GND" H 2780 1597 50  0000 C CNN
+F 2 "" H 2775 1770 50  0001 C CNN
+F 3 "" H 2775 1770 50  0001 C CNN
+	1    2775 1770
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1875 1800 1875 1600
+	2775 1770 2775 1570
 Wire Wire Line
-	1875 1600 1775 1600
+	2775 1570 2675 1570
 Wire Wire Line
-	1950 1425 1950 1500
+	2850 1395 2850 1470
 Wire Wire Line
-	1950 1500 1775 1500
+	2850 1470 2675 1470
 Wire Wire Line
-	2075 1700 1775 1700
+	2975 1670 2675 1670
 Wire Wire Line
-	2075 1750 2075 1700
+	2975 1720 2975 1670
 Text Label 6725 4175 2    50   ~ 0
 line_audio_R
 Wire Wire Line
@@ -638,7 +634,7 @@ P 4950 5025
 F 0 "TP1" H 4950 5220 50  0000 C CNN
 F 1 "TP" H 4950 5129 50  0000 C CNN
 F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 4950 5025 50  0001 C CNN
-F 3 "~" H 4950 5025 50  0001 C CNN
+F 3 "" H 4950 5025 50  0001 C CNN
 	1    4950 5025
 	1    0    0    -1  
 $EndComp
@@ -664,7 +660,7 @@ P 4950 5450
 F 0 "TP2" H 4950 5645 50  0000 C CNN
 F 1 "TP" H 4950 5554 50  0001 C CNN
 F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 4950 5450 50  0001 C CNN
-F 3 "~" H 4950 5450 50  0001 C CNN
+F 3 "" H 4950 5450 50  0001 C CNN
 F 4 "pre_vol_audio_R" H 4945 5365 50  0000 C CNN "Note"
 	1    4950 5450
 	1    0    0    -1  
@@ -693,7 +689,7 @@ P 6700 4625
 F 0 "TP3" H 6700 4820 50  0000 C CNN
 F 1 "TP" H 6700 4729 50  0000 C CNN
 F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 6700 4625 50  0001 C CNN
-F 3 "~" H 6700 4625 50  0001 C CNN
+F 3 "" H 6700 4625 50  0001 C CNN
 	1    6700 4625
 	1    0    0    -1  
 $EndComp
@@ -719,7 +715,7 @@ P 6700 5050
 F 0 "TP4" H 6700 5245 50  0000 C CNN
 F 1 "TP" H 6700 5154 50  0000 C CNN
 F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 6700 5050 50  0001 C CNN
-F 3 "~" H 6700 5050 50  0001 C CNN
+F 3 "" H 6700 5050 50  0001 C CNN
 	1    6700 5050
 	1    0    0    -1  
 $EndComp
@@ -745,7 +741,7 @@ P 8350 4725
 F 0 "TP5" H 8350 4920 50  0000 C CNN
 F 1 "TP" H 8350 4829 50  0000 C CNN
 F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 8350 4725 50  0001 C CNN
-F 3 "~" H 8350 4725 50  0001 C CNN
+F 3 "" H 8350 4725 50  0001 C CNN
 	1    8350 4725
 	1    0    0    -1  
 $EndComp
@@ -771,7 +767,7 @@ P 8350 5150
 F 0 "TP6" H 8350 5345 50  0000 C CNN
 F 1 "TP" H 8350 5254 50  0000 C CNN
 F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 8350 5150 50  0001 C CNN
-F 3 "~" H 8350 5150 50  0001 C CNN
+F 3 "" H 8350 5150 50  0001 C CNN
 	1    8350 5150
 	1    0    0    -1  
 $EndComp
@@ -830,4 +826,48 @@ F 6 "1935161" H 9800 3925 50  0001 C CNN "MPN"
 	1    9800 3925
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:Fuse_Small F?
+U 1 1 5E9A4ADA
+P 1130 1550
+AR Path="/5C7F608F/5E9A4ADA" Ref="F?"  Part="1" 
+AR Path="/5E9A4ADA" Ref="F1"  Part="1" 
+F 0 "F1" H 1130 1643 50  0000 C CNN
+F 1 "Fuse_Small" H 1130 1644 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1130 1550 50  0001 C CNN
+F 3 "https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-c1f-series.pdf" H 1130 1550 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/bel-fuse-inc/C1F-3/507-1883-1-ND/4968162" H 1130 1550 50  0001 C CNN "DigiKey"
+F 5 "Bel Fuse Inc." H 1130 1550 50  0001 C CNN "MFG"
+F 6 "C1F 3" H 1130 1550 50  0001 C CNN "MPN"
+	1    1130 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  1550 1030 1550
+Wire Wire Line
+	1230 1550 1410 1550
+Wire Wire Line
+	1410 1550 1410 1530
+$Comp
+L Device:Fuse_Small F?
+U 1 1 5E9B7B14
+P 1140 1750
+AR Path="/5C7F608F/5E9B7B14" Ref="F?"  Part="1" 
+AR Path="/5E9B7B14" Ref="F2"  Part="1" 
+F 0 "F2" H 1140 1843 50  0000 C CNN
+F 1 "Fuse_Small" H 1140 1844 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1140 1750 50  0001 C CNN
+F 3 "https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-c1f-series.pdf" H 1140 1750 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/bel-fuse-inc/C1F-3/507-1883-1-ND/4968162" H 1140 1750 50  0001 C CNN "DigiKey"
+F 5 "Bel Fuse Inc." H 1140 1750 50  0001 C CNN "MFG"
+F 6 "C1F 3" H 1140 1750 50  0001 C CNN "MPN"
+	1    1140 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  1750 1040 1750
+Wire Wire Line
+	1240 1750 1410 1750
+Wire Wire Line
+	1410 1750 1410 1780
 $EndSCHEMATC

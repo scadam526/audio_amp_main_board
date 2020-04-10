@@ -41,7 +41,10 @@ P 5975 5225
 F 0 "R27" H 5905 5179 50  0000 R CNN
 F 1 "22k" H 5905 5270 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5905 5225 50  0001 C CNN
-F 3 "~" H 5975 5225 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 5975 5225 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRGCQ0603F22K/A129704CT-ND/8577536" H 5975 5225 50  0001 C CNN "DigiKey"
+F 5 "TE Connectivity Passive Product" H 5975 5225 50  0001 C CNN "MFG"
+F 6 "CRGCQ0603F22K" H 5975 5225 50  0001 C CNN "MPN"
 	1    5975 5225
 	0    -1   -1   0   
 $EndComp
@@ -52,7 +55,10 @@ P 3650 3750
 F 0 "R25" V 3857 3750 50  0000 C CNN
 F 1 "2k2" V 3766 3750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3580 3750 50  0001 C CNN
-F 3 "~" H 3650 3750 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 3650 3750 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRGCQ0603F2K2/A129692CT-ND/8577524" H 3650 3750 50  0001 C CNN "DigiKey"
+F 5 "TE Connectivity Passive Product" H 3650 3750 50  0001 C CNN "MFG"
+F 6 "CRGCQ0603F2K2" H 3650 3750 50  0001 C CNN "MPN"
 	1    3650 3750
 	0    -1   -1   0   
 $EndComp
@@ -63,7 +69,10 @@ P 4525 6100
 F 0 "R23" H 4455 6054 50  0000 R CNN
 F 1 "22k" H 4455 6145 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4455 6100 50  0001 C CNN
-F 3 "~" H 4525 6100 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 4525 6100 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRGCQ0603F22K/A129704CT-ND/8577536" H 4525 6100 50  0001 C CNN "DigiKey"
+F 5 "TE Connectivity Passive Product" H 4525 6100 50  0001 C CNN "MFG"
+F 6 "CRGCQ0603F22K" H 4525 6100 50  0001 C CNN "MPN"
 	1    4525 6100
 	-1   0    0    1   
 $EndComp
@@ -74,7 +83,10 @@ P 6550 6100
 F 0 "R31" H 6480 6054 50  0000 R CNN
 F 1 "5k1" H 6480 6145 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6480 6100 50  0001 C CNN
-F 3 "~" H 6550 6100 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf" H 6550 6100 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PA3F5101V/P5-1KBYCT-ND/5036200" H 6550 6100 50  0001 C CNN "DigiKey"
+F 5 "Panasonic Electronic Components" H 6550 6100 50  0001 C CNN "MFG"
+F 6 "ERJ-PA3F5101V" H 6550 6100 50  0001 C CNN "MPN"
 	1    6550 6100
 	-1   0    0    1   
 $EndComp
@@ -85,7 +97,10 @@ P 8350 4850
 F 0 "R35" V 8557 4850 50  0000 C CNN
 F 1 "100" V 8466 4850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8280 4850 50  0001 C CNN
-F 3 "~" H 8350 4850 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/20065/rcse3.pdf" H 8350 4850 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/vishay-dale/RCS0603100RFKEA/541-2786-1-ND/5867079" H 8350 4850 50  0001 C CNN "DigiKey"
+F 5 "Vishay Dale" H 8350 4850 50  0001 C CNN "MFG"
+F 6 "RCS0603100RFKEA" H 8350 4850 50  0001 C CNN "MPN"
 	1    8350 4850
 	0    -1   -1   0   
 $EndComp
@@ -96,7 +111,10 @@ P 7725 5225
 F 0 "R33" V 7800 5225 50  0000 C CNN
 F 1 "22k" V 7875 5225 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7655 5225 50  0001 C CNN
-F 3 "~" H 7725 5225 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 7725 5225 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRGCQ0603F22K/A129704CT-ND/8577536" H 7725 5225 50  0001 C CNN "DigiKey"
+F 5 "TE Connectivity Passive Product" H 7725 5225 50  0001 C CNN "MFG"
+F 6 "CRGCQ0603F22K" H 7725 5225 50  0001 C CNN "MPN"
 	1    7725 5225
 	0    -1   1    0   
 $EndComp
@@ -159,7 +177,10 @@ P 5050 5225
 F 0 "U3" H 5125 5375 50  0000 C CNN
 F 1 "NE5532" H 5025 5225 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5050 5225 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ne5532.pdf" H 5050 5225 50  0001 C CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fne5532" H 5050 5225 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/texas-instruments/NE5532DR/296-13622-1-ND/499498" H 5050 5225 50  0001 C CNN "DigiKey"
+F 5 "Texas Instruments" H 5050 5225 50  0001 C CNN "MFG"
+F 6 "NE5532DR" H 5050 5225 50  0001 C CNN "MPN"
 	1    5050 5225
 	1    0    0    -1  
 $EndComp
@@ -170,7 +191,10 @@ P 7775 4850
 F 0 "U3" H 7825 5025 50  0000 C CNN
 F 1 "NE5532" H 7750 4850 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7775 4850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ne5532.pdf" H 7775 4850 50  0001 C CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fne5532" H 7775 4850 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/texas-instruments/NE5532DR/296-13622-1-ND/499498" H 7775 4850 50  0001 C CNN "DigiKey"
+F 5 "Texas Instruments" H 7775 4850 50  0001 C CNN "MFG"
+F 6 "NE5532DR" H 7775 4850 50  0001 C CNN "MPN"
 	2    7775 4850
 	1    0    0    -1  
 $EndComp
@@ -181,7 +205,10 @@ P 1875 1150
 F 0 "U2" H 1800 1400 50  0000 L CNN
 F 1 "NE5532" H 1825 875 50  0001 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1875 1150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ne5532.pdf" H 1875 1150 50  0001 C CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fne5532" H 1875 1150 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/texas-instruments/NE5532DR/296-13622-1-ND/499498" H 1875 1150 50  0001 C CNN "DigiKey"
+F 5 "Texas Instruments" H 1875 1150 50  0001 C CNN "MFG"
+F 6 "NE5532DR" H 1875 1150 50  0001 C CNN "MPN"
 	3    1875 1150
 	1    0    0    -1  
 $EndComp
@@ -192,7 +219,10 @@ P 3100 3750
 F 0 "R20" V 2893 3750 50  0000 C CNN
 F 1 "100" V 2984 3750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3030 3750 50  0001 C CNN
-F 3 "~" H 3100 3750 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/20065/rcse3.pdf" H 3100 3750 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/vishay-dale/RCS0603100RFKEA/541-2786-1-ND/5867079" H 3100 3750 50  0001 C CNN "DigiKey"
+F 5 "Vishay Dale" H 3100 3750 50  0001 C CNN "MFG"
+F 6 "RCS0603100RFKEA" H 3100 3750 50  0001 C CNN "MPN"
 	1    3100 3750
 	0    1    1    0   
 $EndComp
@@ -203,7 +233,10 @@ P 3125 4325
 F 0 "R21" V 2918 4325 50  0000 C CNN
 F 1 "100" V 3009 4325 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3055 4325 50  0001 C CNN
-F 3 "~" H 3125 4325 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/20065/rcse3.pdf" H 3125 4325 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/vishay-dale/RCS0603100RFKEA/541-2786-1-ND/5867079" H 3125 4325 50  0001 C CNN "DigiKey"
+F 5 "Vishay Dale" H 3125 4325 50  0001 C CNN "MFG"
+F 6 "RCS0603100RFKEA" H 3125 4325 50  0001 C CNN "MPN"
 	1    3125 4325
 	0    1    1    0   
 $EndComp
@@ -214,7 +247,10 @@ P 1750 4025
 F 0 "R18" V 1543 4025 50  0000 C CNN
 F 1 "2k2" V 1634 4025 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1680 4025 50  0001 C CNN
-F 3 "~" H 1750 4025 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 1750 4025 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRGCQ0603F2K2/A129692CT-ND/8577524" H 1750 4025 50  0001 C CNN "DigiKey"
+F 5 "TE Connectivity Passive Product" H 1750 4025 50  0001 C CNN "MFG"
+F 6 "CRGCQ0603F2K2" H 1750 4025 50  0001 C CNN "MPN"
 	1    1750 4025
 	0    1    1    0   
 $EndComp
@@ -225,7 +261,10 @@ P 1950 4425
 F 0 "R19" H 1880 4379 50  0000 R CNN
 F 1 "1M" H 1880 4470 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1880 4425 50  0001 C CNN
-F 3 "~" H 1950 4425 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 1950 4425 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3EKF1004V/P1-00MHCT-ND/198072" H 1950 4425 50  0001 C CNN "DigiKey"
+F 5 "Panasonic Electronic Components" H 1950 4425 50  0001 C CNN "MFG"
+F 6 "ERJ-3EKF1004V" H 1950 4425 50  0001 C CNN "MPN"
 	1    1950 4425
 	1    0    0    1   
 $EndComp
@@ -236,7 +275,10 @@ P 2500 3750
 F 0 "U1" H 2525 3925 50  0000 C CNN
 F 1 "TL072" H 2475 3750 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2650 3450 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2500 3750 50  0001 C CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/bb/4d/19/24/7d/40/48/a6/CD00000490.pdf/files/CD00000490.pdf/jcr:content/translations/en.CD00000490.pdf" H 2500 3750 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/stmicroelectronics/TL072CDT/497-2200-1-ND/599107" H 2500 3750 50  0001 C CNN "DigiKey"
+F 5 "STMicroelectronics" H 2500 3750 50  0001 C CNN "MFG"
+F 6 "TL072CDT" H 2500 3750 50  0001 C CNN "MPN"
 	1    2500 3750
 	1    0    0    -1  
 $EndComp
@@ -247,7 +289,10 @@ P 2500 4325
 F 0 "U1" H 2550 4475 50  0000 C CNN
 F 1 "TL072" H 2475 4325 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2650 4025 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/stmicroelectronics/TL072CDT/497-2200-1-ND/599107" H 2500 4325 50  0001 C CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/bb/4d/19/24/7d/40/48/a6/CD00000490.pdf/files/CD00000490.pdf/jcr:content/translations/en.CD00000490.pdf" H 2500 4325 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/stmicroelectronics/TL072CDT/497-2200-1-ND/599107" H 2500 4325 50  0001 C CNN "DigiKey"
+F 5 "STMicroelectronics" H 2500 4325 50  0001 C CNN "MFG"
+F 6 "TL072CDT" H 2500 4325 50  0001 C CNN "MPN"
 	2    2500 4325
 	1    0    0    -1  
 $EndComp
@@ -258,7 +303,10 @@ P 1425 1150
 F 0 "U1" H 1350 1400 50  0000 L CNN
 F 1 "TL072" H 1237 1195 50  0001 R CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1575 850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 1425 1150 50  0001 C CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/bb/4d/19/24/7d/40/48/a6/CD00000490.pdf/files/CD00000490.pdf/jcr:content/translations/en.CD00000490.pdf" H 1425 1150 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/stmicroelectronics/TL072CDT/497-2200-1-ND/599107" H 1425 1150 50  0001 C CNN "DigiKey"
+F 5 "STMicroelectronics" H 1425 1150 50  0001 C CNN "MFG"
+F 6 "TL072CDT" H 1425 1150 50  0001 C CNN "MPN"
 	3    1425 1150
 	1    0    0    -1  
 $EndComp
@@ -353,7 +401,10 @@ P 1175 3625
 F 0 "R16" H 1105 3579 50  0000 R CNN
 F 1 "1k5" H 1105 3670 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1105 3625 50  0001 C CNN
-F 3 "~" H 1175 3625 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 1175 3625 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3EKF1501V/P1-50KHCT-ND/198088" H 1175 3625 50  0001 C CNN "DigiKey"
+F 5 "Panasonic Electronic Components" H 1175 3625 50  0001 C CNN "MFG"
+F 6 "ERJ-3EKF1501V" H 1175 3625 50  0001 C CNN "MPN"
 	1    1175 3625
 	-1   0    0    1   
 $EndComp
@@ -385,7 +436,10 @@ P 1600 4425
 F 0 "R17" H 1530 4379 50  0000 R CNN
 F 1 "1k5" H 1530 4470 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1530 4425 50  0001 C CNN
-F 3 "~" H 1600 4425 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 1600 4425 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3EKF1501V/P1-50KHCT-ND/198088" H 1600 4425 50  0001 C CNN "DigiKey"
+F 5 "Panasonic Electronic Components" H 1600 4425 50  0001 C CNN "MFG"
+F 6 "ERJ-3EKF1501V" H 1600 4425 50  0001 C CNN "MPN"
 	1    1600 4425
 	1    0    0    1   
 $EndComp
@@ -458,7 +512,10 @@ P 6225 6100
 F 0 "R29" H 6155 6054 50  0000 R CNN
 F 1 "100" H 6155 6145 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6155 6100 50  0001 C CNN
-F 3 "~" H 6225 6100 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/20065/rcse3.pdf" H 6225 6100 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/vishay-dale/RCS0603100RFKEA/541-2786-1-ND/5867079" H 6225 6100 50  0001 C CNN "DigiKey"
+F 5 "Vishay Dale" H 6225 6100 50  0001 C CNN "MFG"
+F 6 "RCS0603100RFKEA" H 6225 6100 50  0001 C CNN "MPN"
 	1    6225 6100
 	-1   0    0    1   
 $EndComp
@@ -471,7 +528,7 @@ F 1 "10u" V 5461 5225 50  0000 C CNN
 F 2 "Capacitor_SMD:CP_Elec_5x3" H 5663 5075 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/865080642006.pdf" H 5625 5225 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/865080642006/732-8451-1-ND/5728408" H 5625 5225 50  0001 C CNN "DigiKey"
-F 5 "Würth Elektronik" H 5625 5225 50  0001 C CNN "MFG"
+F 5 "Wurth Elektronik" H 5625 5225 50  0001 C CNN "MFG"
 F 6 "865080642006" H 5625 5225 50  0001 C CNN "MPN"
 	1    5625 5225
 	0    1    1    0   
@@ -485,7 +542,7 @@ F 1 "22p" V 7500 5550 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7763 5400 50  0001 C CNN
 F 3 "https://katalog.we-online.de/pbs/datasheet/885012006053.pdf" H 7725 5550 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/885012006053/732-7795-1-ND/5454422" H 7725 5550 50  0001 C CNN "DigiKey"
-F 5 "Würth Elektronik" H 7725 5550 50  0001 C CNN "MFG"
+F 5 "Wurth Elektronik" H 7725 5550 50  0001 C CNN "MFG"
 F 6 "885012006053" H 7725 5550 50  0001 C CNN "MPN"
 	1    7725 5550
 	0    1    -1   0   
@@ -499,7 +556,7 @@ F 1 "10u" V 8914 4850 50  0000 C CNN
 F 2 "Capacitor_SMD:CP_Elec_5x3" H 8788 4700 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/865080642006.pdf" H 8750 4850 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/865080642006/732-8451-1-ND/5728408" H 8750 4850 50  0001 C CNN "DigiKey"
-F 5 "Würth Elektronik" H 8750 4850 50  0001 C CNN "MFG"
+F 5 "Wurth Elektronik" H 8750 4850 50  0001 C CNN "MFG"
 F 6 "865080642006" H 8750 4850 50  0001 C CNN "MPN"
 	1    8750 4850
 	0    -1   -1   0   
@@ -607,7 +664,10 @@ P 5975 2425
 F 0 "R26" H 5905 2379 50  0000 R CNN
 F 1 "22k" H 5905 2470 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5905 2425 50  0001 C CNN
-F 3 "~" H 5975 2425 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 5975 2425 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRGCQ0603F22K/A129704CT-ND/8577536" H 5975 2425 50  0001 C CNN "DigiKey"
+F 5 "TE Connectivity Passive Product" H 5975 2425 50  0001 C CNN "MFG"
+F 6 "CRGCQ0603F22K" H 5975 2425 50  0001 C CNN "MPN"
 	1    5975 2425
 	0    -1   -1   0   
 $EndComp
@@ -618,7 +678,10 @@ P 4525 3275
 F 0 "R22" H 4455 3229 50  0000 R CNN
 F 1 "22k" H 4455 3320 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4455 3275 50  0001 C CNN
-F 3 "~" H 4525 3275 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 4525 3275 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRGCQ0603F22K/A129704CT-ND/8577536" H 4525 3275 50  0001 C CNN "DigiKey"
+F 5 "TE Connectivity Passive Product" H 4525 3275 50  0001 C CNN "MFG"
+F 6 "CRGCQ0603F22K" H 4525 3275 50  0001 C CNN "MPN"
 	1    4525 3275
 	-1   0    0    1   
 $EndComp
@@ -629,7 +692,10 @@ P 6550 3300
 F 0 "R30" H 6480 3254 50  0000 R CNN
 F 1 "5k1" H 6480 3345 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6480 3300 50  0001 C CNN
-F 3 "~" H 6550 3300 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf" H 6550 3300 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PA3F5101V/P5-1KBYCT-ND/5036200" H 6550 3300 50  0001 C CNN "DigiKey"
+F 5 "Panasonic Electronic Components" H 6550 3300 50  0001 C CNN "MFG"
+F 6 "ERJ-PA3F5101V" H 6550 3300 50  0001 C CNN "MPN"
 	1    6550 3300
 	-1   0    0    1   
 $EndComp
@@ -640,7 +706,10 @@ P 8350 2050
 F 0 "R34" V 8557 2050 50  0000 C CNN
 F 1 "100" V 8466 2050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8280 2050 50  0001 C CNN
-F 3 "~" H 8350 2050 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/20065/rcse3.pdf" H 8350 2050 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/vishay-dale/RCS0603100RFKEA/541-2786-1-ND/5867079" H 8350 2050 50  0001 C CNN "DigiKey"
+F 5 "Vishay Dale" H 8350 2050 50  0001 C CNN "MFG"
+F 6 "RCS0603100RFKEA" H 8350 2050 50  0001 C CNN "MPN"
 	1    8350 2050
 	0    -1   -1   0   
 $EndComp
@@ -651,7 +720,10 @@ P 7725 2425
 F 0 "R32" V 7800 2425 50  0000 C CNN
 F 1 "22k" V 7875 2425 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7655 2425 50  0001 C CNN
-F 3 "~" H 7725 2425 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 7725 2425 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRGCQ0603F22K/A129704CT-ND/8577536" H 7725 2425 50  0001 C CNN "DigiKey"
+F 5 "TE Connectivity Passive Product" H 7725 2425 50  0001 C CNN "MFG"
+F 6 "CRGCQ0603F22K" H 7725 2425 50  0001 C CNN "MPN"
 	1    7725 2425
 	0    -1   1    0   
 $EndComp
@@ -690,7 +762,10 @@ P 5050 2425
 F 0 "U2" H 5125 2575 50  0000 C CNN
 F 1 "NE5532" H 5025 2425 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5050 2425 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ne5532.pdf" H 5050 2425 50  0001 C CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fne5532" H 5050 2425 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/texas-instruments/NE5532DR/296-13622-1-ND/499498" H 5050 2425 50  0001 C CNN "DigiKey"
+F 5 "Texas Instruments" H 5050 2425 50  0001 C CNN "MFG"
+F 6 "NE5532DR" H 5050 2425 50  0001 C CNN "MPN"
 	1    5050 2425
 	1    0    0    -1  
 $EndComp
@@ -701,7 +776,10 @@ P 7775 2050
 F 0 "U2" H 7825 2225 50  0000 C CNN
 F 1 "NE5532" H 7750 2050 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7775 2050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ne5532.pdf" H 7775 2050 50  0001 C CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fne5532" H 7775 2050 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/texas-instruments/NE5532DR/296-13622-1-ND/499498" H 7775 2050 50  0001 C CNN "DigiKey"
+F 5 "Texas Instruments" H 7775 2050 50  0001 C CNN "MFG"
+F 6 "NE5532DR" H 7775 2050 50  0001 C CNN "MPN"
 	2    7775 2050
 	1    0    0    -1  
 $EndComp
@@ -716,7 +794,10 @@ P 6225 3300
 F 0 "R28" H 6155 3254 50  0000 R CNN
 F 1 "100" H 6155 3345 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6155 3300 50  0001 C CNN
-F 3 "~" H 6225 3300 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/20065/rcse3.pdf" H 6225 3300 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/vishay-dale/RCS0603100RFKEA/541-2786-1-ND/5867079" H 6225 3300 50  0001 C CNN "DigiKey"
+F 5 "Vishay Dale" H 6225 3300 50  0001 C CNN "MFG"
+F 6 "RCS0603100RFKEA" H 6225 3300 50  0001 C CNN "MPN"
 	1    6225 3300
 	-1   0    0    1   
 $EndComp
@@ -743,7 +824,7 @@ F 1 "10u" V 5461 2425 50  0000 C CNN
 F 2 "Capacitor_SMD:CP_Elec_5x3" H 5663 2275 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/865080642006.pdf" H 5625 2425 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/865080642006/732-8451-1-ND/5728408" H 5625 2425 50  0001 C CNN "DigiKey"
-F 5 "Würth Elektronik" H 5625 2425 50  0001 C CNN "MFG"
+F 5 "Wurth Elektronik" H 5625 2425 50  0001 C CNN "MFG"
 F 6 "865080642006" H 5625 2425 50  0001 C CNN "MPN"
 	1    5625 2425
 	0    1    1    0   
@@ -757,7 +838,7 @@ F 1 "22p" V 7500 2750 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7763 2600 50  0001 C CNN
 F 3 "https://katalog.we-online.de/pbs/datasheet/885012006053.pdf" H 7725 2750 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/885012006053/732-7795-1-ND/5454422" H 7725 2750 50  0001 C CNN "DigiKey"
-F 5 "Würth Elektronik" H 7725 2750 50  0001 C CNN "MFG"
+F 5 "Wurth Elektronik" H 7725 2750 50  0001 C CNN "MFG"
 F 6 "885012006053" H 7725 2750 50  0001 C CNN "MPN"
 	1    7725 2750
 	0    1    -1   0   
@@ -1278,7 +1359,7 @@ F 1 "10u" V 8914 2050 50  0000 C CNN
 F 2 "Capacitor_SMD:CP_Elec_5x3" H 8788 1900 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/865080642006.pdf" H 8750 2050 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/865080642006/732-8451-1-ND/5728408" H 8750 2050 50  0001 C CNN "DigiKey"
-F 5 "Würth Elektronik" H 8750 2050 50  0001 C CNN "MFG"
+F 5 "Wurth Elektronik" H 8750 2050 50  0001 C CNN "MFG"
 F 6 "865080642006" H 8750 2050 50  0001 C CNN "MPN"
 	1    8750 2050
 	0    -1   -1   0   

@@ -80,7 +80,10 @@ P 6450 2575
 F 0 "R24" H 6520 2621 50  0000 L CNN
 F 1 "38.3k" H 6520 2530 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6380 2575 50  0001 C CNN
-F 3 "~" H 6450 2575 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 6450 2575 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3EKF3832V/P38-3KHCT-ND/198358" H 6450 2575 50  0001 C CNN "DigiKey"
+F 5 "Panasonic Electronic Components" H 6450 2575 50  0001 C CNN "MFG"
+F 6 "ERJ-3EKF3832V" H 6450 2575 50  0001 C CNN "MPN"
 	1    6450 2575
 	1    0    0    -1  
 $EndComp
@@ -92,7 +95,10 @@ P 6450 2875
 F 0 "R36" H 6520 2921 50  0000 L CNN
 F 1 "10k" H 6520 2830 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6380 2875 50  0001 C CNN
-F 3 "~" H 6450 2875 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 6450 2875 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRGCQ0603F10K/A129700CT-ND/8577532" H 6450 2875 50  0001 C CNN "DigiKey"
+F 5 "TE Connectivity Passive Product" H 6450 2875 50  0001 C CNN "MFG"
+F 6 "CRGCQ0603F10K" H 6450 2875 50  0001 C CNN "MPN"
 	1    6450 2875
 	1    0    0    -1  
 $EndComp
@@ -184,7 +190,10 @@ AR Path="/5E487042/5E5C3E0E" Ref="R37"  Part="1"
 F 0 "R37" H 1595 1946 50  0000 L CNN
 F 1 "2k2" H 1595 1855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1455 1900 50  0001 C CNN
-F 3 "~" H 1525 1900 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 1525 1900 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRGCQ0603F2K2/A129692CT-ND/8577524" H 1525 1900 50  0001 C CNN "DigiKey"
+F 5 "TE Connectivity Passive Product" H 1525 1900 50  0001 C CNN "MFG"
+F 6 "CRGCQ0603F2K2" H 1525 1900 50  0001 C CNN "MPN"
 	1    1525 1900
 	1    0    0    -1  
 $EndComp
@@ -242,7 +251,10 @@ P 4125 2775
 F 0 "R38" H 4195 2821 50  0000 L CNN
 F 1 "22k" H 4195 2730 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4055 2775 50  0001 C CNN
-F 3 "~" H 4125 2775 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 4125 2775 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRGCQ0603F22K/A129704CT-ND/8577536" H 4125 2775 50  0001 C CNN "DigiKey"
+F 5 "TE Connectivity Passive Product" H 4125 2775 50  0001 C CNN "MFG"
+F 6 "CRGCQ0603F22K" H 4125 2775 50  0001 C CNN "MPN"
 	1    4125 2775
 	1    0    0    -1  
 $EndComp
@@ -253,7 +265,10 @@ P 4400 2775
 F 0 "R39" H 4470 2821 50  0000 L CNN
 F 1 "22k" H 4470 2730 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4330 2775 50  0001 C CNN
-F 3 "~" H 4400 2775 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 4400 2775 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRGCQ0603F22K/A129704CT-ND/8577536" H 4400 2775 50  0001 C CNN "DigiKey"
+F 5 "TE Connectivity Passive Product" H 4400 2775 50  0001 C CNN "MFG"
+F 6 "CRGCQ0603F22K" H 4400 2775 50  0001 C CNN "MPN"
 	1    4400 2775
 	1    0    0    -1  
 $EndComp

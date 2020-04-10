@@ -353,7 +353,6 @@ Wire Wire Line
 	6100 3525 6250 3525
 Wire Wire Line
 	6250 3425 6250 3525
-NoConn ~ 2800 3750
 $Comp
 L Transistor_BJT:BD140 Q4
 U 1 1 5E259135
@@ -458,10 +457,12 @@ U 1 1 5E37AF4D
 P 8600 3375
 F 0 "R14" H 8725 3300 50  0000 C CNN
 F 1 "3.9" H 8725 3375 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P10.16mm_Vertical" V 8530 3375 50  0001 C CNN
-F 3 "" H 8600 3375 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0918_L18.0mm_D9.0mm_P7.62mm_Vertical" V 8530 3375 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773285&DocType=DS&DocLang=English" H 8600 3375 50  0001 C CNN
 F 4 "5W" H 8725 3450 50  0000 C CNN "Power"
-F 5 "https://www.digikey.com/product-detail/en/vishay-bc-components/PAC500003908FAC000/PPC5D3.9TB-ND/595237" H 8600 3375 50  0001 C CNN "DigiKey"
+F 5 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/SQPW53R9J/A137442-ND/2365717" H 8600 3375 50  0001 C CNN "DigiKey"
+F 6 "TE Connectivity Passive Product" H 8600 3375 50  0001 C CNN "MFG"
+F 7 "SQPW53R9J" H 8600 3375 50  0001 C CNN "MPN"
 	1    8600 3375
 	1    0    0    1   
 $EndComp
@@ -471,10 +472,12 @@ U 1 1 5E37A1FA
 P 8550 4450
 F 0 "R15" H 8675 4375 50  0000 C CNN
 F 1 "3.9" H 8675 4450 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P10.16mm_Vertical" V 8480 4450 50  0001 C CNN
-F 3 "" H 8550 4450 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0918_L18.0mm_D9.0mm_P7.62mm_Vertical" V 8480 4450 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773285&DocType=DS&DocLang=English" H 8550 4450 50  0001 C CNN
 F 4 "5W" H 8675 4525 50  0000 C CNN "Power"
-F 5 "https://www.digikey.com/product-detail/en/vishay-bc-components/PAC500003908FAC000/PPC5D3.9TB-ND/595237" H 8550 4450 50  0001 C CNN "DigiKey"
+F 5 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/SQPW53R9J/A137442-ND/2365717" H 8550 4450 50  0001 C CNN "DigiKey"
+F 6 "TE Connectivity Passive Product" H 8550 4450 50  0001 C CNN "MFG"
+F 7 "SQPW53R9J" H 8550 4450 50  0001 C CNN "MPN"
 	1    8550 4450
 	1    0    0    1   
 $EndComp
@@ -540,10 +543,12 @@ U 1 1 5E3589CB
 P 6750 3125
 F 0 "R13" V 6850 3125 50  0000 C CNN
 F 1 "150" V 6750 3125 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6680 3125 50  0001 C CNN
-F 3 "" H 6750 3125 50  0001 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric" V 6680 3125 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 6750 3125 50  0001 C CNN
 F 4 "1W" V 6650 3125 50  0000 C CNN "Power"
-F 5 "https://www.digikey.com/product-detail/en/yageo/FMP100JR-52-150R/150WTR-ND/2058579" H 6750 3125 50  0001 C CNN "DigiKey"
+F 5 "https://www.digikey.com/product-detail/en/vishay-dale/CRCW2512150RFKEG/541-150AFCT-ND/3232073" H 6750 3125 50  0001 C CNN "DigiKey"
+F 6 "Vishay Dale" H 6750 3125 50  0001 C CNN "MFG"
+F 7 "CRCW2512150RFKEG" H 6750 3125 50  0001 C CNN "MPN"
 	1    6750 3125
 	0    1    -1   0   
 $EndComp
@@ -556,7 +561,7 @@ F 1 "10u" H 3193 3030 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_5x3" H 3113 2925 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/865080642006.pdf" H 3075 3075 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/865080642006/732-8451-1-ND/5728408" H 3075 3075 50  0001 C CNN "DigiKey"
-F 5 "Würth Elektronik" H 3075 3075 50  0001 C CNN "MFG"
+F 5 "Wurth Elektronik" H 3075 3075 50  0001 C CNN "MFG"
 F 6 "865080642006" H 3075 3075 50  0001 C CNN "MPN"
 	1    3075 3075
 	1    0    0    -1  
@@ -568,7 +573,10 @@ P 2700 2450
 F 0 "R3" V 2800 2450 50  0000 C CNN
 F 1 "10" V 2600 2450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2630 2450 50  0001 C CNN
-F 3 "~" H 2700 2450 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf" H 2700 2450 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PA3F10R0V/P10-00BYCT-ND/5036118" H 2700 2450 50  0001 C CNN "DigiKey"
+F 5 "Panasonic Electronic Components" H 2700 2450 50  0001 C CNN "MFG"
+F 6 "ERJ-PA3F10R0V" H 2700 2450 50  0001 C CNN "MPN"
 	1    2700 2450
 	0    -1   -1   0   
 $EndComp
@@ -579,7 +587,10 @@ P 1975 4500
 F 0 "R2" V 2182 4500 50  0000 C CNN
 F 1 "100k" V 2091 4500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1905 4500 50  0001 C CNN
-F 3 "~" H 1975 4500 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf" H 1975 4500 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/vishay-beyschlag/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876" H 1975 4500 50  0001 C CNN "DigiKey"
+F 5 "Vishay Beyschlag" H 1975 4500 50  0001 C CNN "MFG"
+F 6 "MCT06030C1003FP500" H 1975 4500 50  0001 C CNN "MPN"
 	1    1975 4500
 	0    -1   -1   0   
 $EndComp
@@ -590,7 +601,10 @@ P 1975 3750
 F 0 "R1" V 2182 3750 50  0000 C CNN
 F 1 "100k" V 2091 3750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1905 3750 50  0001 C CNN
-F 3 "~" H 1975 3750 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf" H 1975 3750 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/vishay-beyschlag/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876" H 1975 3750 50  0001 C CNN "DigiKey"
+F 5 "Vishay Beyschlag" H 1975 3750 50  0001 C CNN "MFG"
+F 6 "MCT06030C1003FP500" H 1975 3750 50  0001 C CNN "MPN"
 	1    1975 3750
 	0    -1   -1   0   
 $EndComp
@@ -601,7 +615,10 @@ P 3575 4725
 F 0 "R6" H 3505 4679 50  0000 R CNN
 F 1 "22k" H 3505 4770 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3505 4725 50  0001 C CNN
-F 3 "~" H 3575 4725 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 3575 4725 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRGCQ0603F22K/A129704CT-ND/8577536" H 3575 4725 50  0001 C CNN "DigiKey"
+F 5 "TE Connectivity Passive Product" H 3575 4725 50  0001 C CNN "MFG"
+F 6 "CRGCQ0603F22K" H 3575 4725 50  0001 C CNN "MPN"
 	1    3575 4725
 	-1   0    0    1   
 $EndComp
@@ -612,7 +629,10 @@ P 3925 2725
 F 0 "R7" H 3855 2679 50  0000 R CNN
 F 1 "100k" H 3855 2770 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3855 2725 50  0001 C CNN
-F 3 "~" H 3925 2725 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf" H 3925 2725 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/vishay-beyschlag/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876" H 3925 2725 50  0001 C CNN "DigiKey"
+F 5 "Vishay Beyschlag" H 3925 2725 50  0001 C CNN "MFG"
+F 6 "MCT06030C1003FP500" H 3925 2725 50  0001 C CNN "MPN"
 	1    3925 2725
 	-1   0    0    1   
 $EndComp
@@ -623,7 +643,10 @@ P 3075 2725
 F 0 "R4" H 3005 2679 50  0000 R CNN
 F 1 "100k" H 3005 2770 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3005 2725 50  0001 C CNN
-F 3 "~" H 3075 2725 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf" H 3075 2725 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/vishay-beyschlag/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876" H 3075 2725 50  0001 C CNN "DigiKey"
+F 5 "Vishay Beyschlag" H 3075 2725 50  0001 C CNN "MFG"
+F 6 "MCT06030C1003FP500" H 3075 2725 50  0001 C CNN "MPN"
 	1    3075 2725
 	-1   0    0    1   
 $EndComp
@@ -648,7 +671,10 @@ P 3400 3550
 F 0 "R5" H 3330 3504 50  0000 R CNN
 F 1 "22k" H 3330 3595 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3330 3550 50  0001 C CNN
-F 3 "~" H 3400 3550 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 3400 3550 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRGCQ0603F22K/A129704CT-ND/8577536" H 3400 3550 50  0001 C CNN "DigiKey"
+F 5 "TE Connectivity Passive Product" H 3400 3550 50  0001 C CNN "MFG"
+F 6 "CRGCQ0603F22K" H 3400 3550 50  0001 C CNN "MPN"
 	1    3400 3550
 	-1   0    0    1   
 $EndComp
@@ -659,7 +685,10 @@ P 3925 3550
 F 0 "R8" H 3855 3504 50  0000 R CNN
 F 1 "100k" H 3855 3595 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3855 3550 50  0001 C CNN
-F 3 "~" H 3925 3550 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf" H 3925 3550 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/vishay-beyschlag/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876" H 3925 3550 50  0001 C CNN "DigiKey"
+F 5 "Vishay Beyschlag" H 3925 3550 50  0001 C CNN "MFG"
+F 6 "MCT06030C1003FP500" H 3925 3550 50  0001 C CNN "MPN"
 	1    3925 3550
 	-1   0    0    1   
 $EndComp
@@ -670,7 +699,10 @@ P 4550 3550
 F 0 "R9" H 4480 3504 50  0000 R CNN
 F 1 "10k" H 4480 3595 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4480 3550 50  0001 C CNN
-F 3 "~" H 4550 3550 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 4550 3550 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRGCQ0603F10K/A129700CT-ND/8577532" H 4550 3550 50  0001 C CNN "DigiKey"
+F 5 "TE Connectivity Passive Product" H 4550 3550 50  0001 C CNN "MFG"
+F 6 "CRGCQ0603F10K" H 4550 3550 50  0001 C CNN "MPN"
 	1    4550 3550
 	-1   0    0    1   
 $EndComp
@@ -681,7 +713,10 @@ P 5025 4425
 F 0 "R10" V 4818 4425 50  0000 C CNN
 F 1 "10k" V 4909 4425 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4955 4425 50  0001 C CNN
-F 3 "~" H 5025 4425 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 5025 4425 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRGCQ0603F10K/A129700CT-ND/8577532" H 5025 4425 50  0001 C CNN "DigiKey"
+F 5 "TE Connectivity Passive Product" H 5025 4425 50  0001 C CNN "MFG"
+F 6 "CRGCQ0603F10K" H 5025 4425 50  0001 C CNN "MPN"
 	1    5025 4425
 	0    1    1    0   
 $EndComp
@@ -692,7 +727,10 @@ P 5300 4125
 F 0 "R11" H 5370 4171 50  0000 L CNN
 F 1 "10k" H 5370 4080 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5230 4125 50  0001 C CNN
-F 3 "~" H 5300 4125 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 5300 4125 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRGCQ0603F10K/A129700CT-ND/8577532" H 5300 4125 50  0001 C CNN "DigiKey"
+F 5 "TE Connectivity Passive Product" H 5300 4125 50  0001 C CNN "MFG"
+F 6 "CRGCQ0603F10K" H 5300 4125 50  0001 C CNN "MPN"
 	1    5300 4125
 	1    0    0    -1  
 $EndComp
@@ -703,7 +741,10 @@ P 5950 3525
 F 0 "R12" V 5743 3525 50  0000 C CNN
 F 1 "100k" V 5834 3525 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5880 3525 50  0001 C CNN
-F 3 "~" H 5950 3525 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf" H 5950 3525 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/vishay-beyschlag/MCT06030C1003FP500/MCT0603-100K-CFCT-ND/2607876" H 5950 3525 50  0001 C CNN "DigiKey"
+F 5 "Vishay Beyschlag" H 5950 3525 50  0001 C CNN "MFG"
+F 6 "MCT06030C1003FP500" H 5950 3525 50  0001 C CNN "MPN"
 	1    5950 3525
 	0    1    1    0   
 $EndComp
@@ -716,7 +757,7 @@ F 1 "1u" H 5868 4655 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_4x5.4" H 5788 4550 50  0001 C CNN
 F 3 "https://katalog.we-online.de/pbs/datasheet/865060640001.pdf" H 5750 4700 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/865060640001/732-8541-1-ND/5728498" H 5750 4700 50  0001 C CNN "DigiKey"
-F 5 "Würth Elektronik" H 5750 4700 50  0001 C CNN "MFG"
+F 5 "Wurth Elektronik" H 5750 4700 50  0001 C CNN "MFG"
 F 6 "865060640001" H 5750 4700 50  0001 C CNN "MPN"
 	1    5750 4700
 	1    0    0    -1  
