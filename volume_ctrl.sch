@@ -1029,83 +1029,83 @@ $EndComp
 $Comp
 L power:+12V #PWR030
 U 1 1 5E535287
-P 2975 700
-F 0 "#PWR030" H 2975 550 50  0001 C CNN
-F 1 "+12V" H 2825 775 50  0000 C CNN
-F 2 "" H 2975 700 50  0001 C CNN
-F 3 "" H 2975 700 50  0001 C CNN
-	1    2975 700 
+P 4405 710
+F 0 "#PWR030" H 4405 560 50  0001 C CNN
+F 1 "+12V" H 4255 785 50  0000 C CNN
+F 2 "" H 4405 710 50  0001 C CNN
+F 3 "" H 4405 710 50  0001 C CNN
+	1    4405 710 
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:-12V #PWR031
 U 1 1 5E53528D
-P 2975 1500
-F 0 "#PWR031" H 2975 1600 50  0001 C CNN
-F 1 "-12V" H 3125 1575 50  0000 C CNN
-F 2 "" H 2975 1500 50  0001 C CNN
-F 3 "" H 2975 1500 50  0001 C CNN
-	1    2975 1500
+P 4405 1510
+F 0 "#PWR031" H 4405 1610 50  0001 C CNN
+F 1 "-12V" H 4555 1585 50  0000 C CNN
+F 2 "" H 4405 1510 50  0001 C CNN
+F 3 "" H 4405 1510 50  0001 C CNN
+	1    4405 1510
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2975 1125 2975 1100
+	4405 1135 4405 1110
 Wire Wire Line
-	2975 1100 3225 1100
+	4405 1110 4655 1110
 Wire Wire Line
-	3225 1100 3225 1200
-Connection ~ 2975 1100
+	4655 1110 4655 1210
+Connection ~ 4405 1110
 Wire Wire Line
-	2975 1100 2975 1075
+	4405 1110 4405 1085
 $Comp
 L power:GND #PWR032
 U 1 1 5E5352A5
-P 3225 1200
-F 0 "#PWR032" H 3225 950 50  0001 C CNN
-F 1 "GND" H 3230 1027 50  0000 C CNN
-F 2 "" H 3225 1200 50  0001 C CNN
-F 3 "" H 3225 1200 50  0001 C CNN
-	1    3225 1200
+P 4655 1210
+F 0 "#PWR032" H 4655 960 50  0001 C CNN
+F 1 "GND" H 4660 1037 50  0000 C CNN
+F 2 "" H 4655 1210 50  0001 C CNN
+F 3 "" H 4655 1210 50  0001 C CNN
+	1    4655 1210
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:+12V #PWR033
 U 1 1 5E55CE84
-P 3475 700
-F 0 "#PWR033" H 3475 550 50  0001 C CNN
-F 1 "+12V" H 3350 775 50  0000 C CNN
-F 2 "" H 3475 700 50  0001 C CNN
-F 3 "" H 3475 700 50  0001 C CNN
-	1    3475 700 
+P 4905 710
+F 0 "#PWR033" H 4905 560 50  0001 C CNN
+F 1 "+12V" H 4780 785 50  0000 C CNN
+F 2 "" H 4905 710 50  0001 C CNN
+F 3 "" H 4905 710 50  0001 C CNN
+	1    4905 710 
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:-12V #PWR034
 U 1 1 5E55CE8A
-P 3475 1500
-F 0 "#PWR034" H 3475 1600 50  0001 C CNN
-F 1 "-12V" H 3600 1575 50  0000 C CNN
-F 2 "" H 3475 1500 50  0001 C CNN
-F 3 "" H 3475 1500 50  0001 C CNN
-	1    3475 1500
+P 4905 1510
+F 0 "#PWR034" H 4905 1610 50  0001 C CNN
+F 1 "-12V" H 5030 1585 50  0000 C CNN
+F 2 "" H 4905 1510 50  0001 C CNN
+F 3 "" H 4905 1510 50  0001 C CNN
+	1    4905 1510
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	3475 1125 3475 1100
+	4905 1135 4905 1110
 Wire Wire Line
-	3475 1100 3225 1100
-Connection ~ 3475 1100
+	4905 1110 4655 1110
+Connection ~ 4905 1110
 Wire Wire Line
-	3475 1100 3475 1075
+	4905 1110 4905 1085
 Wire Notes Line
-	2675 525  3775 525 
+	4105 535  5205 535 
 Wire Notes Line
-	3775 525  3775 1725
+	5205 535  5205 1735
 Wire Notes Line
-	3775 1725 2675 1725
+	5205 1735 4105 1735
 Wire Notes Line
-	2675 1725 2675 525 
-Text Notes 2700 1725 0    50   ~ 0
+	4105 1735 4105 535 
+Text Notes 4130 1735 0    50   ~ 0
 Decoupling for THAT2180's
 Wire Wire Line
 	1775 1450 1775 1475
@@ -1242,16 +1242,16 @@ Decoupling for \nU2 NE5532
 Text Notes 575  1700 0    50   ~ 0
 Decoupling for \nU1 TL072
 Wire Wire Line
-	2975 1500 2975 1425
+	4405 1510 4405 1435
 Wire Wire Line
-	3475 1500 3475 1425
+	4905 1510 4905 1435
 Wire Wire Line
-	3475 700  3475 775 
+	4905 710  4905 785 
 Wire Wire Line
-	2975 775  2975 700 
+	4405 785  4405 710 
 Wire Wire Line
 	6750 5625 6750 5575
-Connection ~ 3225 1100
+Connection ~ 4655 1110
 $Comp
 L Device:C C16
 U 1 1 5E6980F2
@@ -1297,57 +1297,57 @@ $EndComp
 $Comp
 L Device:C C19
 U 1 1 5E6992C5
-P 2975 925
-F 0 "C19" H 3090 971 50  0000 L CNN
-F 1 "0.1u" H 3090 880 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3013 775 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C104Z3VACTU.pdf" H 2975 925 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104Z3VACTU/399-1100-1-ND/411375" H 2975 925 50  0001 C CNN "DigiKey"
-F 5 "KEMET" H 2975 925 50  0001 C CNN "MFG"
-F 6 "C0603C104Z3VACTU" H 2975 925 50  0001 C CNN "MPN"
-	1    2975 925 
+P 4405 935
+F 0 "C19" H 4520 981 50  0000 L CNN
+F 1 "0.1u" H 4520 890 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4443 785 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C104Z3VACTU.pdf" H 4405 935 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104Z3VACTU/399-1100-1-ND/411375" H 4405 935 50  0001 C CNN "DigiKey"
+F 5 "KEMET" H 4405 935 50  0001 C CNN "MFG"
+F 6 "C0603C104Z3VACTU" H 4405 935 50  0001 C CNN "MPN"
+	1    4405 935 
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:C C20
 U 1 1 5E6996E0
-P 2975 1275
-F 0 "C20" H 3090 1321 50  0000 L CNN
-F 1 "0.1u" H 3090 1230 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3013 1125 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C104Z3VACTU.pdf" H 2975 1275 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104Z3VACTU/399-1100-1-ND/411375" H 2975 1275 50  0001 C CNN "DigiKey"
-F 5 "KEMET" H 2975 1275 50  0001 C CNN "MFG"
-F 6 "C0603C104Z3VACTU" H 2975 1275 50  0001 C CNN "MPN"
-	1    2975 1275
+P 4405 1285
+F 0 "C20" H 4520 1331 50  0000 L CNN
+F 1 "0.1u" H 4520 1240 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4443 1135 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C104Z3VACTU.pdf" H 4405 1285 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104Z3VACTU/399-1100-1-ND/411375" H 4405 1285 50  0001 C CNN "DigiKey"
+F 5 "KEMET" H 4405 1285 50  0001 C CNN "MFG"
+F 6 "C0603C104Z3VACTU" H 4405 1285 50  0001 C CNN "MPN"
+	1    4405 1285
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:C C21
 U 1 1 5E699AAD
-P 3475 925
-F 0 "C21" H 3590 971 50  0000 L CNN
-F 1 "0.1u" H 3590 880 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3513 775 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C104Z3VACTU.pdf" H 3475 925 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104Z3VACTU/399-1100-1-ND/411375" H 3475 925 50  0001 C CNN "DigiKey"
-F 5 "KEMET" H 3475 925 50  0001 C CNN "MFG"
-F 6 "C0603C104Z3VACTU" H 3475 925 50  0001 C CNN "MPN"
-	1    3475 925 
+P 4905 935
+F 0 "C21" H 5020 981 50  0000 L CNN
+F 1 "0.1u" H 5020 890 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4943 785 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C104Z3VACTU.pdf" H 4905 935 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104Z3VACTU/399-1100-1-ND/411375" H 4905 935 50  0001 C CNN "DigiKey"
+F 5 "KEMET" H 4905 935 50  0001 C CNN "MFG"
+F 6 "C0603C104Z3VACTU" H 4905 935 50  0001 C CNN "MPN"
+	1    4905 935 
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C22
 U 1 1 5E699F34
-P 3475 1275
-F 0 "C22" H 3590 1321 50  0000 L CNN
-F 1 "0.1u" H 3590 1230 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3513 1125 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C104Z3VACTU.pdf" H 3475 1275 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104Z3VACTU/399-1100-1-ND/411375" H 3475 1275 50  0001 C CNN "DigiKey"
-F 5 "KEMET" H 3475 1275 50  0001 C CNN "MFG"
-F 6 "C0603C104Z3VACTU" H 3475 1275 50  0001 C CNN "MPN"
-	1    3475 1275
+P 4905 1285
+F 0 "C22" H 5020 1331 50  0000 L CNN
+F 1 "0.1u" H 5020 1240 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4943 1135 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C104Z3VACTU.pdf" H 4905 1285 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104Z3VACTU/399-1100-1-ND/411375" H 4905 1285 50  0001 C CNN "DigiKey"
+F 5 "KEMET" H 4905 1285 50  0001 C CNN "MFG"
+F 6 "C0603C104Z3VACTU" H 4905 1285 50  0001 C CNN "MPN"
+	1    4905 1285
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1380,4 +1380,118 @@ F 6 "EEV-FK1E102Q" H 5850 6100 50  0001 C CNN "MPN"
 $EndComp
 Text Label 6200 2425 0    50   ~ 0
 vca_in_R
+Text Label 6150 5225 0    50   ~ 0
+vca_in_L
+$Comp
+L Amplifier_Operational:NE5532 U3
+U 3 1 5E9F2571
+P 2925 1150
+F 0 "U3" H 2850 1400 50  0000 L CNN
+F 1 "NE5532" H 2875 875 50  0001 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2925 1150 50  0001 C CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fne5532" H 2925 1150 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/texas-instruments/NE5532DR/296-13622-1-ND/499498" H 2925 1150 50  0001 C CNN "DigiKey"
+F 5 "Texas Instruments" H 2925 1150 50  0001 C CNN "MFG"
+F 6 "NE5532DR" H 2925 1150 50  0001 C CNN "MPN"
+	3    2925 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR043
+U 1 1 5E9F2577
+P 2825 750
+F 0 "#PWR043" H 2825 600 50  0001 C CNN
+F 1 "+12V" H 2840 923 50  0000 C CNN
+F 2 "" H 2825 750 50  0001 C CNN
+F 3 "" H 2825 750 50  0001 C CNN
+	1    2825 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-12V #PWR044
+U 1 1 5E9F257D
+P 2825 1500
+F 0 "#PWR044" H 2825 1600 50  0001 C CNN
+F 1 "-12V" H 2840 1673 50  0000 C CNN
+F 2 "" H 2825 1500 50  0001 C CNN
+F 3 "" H 2825 1500 50  0001 C CNN
+	1    2825 1500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3325 1475 3325 1450
+Wire Wire Line
+	3325 1475 2825 1475
+Wire Wire Line
+	2825 1475 2825 1500
+Wire Wire Line
+	2825 1450 2825 1475
+Connection ~ 2825 1475
+Wire Wire Line
+	2825 750  2825 775 
+Wire Wire Line
+	3325 800  3325 775 
+Wire Wire Line
+	3325 775  2825 775 
+Connection ~ 2825 775 
+Wire Wire Line
+	2825 775  2825 850 
+$Comp
+L power:GND #PWR045
+U 1 1 5E9F258D
+P 3575 1225
+F 0 "#PWR045" H 3575 975 50  0001 C CNN
+F 1 "GND" H 3575 1075 50  0001 C CNN
+F 2 "" H 3575 1225 50  0001 C CNN
+F 3 "" H 3575 1225 50  0001 C CNN
+	1    3575 1225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3575 1225 3575 1125
+Wire Wire Line
+	3575 1125 3325 1125
+Wire Wire Line
+	3325 1125 3325 1150
+Wire Wire Line
+	3325 1100 3325 1125
+Connection ~ 3325 1125
+Wire Notes Line
+	2650 525  2650 1725
+Wire Notes Line
+	2650 1725 3650 1725
+Wire Notes Line
+	3650 1725 3650 525 
+Wire Notes Line
+	3650 525  2650 525 
+Text Notes 3050 1700 0    50   ~ 0
+Decoupling for \nU3 NE5532
+$Comp
+L Device:C C25
+U 1 1 5E9F25A0
+P 3325 950
+F 0 "C25" H 3440 996 50  0000 L CNN
+F 1 "0.1u" H 3440 905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3363 800 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C104Z3VACTU.pdf" H 3325 950 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104Z3VACTU/399-1100-1-ND/411375" H 3325 950 50  0001 C CNN "DigiKey"
+F 5 "KEMET" H 3325 950 50  0001 C CNN "MFG"
+F 6 "C0603C104Z3VACTU" H 3325 950 50  0001 C CNN "MPN"
+	1    3325 950 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C26
+U 1 1 5E9F25A9
+P 3325 1300
+F 0 "C26" H 3440 1346 50  0000 L CNN
+F 1 "0.1u" H 3440 1255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3363 1150 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0603C104Z3VACTU.pdf" H 3325 1300 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104Z3VACTU/399-1100-1-ND/411375" H 3325 1300 50  0001 C CNN "DigiKey"
+F 5 "KEMET" H 3325 1300 50  0001 C CNN "MFG"
+F 6 "C0603C104Z3VACTU" H 3325 1300 50  0001 C CNN "MPN"
+	1    3325 1300
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
