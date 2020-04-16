@@ -23,7 +23,7 @@ F2 "amp_in_L" I L 6950 3700 50
 F3 "amp_out_L" O R 7625 3600 50 
 $EndSheet
 Wire Wire Line
-	900  1650 925  1650
+	890  1650 925  1650
 Wire Wire Line
 	925  1800 925  1650
 Text Label 6725 3700 2    50   ~ 0
@@ -93,23 +93,23 @@ Wire Wire Line
 $Comp
 L AAMB-rescue:+35V-Power-amp #PWR0106
 U 1 1 5E1EC4AA
-P 1410 1530
-F 0 "#PWR0106" H 1585 1355 50  0001 C CNN
-F 1 "+35V" H 1410 1630 39  0000 C CNN
-F 2 "" H 1410 1530 50  0001 C CNN
-F 3 "" H 1410 1530 50  0001 C CNN
-	1    1410 1530
+P 1985 1530
+F 0 "#PWR0106" H 2160 1355 50  0001 C CNN
+F 1 "+35V" H 1985 1630 39  0000 C CNN
+F 2 "" H 1985 1530 50  0001 C CNN
+F 3 "" H 1985 1530 50  0001 C CNN
+	1    1985 1530
 	1    0    0    -1  
 $EndComp
 $Comp
 L AAMB-rescue:-35V-Power-amp #PWR0107
 U 1 1 5E1EDDCB
-P 1410 1780
-F 0 "#PWR0107" H 1585 1605 50  0001 C CNN
-F 1 "-35V" H 1460 1680 39  0000 C CNN
-F 2 "" H 1410 1780 50  0001 C CNN
-F 3 "" H 1410 1780 50  0001 C CNN
-	1    1410 1780
+P 1985 1780
+F 0 "#PWR0107" H 2160 1605 50  0001 C CNN
+F 1 "-35V" H 2035 1680 39  0000 C CNN
+F 2 "" H 1985 1780 50  0001 C CNN
+F 3 "" H 1985 1780 50  0001 C CNN
+	1    1985 1780
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -172,15 +172,15 @@ $EndComp
 $Comp
 L Connector:Screw_Terminal_01x04 J1
 U 1 1 5E402B60
-P 700 1550
-F 0 "J1" H 618 1775 50  0000 C CNN
-F 1 "Screw_Terminal_01x04" H 618 1776 50  0001 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal" H 700 1550 50  0001 C CNN
-F 3 "https://www.cuidevices.com/product/resource/tb001-500.pdf" H 700 1550 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/cui-devices/TB001-500-04BE/102-6136-ND/10064060" H 700 1550 50  0001 C CNN "DigiKey"
-F 5 "CUI Devices" H 700 1550 50  0001 C CNN "MFG"
-F 6 "TB001-500-04BE" H 700 1550 50  0001 C CNN "MPN"
-	1    700  1550
+P 690 1550
+F 0 "J1" H 608 1775 50  0000 C CNN
+F 1 "Screw_Terminal_01x04" H 608 1776 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal" H 690 1550 50  0001 C CNN
+F 3 "https://www.cuidevices.com/product/resource/tb001-500.pdf" H 690 1550 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/cui-devices/TB001-500-04BE/102-6136-ND/10064060" H 690 1550 50  0001 C CNN "DigiKey"
+F 5 "CUI Devices" H 690 1550 50  0001 C CNN "MFG"
+F 6 "TB001-500-04BE" H 690 1550 50  0001 C CNN "MPN"
+	1    690  1550
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -567,7 +567,7 @@ $EndComp
 Wire Wire Line
 	1750 700  1650 700 
 Wire Wire Line
-	900  1450 950  1450
+	890  1450 950  1450
 $Comp
 L AAMB-rescue:25Vac-power #PWR0124
 U 1 1 5E3BCE97
@@ -829,45 +829,49 @@ $EndComp
 $Comp
 L Device:Fuse_Small F?
 U 1 1 5E9A4ADA
-P 1130 1550
+P 1695 1550
 AR Path="/5C7F608F/5E9A4ADA" Ref="F?"  Part="1" 
 AR Path="/5E9A4ADA" Ref="F1"  Part="1" 
-F 0 "F1" H 1130 1643 50  0000 C CNN
-F 1 "Fuse_Small" H 1130 1644 50  0001 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1130 1550 50  0001 C CNN
-F 3 "https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-c1f-series.pdf" H 1130 1550 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/bel-fuse-inc/C1F-3/507-1883-1-ND/4968162" H 1130 1550 50  0001 C CNN "DigiKey"
-F 5 "Bel Fuse Inc." H 1130 1550 50  0001 C CNN "MFG"
-F 6 "C1F 3" H 1130 1550 50  0001 C CNN "MPN"
-	1    1130 1550
+F 0 "F1" H 1695 1643 50  0000 C CNN
+F 1 "Fuse_Small" H 1695 1644 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1695 1550 50  0001 C CNN
+F 3 "https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-c1f-series.pdf" H 1695 1550 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/bel-fuse-inc/C1F-3/507-1883-1-ND/4968162" H 1695 1550 50  0001 C CNN "DigiKey"
+F 5 "Bel Fuse Inc." H 1695 1550 50  0001 C CNN "MFG"
+F 6 "C1F 3" H 1695 1550 50  0001 C CNN "MPN"
+	1    1695 1550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	900  1550 1030 1550
+	1795 1550 1985 1550
 Wire Wire Line
-	1230 1550 1410 1550
-Wire Wire Line
-	1410 1550 1410 1530
+	1985 1550 1985 1530
 $Comp
 L Device:Fuse_Small F?
 U 1 1 5E9B7B14
-P 1140 1750
+P 1715 1750
 AR Path="/5C7F608F/5E9B7B14" Ref="F?"  Part="1" 
 AR Path="/5E9B7B14" Ref="F2"  Part="1" 
-F 0 "F2" H 1140 1843 50  0000 C CNN
-F 1 "Fuse_Small" H 1140 1844 50  0001 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1140 1750 50  0001 C CNN
-F 3 "https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-c1f-series.pdf" H 1140 1750 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/bel-fuse-inc/C1F-3/507-1883-1-ND/4968162" H 1140 1750 50  0001 C CNN "DigiKey"
-F 5 "Bel Fuse Inc." H 1140 1750 50  0001 C CNN "MFG"
-F 6 "C1F 3" H 1140 1750 50  0001 C CNN "MPN"
-	1    1140 1750
+F 0 "F2" H 1715 1843 50  0000 C CNN
+F 1 "Fuse_Small" H 1715 1844 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1715 1750 50  0001 C CNN
+F 3 "https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-c1f-series.pdf" H 1715 1750 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/bel-fuse-inc/C1F-3/507-1883-1-ND/4968162" H 1715 1750 50  0001 C CNN "DigiKey"
+F 5 "Bel Fuse Inc." H 1715 1750 50  0001 C CNN "MFG"
+F 6 "C1F 3" H 1715 1750 50  0001 C CNN "MPN"
+	1    1715 1750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	900  1750 1040 1750
+	1815 1750 1985 1750
 Wire Wire Line
-	1240 1750 1410 1750
+	1985 1750 1985 1780
 Wire Wire Line
-	1410 1750 1410 1780
+	890  1550 1595 1550
+Wire Wire Line
+	890  1750 1615 1750
+Text Label 960  1550 0    50   ~ 0
++35V_UNFUSED
+Text Label 960  1750 0    50   ~ 0
+-35V_UNFUSED
 $EndSCHEMATC

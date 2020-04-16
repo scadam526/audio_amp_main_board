@@ -447,8 +447,6 @@ Wire Wire Line
 	3750 4350 3850 4350
 Connection ~ 3300 4350
 Wire Wire Line
-	2900 3650 2950 3650
-Wire Wire Line
 	3850 4450 3850 4350
 Connection ~ 3850 4350
 Wire Wire Line
@@ -562,8 +560,6 @@ Wire Wire Line
 Wire Wire Line
 	6900 3600 6900 3650
 Connection ~ 6900 3650
-Wire Wire Line
-	6900 4000 6900 4055
 $Comp
 L Device:Q_PNP_BCE Q207
 U 1 1 5E1CCB04
@@ -642,8 +638,6 @@ Wire Wire Line
 	6900 3650 6900 3700
 Wire Wire Line
 	6450 2350 6450 2400
-Wire Wire Line
-	6900 2850 6900 3045
 Connection ~ 3300 3800
 Text Label 6800 4000 2    50   ~ 0
 pwr_fet_neg_L
@@ -662,26 +656,12 @@ F 3 "" H 4900 4500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4900 4400 4900 4500
-Text HLabel 2450 3650 0    50   Input ~ 0
+Text HLabel 2700 3650 0    50   Input ~ 0
 amp_in_L
 Text HLabel 8050 3650 2    50   Output ~ 0
 amp_out_L
 Wire Wire Line
 	7400 3650 8050 3650
-$Comp
-L Device:CP C201
-U 1 1 5C7F66CB
-P 2750 3650
-F 0 "C201" H 2775 3750 50  0000 L CNN
-F 1 "4.7u" H 2775 3550 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_4x5.4" H 2788 3500 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/865080640004/732-8449-1-ND/5728406" H 2750 3650 50  0001 C CNN
-F 4 "https://www.we-online.de/katalog/datasheet/865080640004.pdf" H 2750 3650 50  0001 C CNN "DigiKey"
-F 5 "Wurth Elektronik" H 2750 3650 50  0001 C CNN "MFG"
-F 6 "865080640004" H 2750 3650 50  0001 C CNN "MPN"
-	1    2750 3650
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Device:R R203
 U 1 1 5E1CCAE0
@@ -737,8 +717,6 @@ F 3 "" H 3000 4500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3000 4500 3000 4350
-Wire Wire Line
-	2450 3650 2600 3650
 Wire Wire Line
 	7600 2450 7600 2550
 $Comp
@@ -797,8 +775,6 @@ $EndComp
 Wire Wire Line
 	7400 5000 6900 5000
 Connection ~ 7400 5000
-Wire Wire Line
-	7400 3650 7140 3650
 Connection ~ 7400 3650
 $Comp
 L AAMB-rescue:+35V-Power-amp #PWR?
@@ -952,87 +928,16 @@ Wire Wire Line
 	3650 3650 3800 3650
 Wire Wire Line
 	4700 3650 4900 3650
-$Comp
-L dk_Test-Points:5000 TP8
-U 1 1 5EA50D7D
-P 7110 3045
-F 0 "TP8" V 7163 2995 50  0000 R CNN
-F 1 "5000" H 7110 2945 50  0001 C CNN
-F 2 "digikey-footprints:Test_Point_D1.02mm" H 7310 3245 60  0001 L CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1309" H 7310 3345 60  0001 L CNN
-F 4 "36-5000-ND" H 7310 3445 60  0001 L CNN "Digi-Key_PN"
-F 5 "5000" H 7310 3545 60  0001 L CNN "MPN"
-F 6 "Test and Measurement" H 7310 3645 60  0001 L CNN "Category"
-F 7 "Test Points" H 7310 3745 60  0001 L CNN "Family"
-F 8 "http://www.keyelco.com/product-pdf.cfm?p=1309" H 7310 3845 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/keystone-electronics/5000/36-5000-ND/255326" H 7310 3945 60  0001 L CNN "DK_Detail_Page"
-F 10 "RED" V 7064 2995 60  0000 R CNN "Description"
-F 11 "Keystone Electronics" H 7310 4145 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 7310 4245 60  0001 L CNN "Status"
-F 13 "/product-detail/en/keystone-electronics/5000/36-5000-ND/255326" H 7110 3045 50  0001 C CNN "DigiKey"
-F 14 "Keystone Electronics" H 7110 3045 50  0001 C CNN "MFG"
-	1    7110 3045
-	0    -1   -1   0   
-$EndComp
-$Comp
-L dk_Test-Points:5001 TP9
-U 1 1 5EA52462
-P 7140 3550
-F 0 "TP9" H 7155 3490 50  0000 R CNN
-F 1 "5001" H 7140 3450 50  0001 C CNN
-F 2 "digikey-footprints:Test_Point_D1.02mm" H 7340 3750 60  0001 L CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 7340 3850 60  0001 L CNN
-F 4 "36-5001-ND" H 7340 3950 60  0001 L CNN "Digi-Key_PN"
-F 5 "5001" H 7340 4050 60  0001 L CNN "MPN"
-F 6 "Test and Measurement" H 7340 4150 60  0001 L CNN "Category"
-F 7 "Test Points" H 7340 4250 60  0001 L CNN "Family"
-F 8 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 7340 4350 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/keystone-electronics/5001/36-5001-ND/255327" H 7340 4450 60  0001 L CNN "DK_Detail_Page"
-F 10 "BLACK" H 7080 3590 60  0000 R CNN "Description"
-F 11 "Keystone Electronics" H 7340 4650 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 7340 4750 60  0001 L CNN "Status"
-F 13 "/product-detail/en/keystone-electronics/5001/36-5001-ND/255327" H 7140 3550 50  0001 C CNN "DigiKey"
-F 14 "Keystone Electronics" H 7140 3550 50  0001 C CNN "MFG"
-	1    7140 3550
-	-1   0    0    1   
-$EndComp
-$Comp
-L dk_Test-Points:5002 TP7
-U 1 1 5EA53283
-P 7040 4055
-F 0 "TP7" V 7093 4005 50  0000 R CNN
-F 1 "5002" H 7040 3955 50  0001 C CNN
-F 2 "digikey-footprints:Test_Point_D1.02mm" H 7240 4255 60  0001 L CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1311" H 7240 4355 60  0001 L CNN
-F 4 "36-5002-ND" H 7240 4455 60  0001 L CNN "Digi-Key_PN"
-F 5 "5002" H 7240 4555 60  0001 L CNN "MPN"
-F 6 "Test and Measurement" H 7240 4655 60  0001 L CNN "Category"
-F 7 "Test Points" H 7240 4755 60  0001 L CNN "Family"
-F 8 "http://www.keyelco.com/product-pdf.cfm?p=1311" H 7240 4855 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/keystone-electronics/5002/36-5002-ND/255328" H 7240 4955 60  0001 L CNN "DK_Detail_Page"
-F 10 "WHITE" V 6994 4005 60  0000 R CNN "Description"
-F 11 "Keystone Electronics" H 7240 5155 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 7240 5255 60  0001 L CNN "Status"
-F 13 "/product-detail/en/keystone-electronics/5002/36-5002-ND/255328" H 7040 4055 50  0001 C CNN "DigiKey"
-F 14 "Keystone Electronics" H 7040 4055 50  0001 C CNN "MFG"
-	1    7040 4055
-	0    -1   -1   0   
-$EndComp
-Connection ~ 7140 3650
-Wire Wire Line
-	7140 3650 6900 3650
-Connection ~ 6900 3045
-Wire Wire Line
-	6900 3045 6900 3300
-Wire Wire Line
-	6900 3045 7010 3045
-Wire Wire Line
-	6940 4055 6900 4055
-Connection ~ 6900 4055
-Wire Wire Line
-	6900 4055 6900 4400
 Wire Wire Line
 	7300 1900 8025 1900
 Wire Wire Line
 	7400 5000 7950 5000
+Wire Wire Line
+	6900 3650 7400 3650
+Wire Wire Line
+	6900 2850 6900 3300
+Wire Wire Line
+	6900 4000 6900 4400
+Wire Wire Line
+	2700 3650 2950 3650
 $EndSCHEMATC

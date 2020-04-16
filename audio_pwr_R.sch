@@ -116,23 +116,6 @@ F 6 "885012006057" H 3000 4050 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C201
-U 1 1 5E1CCAE5
-P 2750 3650
-AR Path="/5C7F608F/5E1CCAE5" Ref="C201"  Part="1" 
-AR Path="/5C814038/5E1CCAE5" Ref="C301"  Part="1" 
-AR Path="/5E252703/5E1CCAE5" Ref="C?"  Part="1" 
-F 0 "C301" H 2775 3750 50  0000 L CNN
-F 1 "4.7u" H 2775 3550 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_4x5.4" H 2788 3500 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/865080640004/732-8449-1-ND/5728406" H 2750 3650 50  0001 C CNN
-F 4 "https://www.we-online.de/katalog/datasheet/865080640004.pdf" H 2750 3650 50  0001 C CNN "DigiKey"
-F 5 "Wurth Elektronik" H 2750 3650 50  0001 C CNN "MFG"
-F 6 "865080640004" H 2750 3650 50  0001 C CNN "MPN"
-	1    2750 3650
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:LED D201
 U 1 1 5C7F66D3
 P 3850 4600
@@ -599,8 +582,6 @@ Wire Wire Line
 Connection ~ 3300 4350
 Connection ~ 3000 4350
 Wire Wire Line
-	2900 3650 2950 3650
-Wire Wire Line
 	3850 4450 3850 4350
 Connection ~ 3850 4350
 Wire Wire Line
@@ -728,8 +709,6 @@ Wire Wire Line
 Wire Wire Line
 	6900 3600 6900 3650
 Connection ~ 6900 3650
-Wire Wire Line
-	6900 4000 6900 4070
 $Comp
 L Device:Q_PNP_BCE Q208
 U 1 1 5C7F67FE
@@ -859,8 +838,6 @@ Wire Wire Line
 Wire Wire Line
 	6450 2350 6450 2400
 Wire Wire Line
-	6900 2850 6900 3025
-Wire Wire Line
 	7300 2050 7300 2100
 Connection ~ 3300 3800
 Wire Wire Line
@@ -901,7 +878,7 @@ F 3 "" H 4900 4500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4900 4400 4900 4500
-Text HLabel 2450 3650 0    50   Input ~ 0
+Text HLabel 2750 3650 0    50   Input ~ 0
 amp_in_R
 Text HLabel 8000 3650 2    50   Output ~ 0
 amp_out_R
@@ -909,8 +886,6 @@ Wire Wire Line
 	7350 3650 8000 3650
 Wire Wire Line
 	6900 5000 7350 5000
-Wire Wire Line
-	6900 3650 7130 3650
 Connection ~ 7450 2450
 Wire Wire Line
 	6900 1900 7300 1900
@@ -922,8 +897,6 @@ Wire Wire Line
 	7350 4850 7350 4900
 Wire Wire Line
 	7350 4500 7350 4550
-Wire Wire Line
-	2600 3650 2450 3650
 $Comp
 L AAMB-rescue:+35V-Power-amp #PWR0110
 U 1 1 5E2254A5
@@ -1086,95 +1059,16 @@ Wire Wire Line
 	4700 3650 4900 3650
 Wire Wire Line
 	3650 3650 3800 3650
-$Comp
-L dk_Test-Points:5000 TP?
-U 1 1 5E912507
-P 7095 3025
-AR Path="/5C7F608F/5E912507" Ref="TP?"  Part="1" 
-AR Path="/5C814038/5E912507" Ref="TP11"  Part="1" 
-F 0 "TP11" V 7148 2975 50  0000 R CNN
-F 1 "5000" H 7095 2925 50  0001 C CNN
-F 2 "digikey-footprints:Test_Point_D1.02mm" H 7295 3225 60  0001 L CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1309" H 7295 3325 60  0001 L CNN
-F 4 "36-5000-ND" H 7295 3425 60  0001 L CNN "Digi-Key_PN"
-F 5 "5000" H 7295 3525 60  0001 L CNN "MPN"
-F 6 "Test and Measurement" H 7295 3625 60  0001 L CNN "Category"
-F 7 "Test Points" H 7295 3725 60  0001 L CNN "Family"
-F 8 "http://www.keyelco.com/product-pdf.cfm?p=1309" H 7295 3825 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/keystone-electronics/5000/36-5000-ND/255326" H 7295 3925 60  0001 L CNN "DK_Detail_Page"
-F 10 "RED" V 7049 2975 60  0000 R CNN "Description"
-F 11 "Keystone Electronics" H 7295 4125 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 7295 4225 60  0001 L CNN "Status"
-F 13 "/product-detail/en/keystone-electronics/5000/36-5000-ND/255326" H 7095 3025 50  0001 C CNN "DigiKey"
-F 14 "Keystone Electronics" H 7095 3025 50  0001 C CNN "MFG"
-	1    7095 3025
-	0    -1   -1   0   
-$EndComp
-$Comp
-L dk_Test-Points:5001 TP?
-U 1 1 5E912518
-P 7130 3500
-AR Path="/5C7F608F/5E912518" Ref="TP?"  Part="1" 
-AR Path="/5C814038/5E912518" Ref="TP12"  Part="1" 
-F 0 "TP12" H 7145 3440 50  0000 R CNN
-F 1 "5001" H 7130 3400 50  0001 C CNN
-F 2 "digikey-footprints:Test_Point_D1.02mm" H 7330 3700 60  0001 L CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 7330 3800 60  0001 L CNN
-F 4 "36-5001-ND" H 7330 3900 60  0001 L CNN "Digi-Key_PN"
-F 5 "5001" H 7330 4000 60  0001 L CNN "MPN"
-F 6 "Test and Measurement" H 7330 4100 60  0001 L CNN "Category"
-F 7 "Test Points" H 7330 4200 60  0001 L CNN "Family"
-F 8 "http://www.keyelco.com/product-pdf.cfm?p=1310" H 7330 4300 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/keystone-electronics/5001/36-5001-ND/255327" H 7330 4400 60  0001 L CNN "DK_Detail_Page"
-F 10 "BLACK" H 7070 3540 60  0000 R CNN "Description"
-F 11 "Keystone Electronics" H 7330 4600 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 7330 4700 60  0001 L CNN "Status"
-F 13 "/product-detail/en/keystone-electronics/5001/36-5001-ND/255327" H 7130 3500 50  0001 C CNN "DigiKey"
-F 14 "Keystone Electronics" H 7130 3500 50  0001 C CNN "MFG"
-	1    7130 3500
-	-1   0    0    1   
-$EndComp
-$Comp
-L dk_Test-Points:5002 TP?
-U 1 1 5E912529
-P 7060 4070
-AR Path="/5C7F608F/5E912529" Ref="TP?"  Part="1" 
-AR Path="/5C814038/5E912529" Ref="TP10"  Part="1" 
-F 0 "TP10" V 7130 4110 50  0000 R CNN
-F 1 "5002" H 7060 3970 50  0001 C CNN
-F 2 "digikey-footprints:Test_Point_D1.02mm" H 7260 4270 60  0001 L CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1311" H 7260 4370 60  0001 L CNN
-F 4 "36-5002-ND" H 7260 4470 60  0001 L CNN "Digi-Key_PN"
-F 5 "5002" H 7260 4570 60  0001 L CNN "MPN"
-F 6 "Test and Measurement" H 7260 4670 60  0001 L CNN "Category"
-F 7 "Test Points" H 7260 4770 60  0001 L CNN "Family"
-F 8 "http://www.keyelco.com/product-pdf.cfm?p=1311" H 7260 4870 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/keystone-electronics/5002/36-5002-ND/255328" H 7260 4970 60  0001 L CNN "DK_Detail_Page"
-F 10 "WHITE" V 6980 4170 60  0000 R CNN "Description"
-F 11 "Keystone Electronics" H 7260 5170 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 7260 5270 60  0001 L CNN "Status"
-F 13 "/product-detail/en/keystone-electronics/5002/36-5002-ND/255328" H 7060 4070 50  0001 C CNN "DigiKey"
-F 14 "Keystone Electronics" H 7060 4070 50  0001 C CNN "MFG"
-	1    7060 4070
-	0    -1   -1   0   
-$EndComp
-Connection ~ 6900 3025
-Wire Wire Line
-	6900 3025 6900 3300
-Wire Wire Line
-	6995 3025 6900 3025
-Wire Wire Line
-	7130 3600 7130 3650
-Connection ~ 7130 3650
-Wire Wire Line
-	7130 3650 7350 3650
-Wire Wire Line
-	6960 4070 6900 4070
-Connection ~ 6900 4070
-Wire Wire Line
-	6900 4070 6900 4400
 Wire Wire Line
 	7300 1900 7900 1900
 Wire Wire Line
 	7350 5000 7900 5000
+Wire Wire Line
+	6900 3650 7350 3650
+Wire Wire Line
+	6900 2850 6900 3300
+Wire Wire Line
+	6900 4000 6900 4400
+Wire Wire Line
+	2750 3650 2950 3650
 $EndSCHEMATC
