@@ -1,4 +1,4 @@
-update=4/9/2020 10:53:11 PM
+update=4/20/2020 2:46:04 PM
 version=1
 last_client=kicad
 [general]
@@ -50,6 +50,8 @@ ViaDiameter3=0.6
 ViaDrill3=0.4
 ViaDiameter4=0.8
 ViaDrill4=0.6
+ViaDiameter5=2.54
+ViaDrill5=2
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
@@ -278,6 +280,17 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/3]
+Name=VCC_audio
+Clearance=0.1
+TrackWidth=0.4
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/4]
 Name=audio_pwr_neg
 Clearance=0.4
 TrackWidth=2
@@ -288,7 +301,7 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[pcbnew/Netclasses/4]
+[pcbnew/Netclasses/5]
 Name=audio_pwr_pos
 Clearance=0.4
 TrackWidth=2

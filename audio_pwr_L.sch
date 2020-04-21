@@ -684,8 +684,11 @@ U 1 1 5E21B511
 P 5450 3250
 F 0 "VR201" H 5350 3250 50  0000 R CNN
 F 1 "2k" V 5450 3300 50  0000 R CNN
-F 2 "Murata-POT:PV36W202C01B00" H 5450 3250 50  0001 C CNN
-F 3 "~" H 5450 3250 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 5450 3250 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/3296.pdf" H 5450 3250 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/bourns-inc/3296W-1-202LF/3296W-202LF-ND/1088050" H 5450 3250 50  0001 C CNN "DigiKey"
+F 5 "Bourns Inc." H 5450 3250 50  0001 C CNN "MFG"
+F 6 "3296W-1-202LF" H 5450 3250 50  0001 C CNN "MPN"
 	1    5450 3250
 	1    0    0    -1  
 $EndComp

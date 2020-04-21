@@ -28,9 +28,11 @@ AR Path="/5C7F608F/5E268D61" Ref="VR?"  Part="1"
 AR Path="/5E227FCE/5E268D61" Ref="VR1"  Part="1" 
 F 0 "VR1" H 1075 4425 50  0000 R CNN
 F 1 "5k" V 1175 4475 50  0000 R CNN
-F 2 "Murata-POT:PV36W202C01B00" H 1175 4425 50  0001 C CNN
-F 3 "https://www.mouser.com/ProductDetail/Bourns/PV36W502C01B00?qs=BqPwLKJeIrffwfpi4cR%2Fyg%3D%3D&gclid=Cj0KCQiAvJXxBRCeARIsAMSkAprVNxrqciw2F2bbLEol0MFfB_kQMYkrvleaPlVNZV5jLL3ntUG4zu0aApSuEALw_wcB" H 1175 4425 50  0001 C CNN
-F 4 "https://www.mouser.com/ProductDetail/Bourns/PV36W502C01B00?qs=BqPwLKJeIrffwfpi4cR%2Fyg%3D%3D&gclid=Cj0KCQiAvJXxBRCeARIsAMSkAprVNxrqciw2F2bbLEol0MFfB_kQMYkrvleaPlVNZV5jLL3ntUG4zu0aApSuEALw_wcB" H 1175 4425 50  0001 C CNN "Mouser"
+F 2 "Potentiometer_THT:Nidec_CT6EP202" H 1175 4425 50  0001 C CNN
+F 3 "https://www.nidec-copal-electronics.com/e/catalog/trimmer/ct-6.pdf" H 1175 4425 50  0001 C CNN
+F 4 "https://www.digikey.com/products/en?keywords=CT6EP202" H 1175 4425 50  0001 C CNN "DigiKey"
+F 5 "Nidec Copal Electronics" H 1175 4425 50  0001 C CNN "MFG"
+F 6 "CT6EP202" H 1175 4425 50  0001 C CNN "MPN"
 	1    1175 4425
 	1    0    0    -1  
 $EndComp

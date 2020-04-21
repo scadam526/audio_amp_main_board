@@ -465,8 +465,11 @@ AR Path="/5C814038/5C7F6774" Ref="VR301"  Part="1"
 AR Path="/5E252703/5C7F6774" Ref="VR?"  Part="1" 
 F 0 "VR301" V 5350 3250 50  0000 C CNN
 F 1 "2k" V 5450 3250 50  0000 C CNN
-F 2 "Murata-POT:PV36W202C01B00" H 5450 3250 50  0001 C CNN
-F 3 "" H 5450 3250 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 5450 3250 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/3296.pdf" H 5450 3250 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/bourns-inc/3296W-1-202LF/3296W-202LF-ND/1088050" V 5450 3250 50  0001 C CNN "DigiKey"
+F 5 "Bourns Inc." V 5450 3250 50  0001 C CNN "MFG"
+F 6 "3296W-1-202LF" V 5450 3250 50  0001 C CNN "MPN"
 	1    5450 3250
 	1    0    0    -1  
 $EndComp
