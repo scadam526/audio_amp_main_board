@@ -1,0 +1,19 @@
+Rule: 		Rules/SI/Long Stub
+Description: 	Rules/SI/Long Stub
+Script: 	LongStub.vbs
+Parameters:
+	IncludeAreaFillsTraces = 3	1 = include only traces, 2 = include only area fills, 3 = include both traces and area fills
+	MinStubLength = 25 mil	Min length of stub to be reported
+	LtoWRatio = 10	Maximum allowable length-to-width ratio of stub
+	IncludeShieldingEffect = 1	Yes - stubs which are shielded by their own metal shape are ignored; No - all stubs are reported
+Was applied to the whole design
+
+
+
+Violation Type: 	Trace Ends In Stub
+# of Violations: 	0
+
+
+
+Violation Type: 	Area Ends In Stub
+# of Violations: 	0

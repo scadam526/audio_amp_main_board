@@ -1,0 +1,19 @@
+Rule: 		Rules/EMI/Metal Island
+Description: 	Rules/EMI/Metal Island
+Script: 	MetalIsland.vbs
+Parameters:
+	LtoWRatio = 10	Maximum allowable ratio of length to width of metal island
+	ViatoEdgeDistance = 50 mil	Maximum allowable distance of via from end of metal island
+	MinSize = 50 mil	Minimum diagonal dimension of metal island to be analyzed
+Was applied to the whole design
+
+Parameters applied by the rule: 
+   Length to Width Ratio: 10
+   Via to Edge Distance: 50
+   Min Size: 50
+
+
+
+
+Violation Type: 	Isolated Metal
+# of Violations: 	0
