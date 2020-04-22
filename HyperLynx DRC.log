@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<Log>
+  <Message>
+Reading C:\Users\shawn.adams\Documents\Local Files\amp\KiCAD\git\audio_amp_main_board\AAMB.hyp
+</Message>
+  <Warning>HYP file is used - data may be incomplete. Use original layout files to get complete design data.
+</Warning>
+  <Message>Processing design...
+
+
+Design processing completed.
+
+*** Checking started Wednesday, April 22, 2020 12:05:55 Eastern Daylight Time
+
+Executing rule: Rules/EMI/Metal Island
+no violations found
+Executing rule: Rules/PI/Decoupling Capacitor Placement
+no violations found
+Executing rule: Rules/PI/Decoupling capacitor order
+</Message>
+  <Error>Rules/PI/Decoupling capacitor order: This rule can only be applied to an object list of pin type, check the rule&apos;s applied to property value, skipping check ...
+1 violations, 0 warnings, 0 infos</Error>
+  <Message>
+Executing rule: Rules/PI/Grounding Layer
+</Message>
+  <Error>Rules/PI/Grounding Layer: ERROR: This rule can only be applied to an object list of type pin or component, please check rule&apos;s applied to property value, skipping check...
+1 violations, 0 warnings, 0 infos</Error>
+  <Message>
+Executing rule: Rules/PI/PDN Isolation
+</Message>
+  <Error>Rules/PI/PDN Isolation: ERROR: &apos;Aggressors&apos; is undefined, skipping check ...
+1 violations, 0 warnings, 0 infos</Error>
+  <Message>
+Executing rule: Rules/PI/Power//Ground Width
+</Message>
+  <Error>5 violations, 0 warnings, 0 infos</Error>
+  <Message>
+Executing rule: Rules/PI/Stitching Via Spacing
+</Message>
+  <Error>7 violations, 0 warnings, 0 infos</Error>
+  <Message>
+
+***  Summary: 
+Rule name: Metal Island
+no violations found
+Rule name: Decoupling Capacitor Placement
+no violations found
+Rule name: Decoupling capacitor order
+</Message>
+  <Error>1 violations, 0 warnings, 0 infos</Error>
+  <Message>
+Rule name: Grounding Layer
+</Message>
+  <Error>1 violations, 0 warnings, 0 infos</Error>
+  <Message>
+Rule name: PDN Isolation
+</Message>
+  <Error>1 violations, 0 warnings, 0 infos</Error>
+  <Message>
+Rule name: Power/Ground Width
+</Message>
+  <Error>5 violations, 0 warnings, 0 infos</Error>
+  <Message>
+Rule name: Stitching Via Spacing
+</Message>
+  <Error>7 violations, 0 warnings, 0 infos</Error>
+  <Message>
+
+*** Checking finished Wednesday, April 22, 2020 12:05:57 Eastern Daylight Time *** Elapsed time: 2 seconds
+
+*** Checking started Wednesday, April 22, 2020 12:06:59 Eastern Daylight Time
+
+Executing rule: Rules/Safety/Multi-Layers Creepage Distance
+</Message>
+  <Error>Rules/Safety/Multi-Layers Creepage Distance: Parameter &apos;MinCreepageDistance&apos; specified(0) is invalid, skipping check ...
+1 violations, 0 warnings, 0 infos</Error>
+  <Message>
+
+***  Summary: 
+Rule name: Multi-Layers Creepage Distance
+</Message>
+  <Error>1 violations, 0 warnings, 0 infos</Error>
+  <Message>
+
+*** Checking finished Wednesday, April 22, 2020 12:07:00 Eastern Daylight Time *** Elapsed time: 1 second
+
+*** Checking started Wednesday, April 22, 2020 12:08:12 Eastern Daylight Time
+
+Executing rule: Rules/EMI/Exposed Length
+</Message>
+  <Warning>	Exposed Length and Guard Trace rule setup failed: Can&apos;t find electrical nets to be checked. Check the rule scope (Applied to - object list) if it has any electrical net(s) in it...
+0 violations, 1 warnings, 0 infos</Warning>
+  <Message>
+Executing rule: Rules/EMI/ICs Over Split
+</Message>
+  <Error>6 violations, 0 warnings, 0 infos</Error>
+  <Message>
+Executing rule: Rules/EMI/Metal Island
+no violations found
+Executing rule: Rules/EMI/Net Crossing Gaps
+</Message>
+  <Error>36 violations, 0 warnings, 0 infos</Error>
+  <Message>
+Executing rule: Rules/EMI/Trace Proximity
+</Message>
+  <Error>Rules/EMI/Trace Proximity: ERROR: &apos;Aggressors&apos; object list specified:  doesn&apos;t exist, skipping check...
+1 violations, 0 warnings, 0 infos</Error>
+  <Message>
+Executing rule: Rules/EMI/Via Stub Length
+no violations found
+Executing rule: Rules/SI/Crosstalk Coupling
+</Message>
+  <Warning>Rules/SI/Crosstalk Coupling: Aggressors object list is empty.
+0 violations, 1 warnings, 0 infos</Warning>
+  <Message>
+Executing rule: Rules/SI/Long Nets/Long Nets - Radiation_High
+</Message>
+  <Warning>Rules/SI/Long Nets/Long Nets - Radiation_High: No electrical nets to check...
+0 violations, 1 warnings, 0 infos</Warning>
+  <Message>
+Executing rule: Rules/SI/Long Nets/Long Nets - Radiation_Medium
+</Message>
+  <Error>30 violations, 0 warnings, 0 infos</Error>
+  <Message>
+Executing rule: Rules/SI/Long Stub
+no violations found
+Executing rule: Rules/SI/Many Vias/Many Vias - Radiation_High
+</Message>
+  <Warning>Rules/SI/Many Vias/Many Vias - Radiation_High: No electrical nets to check...
+0 violations, 1 warnings, 0 infos</Warning>
+  <Message>
+Executing rule: Rules/SI/Many Vias/Many Vias - Radiation_Medium
+</Message>
+  <Error>3 violations, 0 warnings, 0 infos</Error>
+  <Message>
+Executing rule: Rules/SI/Reference Plane
+</Message>
+  <Error>Rules/SI/Reference Plane: ERROR: This rule cannot be applied to the whole design, check you rule properties, skipping check ...
+1 violations, 0 warnings, 0 infos</Error>
+  <Message>
+Executing rule: Rules/SI/Star Topology
+</Message>
+  <Error>Rules/SI/Star Topology: This rule cannot be applied to the whole design, check you rule properties, skipping check ...
+1 violations, 0 warnings, 0 infos</Error>
+  <Message>
+Executing rule: Rules/SI/Trace Shielding
+</Message>
+  <Error>2 violations, 0 warnings, 0 infos</Error>
+  <Message>
+
+***  Summary: 
+Rule name: Exposed Length
+</Message>
+  <Warning>0 violations, 1 warnings, 0 infos</Warning>
+  <Message>
+Rule name: ICs Over Split
+</Message>
+  <Error>6 violations, 0 warnings, 0 infos</Error>
+  <Message>
+Rule name: Metal Island
+no violations found
+Rule name: Net Crossing Gaps
+</Message>
+  <Error>36 violations, 0 warnings, 0 infos</Error>
+  <Message>
+Rule name: Trace Proximity
+</Message>
+  <Error>1 violations, 0 warnings, 0 infos</Error>
+  <Message>
+Rule name: Via Stub Length
+no violations found
+Rule name: Crosstalk Coupling
+</Message>
+  <Warning>0 violations, 1 warnings, 0 infos</Warning>
+  <Message>
+Rule name: Long Nets - Radiation_High
+</Message>
+  <Warning>0 violations, 1 warnings, 0 infos</Warning>
+  <Message>
+Rule name: Long Nets - Radiation_Medium
+</Message>
+  <Error>30 violations, 0 warnings, 0 infos</Error>
+  <Message>
+Rule name: Long Stub
+no violations found
+Rule name: Many Vias - Radiation_High
+</Message>
+  <Warning>0 violations, 1 warnings, 0 infos</Warning>
+  <Message>
+Rule name: Many Vias - Radiation_Medium
+</Message>
+  <Error>3 violations, 0 warnings, 0 infos</Error>
+  <Message>
+Rule name: Reference Plane
+</Message>
+  <Error>1 violations, 0 warnings, 0 infos</Error>
+  <Message>
+Rule name: Star Topology
+</Message>
+  <Error>1 violations, 0 warnings, 0 infos</Error>
+  <Message>
+Rule name: Trace Shielding
+</Message>
+  <Error>2 violations, 0 warnings, 0 infos</Error>
+  <Message>
+
+*** Checking finished Wednesday, April 22, 2020 12:08:26 Eastern Daylight Time *** Elapsed time: 14 seconds
+
+*** Checking started Wednesday, April 22, 2020 12:20:35 Eastern Daylight Time
+
+Executing rule: Rules/SI/Net Length
+</Message>
+  <Error>Rules/SI/Net Length: ERROR: This rule cannot be applied to the whole design, check you rule properties, skipping check ...
+1 violations, 0 warnings, 0 infos</Error>
+  <Message>
+
+***  Summary: 
+Rule name: Net Length
+</Message>
+  <Error>1 violations, 0 warnings, 0 infos</Error>
+  <Message>
+
+*** Checking finished Wednesday, April 22, 2020 12:20:35 Eastern Daylight Time *** Elapsed time: 0 seconds
+</Message>
+</Log>

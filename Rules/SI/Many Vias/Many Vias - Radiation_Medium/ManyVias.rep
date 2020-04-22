@@ -1,0 +1,19 @@
+Rule: 		Rules/SI/Many Vias/Many Vias - Radiation_Medium
+Description: 	Rules/SI/Many Vias/Many Vias - Radiation_Medium
+Script: 	ManyVias.vbs
+Parameters:
+	MaxVias = 1	Maximum number of vias for a net
+	Count Stacked Vias as One = 0	Yes=Stacked vias are counted as one; No=Stacked vias are counted individually
+	Maximum Stacked Vias Distance = 5 mil	Maximum distance allowed between 2 connected stacked vias to be counted as one
+Was applied to ObjectList Radiation_Medium
+
+
+
+Violation Type: 	Many Vias
+# of Violations: 	3
+-------------------------------------------------------------
+             Net              Number of Vias Max Vias Allowed
+-------------------------------------------------------------
+ "/volume/v_ec-"                           2                1
+ "/audio_pwr_L/N35_low_pow_L"              2                1
+ "/audio_pwr_R/N35_low_pow_R"              2                1

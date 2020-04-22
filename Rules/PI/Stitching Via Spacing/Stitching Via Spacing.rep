@@ -1,0 +1,22 @@
+Rule: 		Rules/PI/Stitching Via Spacing
+Description: 	Rules/PI/Stitching Via Spacing
+Script: 	CheckingScript.vbs
+Parameters:
+	Layers = 1	1=Top; 2=Bottom; 3=Top and bottom; 4=All layers
+	MaxSpacing = 393.7 mil	Minimum required clearance distance
+Was applied to the whole design
+
+
+
+Violation Type: 	Stitching Via Spacing Violations
+# of Violations: 	7
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Net               Target Area Fill               Target Layer             Stitched Area Fill              Stitched Layer Location X Location Y Actual Distance Required Distance
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ "GND" "GND"@2.699 in:1.844 in:8.496 in:4.951 in@1 F.Cu         "GND"@2.699 in:1.844 in:8.496 in:4.951 in@2 B.Cu             6.746 in   4.422 in       907.6 mil         393.7 mil
+ "GND" "GND"@2.699 in:1.844 in:8.496 in:4.951 in@1 F.Cu         "GND"@2.699 in:1.844 in:8.496 in:4.951 in@2 B.Cu              6.79 in    3.52 in       713.2 mil         393.7 mil
+ "GND" "GND"@2.699 in:1.844 in:8.496 in:4.951 in@1 F.Cu         "GND"@2.699 in:1.844 in:8.496 in:4.951 in@2 B.Cu              5.23 in   2.188 in       659.8 mil         393.7 mil
+ "GND" "GND"@2.699 in:1.844 in:8.496 in:4.951 in@1 F.Cu         "GND"@2.699 in:1.844 in:8.496 in:4.951 in@2 B.Cu             4.885 in   4.467 in       615.2 mil         393.7 mil
+ "GND" "GND"@2.699 in:1.844 in:8.496 in:4.951 in@1 F.Cu         "GND"@2.699 in:1.844 in:8.496 in:4.951 in@2 B.Cu             4.299 in   4.457 in       600.8 mil         393.7 mil
+ "GND" "GND"@2.699 in:1.844 in:8.496 in:4.951 in@1 F.Cu         "GND"@2.699 in:1.844 in:8.496 in:4.951 in@2 B.Cu             3.659 in   3.235 in       513.3 mil         393.7 mil
+ "GND" "GND"@2.699 in:1.844 in:8.496 in:4.951 in@1 F.Cu         "GND"@2.699 in:1.844 in:8.496 in:4.951 in@2 B.Cu             3.746 in   4.569 in       498.9 mil         393.7 mil
