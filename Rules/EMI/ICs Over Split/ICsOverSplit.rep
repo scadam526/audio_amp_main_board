@@ -1,0 +1,26 @@
+Rule: 		Rules/EMI/ICs Over Split
+Description: 	Rules/EMI/ICs Over Split
+Script: 	ICOverSplit.vbs
+Parameters:
+	PercentageCoverage = 80	Percentage of IC area that requires reference underneath
+	Search_NumLayers = 2	Number of layers underneath IC to check
+	RefType = MULTIPLE	Use SINGLE/MULTIPLE to specify quantity of reference structures under ICs for giving layer to check
+	Search_AreaExtension = 0 mil	Added length outside the IC area to that requires a reference
+	Search_IncludePinAreas = 1	Yes - include pins as part of IC area
+	IncludeOnlyAreaFills = 1	Yes - ignores all non-fill metal (vias, traces, pins) under IC
+	MaxICArea = 0.7 in2	Maximum area of IC to include in check
+Was applied to the whole design
+
+
+
+Violation Type: 	Power or Ground Under IC
+# of Violations: 	6
+-----------------------------------------------------------------------------
+  IC  Layer Reference Area size Search Area size      Ratio       IC Ref Nets
+-----------------------------------------------------------------------------
+ U201 B.Cu            5273 mil2        6719 mil2 78.4799067635525 "GND"      
+ U6   B.Cu          0.06042 in2      0.08791 in2 68.7291960747911 "GND"      
+ U2   B.Cu          0.03027 in2      0.04717 in2 64.1734794630123 "GND"      
+ U3   B.Cu          0.02887 in2      0.04717 in2 61.2165325641658 "GND"      
+ U301 B.Cu            2846 mil2        6719 mil2 42.3529411764706 "GND"      
+ U5   B.Cu            8118 mil2      0.05735 in2 14.1555559762162 "GND"      

@@ -1,0 +1,14 @@
+Rule: 		Rules/PI/Decoupling Capacitor Placement
+Description: 	Rules/PI/Decoupling Capacitor Placement
+Script: 	DecouplingCapacitorPlacement.vbs
+Parameters:
+	MaxCapDist = 800 mil	Maximum allowable routed length or placement distance from IC power/ground pin to capacitor
+	IncludeGround = 0	Yes = Include ground nets in analysis
+	MaxSearch4CapDist = 1 in	Search for capacitor within this maximum distance from power pin pair
+	SearchPath = 0	Yes = finds the routed length between IC pin and capacitor, No = finds only the distance between the IC pin and capacitor.
+Was applied to the whole design
+
+
+
+Violation Type: 	Decoupling Capacitor Placement
+# of Violations: 	0

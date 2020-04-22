@@ -1,0 +1,21 @@
+Rule: 		Rules/PI/Power//Ground Width
+Description: 	Rules/PI/Power//Ground Width
+Script: 	PwrGndWidth.vbs
+Parameters:
+	MinWidth = 20 mil	Minimum value for constant net width
+	MinWidthInternal = 10 mil	Minimum value for constant net width on inner layers
+	ReportEachSegment = 0	Yes - report violation for each thin segment, No - report one violation per net
+Was applied to the whole design
+
+
+
+Violation Type: 	Thin Nets
+# of Violations: 	5
+------------------
+   Net     Width  
+------------------
+ "Net-    7.87 mil
+ "GND"   15.75 mil
+ "+12V"  15.75 mil
+ "-12V"  15.75 mil
+ "25Vac" 15.75 mil

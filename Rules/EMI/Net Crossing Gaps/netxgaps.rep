@@ -1,0 +1,92 @@
+Rule: 		Rules/EMI/Net Crossing Gaps
+Description: 	Rules/EMI/Net Crossing Gaps
+Script: 	NetXGapsMain.vbs
+Parameters:
+	ObstacleLength = 300 mil	Diagonal dimension of the gap
+	PlaneEdgeResolution = 150 mil	Minimum trace segment length for reporting plane edge violation
+	AllowedCrossLength = 1 mil	Allowable gap width
+	Search4StitchCompLength = 300 mil	Check for stitching within this distance from the gap or plane edge
+	Search4StitchCompFlag = 1	1 = Do not search for stitching components, 2 = Perform search, 3 = Search but report violation
+	ReqNumberOfStitchComp = 2	Required number of stitching components in vicinity of the gap or split
+	CoefAccountable = 10	Required percentage of return current through a plane for the plane to be included in the check (%)
+	UseViaAreaFills = 0	Yes = Include vias and area fills in addition to traces
+	IgnoreViaConnections = 1	Yes = Ignore antipad violations from signals connecting to their own vias 
+	IgnoreUnderICArea = 0	No = check area under ICs
+	RefStructureType = 1	1 = only planes and area fills, default; 2 = add power traces; 3 = add pins; 4 = add vias
+Was applied to the whole design
+
+Parameters applied by the rule: 
+     Obstacle Length: 0.00762
+     Allowed Cross Length: 0.0000254
+     Plane Resolution: 0.00381
+    Coef Accountable: 10
+     Search For Stitching Component Length: 0.00762
+
+
+
+
+Violation Type: 	Crossing Gap
+# of Violations: 	5
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+               PhysNet                                Net                  Signal layer Reference layer Gap width Gap length Obstacle Sq Size Ref. Structures Stitching Components
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ "/pwr_audio_R"                       "/audio_pwr_R/pwr_fet_neg_R"^^^      B.Cu         F.Cu            665.3 mil   6.304 in        9.277 in2 "GND"                               
+ "/short_protection_muting/RLY_-L_+R" "/short_protection_muting/RLY_-L_+R" B.Cu         F.Cu            101.3 mil   6.304 in        9.277 in2 "GND"                               
+ "/pre_vol_audio_L"                   "/pre_vol_audio_L"                   F.Cu         B.Cu            79.22 mil     5.9 in        4.092 in2 "GND"                               
+ "/pwr_audio_L"                       "/audio_pwr_L/pwr_fet_neg_L"^^^      B.Cu         F.Cu            97.77 mil  834.4 mil       0.1187 in2 "GND"                               
+ "/pwr_audio_L"                       "/audio_pwr_L/pwr_fet_neg_L"^^^      B.Cu         F.Cu            140.8 mil  834.4 mil       0.1187 in2 "GND"                               
+
+
+
+Violation Type: 	Crossing Split
+# of Violations: 	18
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                  PhysNet                                      Net                     Signal layer Reference layer Gap width Ref. Structures Stitching Components
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ "/short_protection_muting/RLY_-L_+R"       "/short_protection_muting/RLY_-L_+R"       B.Cu         F.Cu            468.6 mil "GND"                               
+ "/short_protection_muting/audio_rly_out_L" "/short_protection_muting/audio_rly_out_L" F.Cu         B.Cu            428.2 mil "GND"                               
+ "/pwr_audio_R"                             "/audio_pwr_R/pwr_fet_neg_R"^^^            B.Cu         F.Cu            378.3 mil "GND"                               
+ "/audio_pwr_R/N35_low_pow_R"               "/audio_pwr_R/N35_low_pow_R"               B.Cu         F.Cu            346.4 mil "GND"                               
+ "/input_select/IN4_L"                      "/input_select/IN4_L"                      B.Cu         F.Cu            335.1 mil "GND"                               
+ "/short_protection_muting/audio_rly_out_L" "/short_protection_muting/audio_rly_out_L" F.Cu         B.Cu            270.2 mil "GND"                               
+ "/input_select/IN3_L"                      "/input_select/IN3_L"                      B.Cu         F.Cu            265.2 mil "GND"                               
+ "/short_protection_muting/RLY_+L"          "/short_protection_muting/RLY_+L"          F.Cu         B.Cu            244.1 mil "GND"                               
+ "/pwr_audio_R"                             "/audio_pwr_R/pwr_fet_neg_R"^^^            B.Cu         F.Cu            187.4 mil "GND"                               
+ "/pwr_audio_R"                             "/audio_pwr_R/pwr_fet_neg_R"^^^            B.Cu         F.Cu            182.1 mil "GND"                               
+ "/audio_pwr_L/N35_low_pow_L"               "/audio_pwr_L/N35_low_pow_L"               F.Cu         B.Cu            174.7 mil "GND"                               
+ "/pwr_audio_R"                             "/audio_pwr_R/pwr_fet_neg_R"^^^            B.Cu         F.Cu            164.5 mil "GND"                               
+ "/short_protection_muting/RLY_-L_+R"       "/short_protection_muting/RLY_-L_+R"       B.Cu         F.Cu            151.6 mil "GND"                               
+ "/audio_pwr_R/N35_low_pow_R"               "/audio_pwr_R/N35_low_pow_R"               B.Cu         F.Cu              122 mil "GND"                               
+ "/short_protection_muting/RLY_-L_+R"       "/short_protection_muting/RLY_-L_+R"       B.Cu         F.Cu            101.3 mil "GND"                               
+ "/input_select/input_sw_3"                 "/input_select/input_sw_3"                 F.Cu         B.Cu            75.63 mil "GND"                               
+ "/audio_pwr_L/N35_low_pow_L"               "/audio_pwr_L/N35_low_pow_L"               F.Cu         B.Cu            75.61 mil "GND"                               
+ "/short_protection_muting/RLY_-L_+R"       "/short_protection_muting/RLY_-L_+R"       B.Cu         F.Cu             66.3 mil "GND"                               
+
+
+
+Violation Type: 	Trace Leaves Reference Plane
+# of Violations: 	12
+--------------------------------------------------------------------------------------------------------------------------------------------
+               PhysNet                                Net                  Signal layer Reference layer Crossing edge length Ref. Structures
+--------------------------------------------------------------------------------------------------------------------------------------------
+ "/pwr_audio_R"                       "/audio_pwr_R/pwr_fet_neg_R"^^^      B.Cu         F.Cu                       409.8 mil "GND"          
+ "/volume/v_ec-"                      "/volume/v_ec-"                      B.Cu         F.Cu                       336.5 mil "GND"          
+ "/pwr_audio_L"                       "/audio_pwr_L/pwr_fet_neg_L"^^^      B.Cu         F.Cu                       277.9 mil "GND"          
+ "/pwr_audio_L"                       "/audio_pwr_L/pwr_fet_neg_L"^^^      B.Cu         F.Cu                       272.5 mil "GND"          
+ "/short_protection_muting/RLY_-L_+R" "/short_protection_muting/RLY_-L_+R" B.Cu         F.Cu                       261.3 mil "GND"          
+ "/short_protection_muting/RLY_-L_+R" "/short_protection_muting/RLY_-L_+R" B.Cu         F.Cu                       248.2 mil "GND"          
+ "/pwr_audio_R"                       "/audio_pwr_R/pwr_fet_neg_R"^^^      B.Cu         F.Cu                       214.1 mil "GND"          
+ "/line_audio_L"                      "/line_audio_L"                      B.Cu         F.Cu                       201.6 mil "GND"          
+ "/volume/vol_pot_3"                  "/volume/vol_pot_3"                  B.Cu         F.Cu                       182.6 mil "GND"          
+ "/pre_vol_audio_R"                   "/pre_vol_audio_R"                   F.Cu         B.Cu                         178 mil "GND"          
+ "/short_protection_muting/RLY_+L"    "/short_protection_muting/RLY_+L"    F.Cu         B.Cu                       160.4 mil "GND"          
+ "/input_select/IN4_L"                "/input_select/IN4_L"                B.Cu         F.Cu                       153.6 mil "GND"          
+
+
+
+Violation Type: 	No reference plane
+# of Violations: 	1
+-----------------------------------------------------------------------------
+     PhysNet           Net       Signal layer Reference layer Net path length
+-----------------------------------------------------------------------------
+ "/volume/v_ec-" "/volume/v_ec-" F.Cu         F.Cu                  201.2 mil
