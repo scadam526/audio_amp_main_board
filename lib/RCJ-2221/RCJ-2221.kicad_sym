@@ -1,0 +1,94 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "RCJ-2221" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "J" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom))
+    )
+    (property "Value" "RCJ-2221" (id 1) (at 0 0.0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom))
+    )
+    (property "Footprint" "RCJ-2221" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DATASHEET" "http://datasheets.diptrace.com/con_rca_jack/rcj-22xx.pdf" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "CUI" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "RCJ-2221_0_0"
+      (circle (center -6.35 -4.442) (radius 0.635)
+        (stroke (width 0.25)) (fill (type none))
+      )
+      (circle (center 10.784 2.532) (radius 0.635)
+        (stroke (width 0.25)) (fill (type none))
+      )
+      (polyline
+        (pts (xy -11.43 5.077) (xy -6.35 5.07)) (stroke (width 0.25))
+      )
+      (polyline
+        (pts (xy -11.43 2.855) (xy -6.35 2.847)) (stroke (width 0.25))
+      )
+      (polyline
+        (pts (xy 1.907 2.532) (xy 10.16 2.537)) (stroke (width 0.25))
+      )
+      (polyline
+        (pts (xy 0.002 4.437) (xy 1.907 2.532)) (stroke (width 0.25))
+      )
+      (polyline
+        (pts (xy -1.903 2.532) (xy 0.002 4.437)) (stroke (width 0.25))
+      )
+      (polyline
+        (pts (xy -11.43 5.07) (xy -11.43 2.857)) (stroke (width 0.25))
+      )
+      (polyline
+        (pts (xy -6.35 5.08) (xy -6.35 -3.81)) (stroke (width 0.25))
+      )
+      (polyline
+        (pts (xy -11.43 0.95) (xy -6.35 0.943)) (stroke (width 0.25))
+      )
+      (polyline
+        (pts (xy -11.43 -1.273) (xy -6.35 -1.28)) (stroke (width 0.25))
+      )
+      (polyline
+        (pts (xy -11.43 0.952) (xy -11.43 -1.28)) (stroke (width 0.25))
+      )
+      (circle (center 10.784 -1.278) (radius 0.635)
+        (stroke (width 0.25)) (fill (type none))
+      )
+      (polyline
+        (pts (xy 1.907 -1.278) (xy 10.16 -1.273)) (stroke (width 0.25))
+      )
+      (polyline
+        (pts (xy 0.002 0.627) (xy 1.907 -1.278)) (stroke (width 0.25))
+      )
+      (polyline
+        (pts (xy -1.903 -1.278) (xy 0.002 0.627)) (stroke (width 0.25))
+      )
+      (pin passive line (at -6.34997 -7.62 90.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 13.9653 -1.27823 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 13.97 2.53177 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

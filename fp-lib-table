@@ -1,8 +1,3 @@
 (fp_lib_table
-  (lib (name Murata-POT)(type KiCad)(uri "C:/Users/shawn.adams/Documents/Local Files/amp/KiCAD/Rev04/lib/ul_PV36W202C01B00/KiCAD/2020-01-13_04-10-39/footprints.pretty")(options "")(descr "")(disabled))
-  (lib (name Fuseholders)(type KiCad)(uri "C:/Users/shawn.adams/Documents/Local Files/amp/KiCAD/Rev04/lib/Fuse_Holders_and_Fuses.pretty-master")(options "")(descr "")(disabled))
-  (lib (name Connectors-amp)(type KiCad)(uri "C:/Users/shawn.adams/Documents/Local Files/amp/KiCAD/Rev04/parts/PJRAS4X2U01X")(options "")(descr "")(disabled))
-  (lib (name digikey-footprints)(type KiCad)(uri "C:/Program Files/KiCad/share/kicad/digikey/digikey-kicad-library/digikey-footprints.pretty")(options "")(descr ""))
-  (lib (name Fuse)(type KiCad)(uri "C:/Users/shawn.adams/Documents/Local Files/amp/KiCAD/git/audio_amp_main_board/parts/KiCAD/2020-04-09_02-48-00/footprints.pretty")(options "")(descr ""))
-  (lib (name OnSemi_BC846)(type KiCad)(uri "C:/Users/shawn.adams/Documents/Local Files/amp/KiCAD/git/audio_amp_main_board/parts/KiCAD/2020-04-09_02-48-00/footprints.pretty")(options "")(descr ""))
+  (lib (name "Library_AAMB-Rev02")(type "KiCad")(uri "${KIPRJMOD}/Library_AAMB-Rev02.pretty")(options "")(descr ""))
 )

@@ -1,8 +1,0 @@
-2020-04-22 12:02:02 1460     [INFO] ****** HyperLynx v2.6 build 15352374 
-2020-04-22 12:02:02 1460     [INFO]        C:\MentorGraphics\HLVX.2.6\SDD_HOME\hyperlynx64\bsw.exe 
-2020-04-22 12:02:18 1460     [INFO] Opening Project C:\Users\shawn.adams\Documents\Local Files\amp\KiCAD\git\audio_amp_main_board\AAMB.hyp
-2020-04-22 12:02:25 1460     [INFO] Opened Board: AAMB.hyp <C:\Users\shawn.adams\Documents\Local Files\amp\KiCAD\git\audio_amp_main_board\>
-2020-04-22 12:02:50 1460     [INFO] This design's .HYP file was created by a PCB translator that did not record whether the physical information is sufficiently detailed for power-integrity analysis (especially metal areas and via clearances).  Most likely, the translator was an older version not upgraded for PI usage.  PI simulation may therefore produce less-accurate results.
-2020-04-22 12:03:49 1460     [INFO] Close HyperLynx Session: Design file: AAMB.hyp Save session edits (Yes/No)?  YES -> save, then close NO  -> close - The "Yes" button was selected
-2020-04-22 12:03:54 1460     [INFO] Closing Design: AAMB.hyp
-2020-04-22 12:03:56 1460     [INFO] ****** Closing HyperLynx 
